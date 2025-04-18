@@ -1,0 +1,2 @@
+var g_data = {"14":[13,"latency",1],"13":[12,"genblk1[3]/mem",1],"16":[15,"latency",1],"15":[12,"genblk1[2]/mem",1],"18":[17,"latency",1],"17":[12,"genblk1[1]/mem",1],"20":[19,"latency",1],"19":[12,"genblk1[0]/mem",1],"21":[12,"decode",1],"12":[11,"DUT",1],"22":[11,"in0",1],"11":[-1,"top",1],"25":[-1,"pkg",1]};
+processInstLinks(g_data);

@@ -1,0 +1,90 @@
+==============================================
+0
+at time : 5ns
+trans_type	=	READ
+addr				=	11
+din					=	8f2dfbcf
+------------------- output -------------------
+dout				=	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+==============================================
+==============================================
+1
+at time : 15ns
+trans_type	=	READ
+addr				=	01
+din					=	482b89dc
+------------------- output -------------------
+dout				=	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+==============================================
+==============================================
+2
+at time : 25ns
+trans_type	=	WRITE
+addr				=	00
+din					=	c3ca6eb9
+------------------- output -------------------
+dout				=	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+==============================================
+==============================================
+3
+at time : 35ns
+trans_type	=	NONE
+addr				=	11
+din					=	d299b065
+------------------- output -------------------
+dout				=	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+==============================================
+==============================================
+4
+at time : 45ns
+trans_type	=	NONE
+addr				=	00
+din					=	37afb1ca
+------------------- output -------------------
+dout				=	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+==============================================
+==============================================
+5
+at time : 55ns
+trans_type	=	NONE
+addr				=	10
+din					=	10abb724
+------------------- output -------------------
+dout				=	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+==============================================
+==============================================
+6
+at time : 65ns
+trans_type	=	READ
+addr				=	01
+din					=	f3df64f9
+------------------- output -------------------
+dout				=	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+==============================================
+==============================================
+7
+at time : 75ns
+trans_type	=	WRITE
+addr				=	11
+din					=	83a15b09
+------------------- output -------------------
+dout				=	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+==============================================
+==============================================
+8
+at time : 85ns
+trans_type	=	NONE
+addr				=	10
+din					=	e037f66b
+------------------- output -------------------
+dout				=	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+==============================================
+==============================================
+9
+at time : 95ns
+trans_type	=	WRITE
+addr				=	10
+din					=	48493142
+------------------- output -------------------
+dout				=	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+==============================================

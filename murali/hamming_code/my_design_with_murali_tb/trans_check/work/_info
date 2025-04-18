@@ -1,0 +1,100 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.2_1 2021.05, May 15 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/proj/MEM_VERF/HarishMod/tb/trans_check
+T_opt
+Z1 !s110 1724389957
+V^TJj5hhD:MC=;@igi:8[>0
+04 3 4 work top fast 0
+=1-000ae431a4f1-66c81a45-a36a7-1f4a
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.2_1;73
+Xparam
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R1
+!i10b 1
+!s100 953[[2GA0fjh<K848Y8V_1
+IYXFCT?6<1gEe4VO6RIa]80
+S1
+R0
+w1724389804
+8param.sv
+Fparam.sv
+!i122 0
+L0 21 0
+VYXFCT?6<1gEe4VO6RIa]80
+Z4 OL;L;2021.2_1;73
+r1
+!s85 0
+31
+Z5 !s108 1724389957.000000
+Z6 !s107 ram_trans.sv|top.sv|param.sv|
+Z7 !s90 -sv|param.sv|top.sv|
+!i113 0
+Z8 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vtop
+R3
+Z9 DXx4 work 5 param 0 22 YXFCT?6<1gEe4VO6RIa]80
+DXx4 work 11 top_sv_unit 0 22 URCONFjeV8VZ`g[>`9ZEm2
+R1
+VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 F>Ug6;`^jnVEIBECF5oW00
+I;bd=MA1bUoVKHi^<;CjD`2
+!s105 top_sv_unit
+S1
+R0
+w1724389826
+Z10 8top.sv
+Z11 Ftop.sv
+!i122 0
+L0 3 22
+R4
+31
+R5
+R6
+R7
+!i113 0
+R8
+R2
+Xtop_sv_unit
+R3
+R9
+R1
+VURCONFjeV8VZ`g[>`9ZEm2
+r1
+!s85 0
+!i10b 1
+!s100 D^zQLDU1<4QXazzULn_fP1
+IURCONFjeV8VZ`g[>`9ZEm2
+!i103 1
+S1
+R0
+w1724389937
+R10
+R11
+Fram_trans.sv
+!i122 0
+L0 13 0
+R4
+31
+R5
+R6
+R7
+!i113 0
+R8
+R2

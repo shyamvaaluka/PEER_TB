@@ -1,0 +1,2 @@
+var g_data = {"10":[9,"intf0",1],"11":[9,"intf1",1],"13":[12,"LATENCY_MODULE",1],"14":[12,"DP_RAM",1],"12":[9,"dut",1],"9":[-1,"top",1],"16":[-1,"ram_pkg",1],"17":[-1,"top_sv_unit",1]};
+processInstLinks(g_data);

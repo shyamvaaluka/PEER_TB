@@ -1,0 +1,2 @@
+var g_data = ["","ram_if.sv","param.sv","ram_pkg.sv","ram_trans.sv","ram_gen.sv","ram_drv.sv","ram_ref.sv","ram_mon.sv","top.sv","ram_sb.sv","ram_env.sv","ram_test.sv","./rtl/MEMORY_CONTROL_TOP.sv","./rtl/4x1MUX.v","./rtl/Controlling_Memory.v","./rtl/latency_ram_top.sv","./rtl/latency_module.sv","./rtl/modified_dual_mem.sv","./rtl/controller_interface.v","./rtl/Demultiplexer1_address.v","./rtl/demultiplexer_data.v","./rtl/Decoder_enable_lines.v","./rtl/sel_latency.sv"];
+processSrcNamesData(g_data);

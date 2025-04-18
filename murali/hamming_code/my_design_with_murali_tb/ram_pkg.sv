@@ -1,0 +1,21 @@
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	version					:	0.1
+//	file name				: ram_pkg.sv
+//	description			:	These package simply includes all the files into the this file, which makes easier at the top level, so that i can simply add
+//										this file in top to get access to the top and also for the compiling process.
+//										
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+`ifndef RAM_PKG_SV
+`define RAM_PKG_SV
+
+package ram_pkg;
+	import param::*;
+	`include 	"ram_trans.sv"
+	`include	"ram_gen.sv"
+	`include	"ram_drv.sv"
+	`include	"ram_ref.sv"
+	`include	"ram_mon.sv"
+endpackage : ram_pkg
+
+`endif	//RAM_PKG_SV

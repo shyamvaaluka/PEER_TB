@@ -1,0 +1,418 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.2_1 2021.05, May 15 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/shyam/DUAL_PORT_SV_TB-2/peer_tb/murali/hamming_code/murali_design_with_my_tb
+T_opt
+!s11d pkg /home/shyam/DUAL_PORT_SV_TB-2/peer_tb/murali/hamming_code/murali_design_with_my_tb/work 1 dual_iff 1 /home/shyam/DUAL_PORT_SV_TB-2/peer_tb/murali/hamming_code/murali_design_with_my_tb/work 
+Z1 !s110 1742540905
+VaF7=YcJ1GPTcBiUC9eno>2
+04 3 4 work top fast 0
+=1-000ae431a4f1-67dd1069-6b3d4-25ef
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2021.2_1;73
+vaddress_decode
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R1
+!i10b 1
+!s100 8FU9?PX2CTG[fA>1BzVYS1
+I_4z`BMeZ:6G@=7@]f5`662
+S1
+R0
+Z3 w1740677050
+8./rtl/address_decode.sv
+F./rtl/address_decode.sv
+!i122 5
+L0 31 57
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.2_1;73
+r1
+!s85 0
+31
+Z6 !s108 1742540905.000000
+!s107 ./rtl/address_decode.sv|
+!s90 -F=/home/shyam/DUAL_PORT_SV_TB-2/latency_banking_hamming_code/vlog.opt|-F=|-sv|./rtl/address_decode.sv|+define+ECC|+define+ERROR_INJECT|+cover|
+!i113 0
+Z7 !s102 +cover
+Z8 o-sv +cover -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 !s92 -sv +define+ECC +define+ERROR_INJECT +cover -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 tCoverage 32 CvgOpt 0
+Ydual_iff
+R2
+R2
+Z11 DXx4 work 5 pkg_2 0 22 HImhM5PHN[dlL2_fm5o0I0
+Z12 DXx4 work 9 trans_pkg 0 22 O0CSQB^W:=j2@iWkieV`_3
+Z13 DXx4 work 3 pkg 0 22 M[XQHB7c1hWf7QKaa7FIF1
+Z14 DXx4 work 11 top_sv_unit 0 22 kFNIMV>eYPZGH3e9dS4m[2
+R1
+R4
+r1
+!s85 0
+!i10b 1
+!s100 :XfbSVV<U8mLoQDinh4md1
+I<1^CQaUe8ZoBQFm^5fUzl3
+Z15 !s105 top_sv_unit
+S1
+R0
+Z16 w1742470800
+8interface.sv
+Z17 Finterface.sv
+!i122 8
+L0 19 0
+R5
+31
+R6
+Z18 !s107 interface.sv|dual_test.sv|dual_env.sv|dual_scoreboard.sv|dual_refmodel.sv|dual_monitor_b.sv|dual_monitor_a.sv|dual_driver_b.sv|dual_driver_a.sv|dual_generator.sv|dual_xtn.sv|top.sv|package.sv|trans_pkg.sv|package2.sv|
+Z19 !s90 -F=/home/shyam/DUAL_PORT_SV_TB-2/latency_banking_hamming_code/vlog.opt|-F=|-sv|-cover|bcst|package2.sv|trans_pkg.sv|package.sv|top.sv|+define+ECC|+define+ERROR_INJECT|
+!i113 0
+Z20 !s102 -cover bcst
+Z21 o-sv -cover bcst -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z22 !s92 -sv -cover bcst +define+ECC +define+ERROR_INJECT -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R10
+vdual_port_ram
+R2
+R1
+!i10b 1
+!s100 WlOPf;=]=HN@fN0IX6PKc0
+IPoBi;<lGYC=dbX6Lab`gz2
+S1
+R0
+R3
+8./rtl/dual_port_ram.sv
+F./rtl/dual_port_ram.sv
+!i122 4
+L0 38 136
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 ./rtl/dual_port_ram.sv|
+!s90 -F=/home/shyam/DUAL_PORT_SV_TB-2/latency_banking_hamming_code/vlog.opt|-F=|-sv|./rtl/dual_port_ram.sv|+define+ECC|+define+ERROR_INJECT|+cover|
+!i113 0
+R7
+R8
+R9
+R10
+vecc
+R2
+R1
+!i10b 1
+!s100 Z^5OUOODZFf@EcFIA>BhJ1
+I@z4:S_d`iYA2BQDUXC:VM0
+S1
+R0
+R3
+8./rtl/ecc.sv
+F./rtl/ecc.sv
+!i122 0
+L0 27 26
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 ./rtl/ecc.sv|
+!s90 -F=/home/shyam/DUAL_PORT_SV_TB-2/latency_banking_hamming_code/vlog.opt|-F=|-sv|./rtl/ecc.sv|+define+ECC|+define+ERROR_INJECT|+cover|
+!i113 0
+R7
+R8
+R9
+R10
+vhamming_decoder
+R2
+R1
+!i10b 1
+!s100 W0;=Rd[Kho_nONTKkP8QP1
+I@X`lD=n8ICncCPh@`eP;P2
+S1
+R0
+R3
+8./rtl/hamming_decoder.sv
+F./rtl/hamming_decoder.sv
+!i122 2
+L0 25 98
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 ./rtl/hamming_decoder.sv|
+!s90 -F=/home/shyam/DUAL_PORT_SV_TB-2/latency_banking_hamming_code/vlog.opt|-F=|-sv|./rtl/hamming_decoder.sv|+define+ECC|+define+ERROR_INJECT|+cover|
+!i113 0
+R7
+R8
+R9
+R10
+vhamming_encoder
+R2
+R1
+!i10b 1
+!s100 6;Xj>]V8Liae;adBD^5ah1
+I53H=E0lmG0IQGV6ZCZ<4R1
+S1
+R0
+R3
+8./rtl/hamming_encoder.sv
+F./rtl/hamming_encoder.sv
+!i122 1
+L0 21 59
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 ./rtl/hamming_encoder.sv|
+!s90 -F=/home/shyam/DUAL_PORT_SV_TB-2/latency_banking_hamming_code/vlog.opt|-F=|-sv|./rtl/hamming_encoder.sv|+define+ECC|+define+ERROR_INJECT|+cover|
+!i113 0
+R7
+R8
+R9
+R10
+vlatency
+R2
+R1
+!i10b 1
+!s100 b21KmcijXeWc_jfG0=H9Y0
+I9kT9^?aQPN@8OKa6HF0_V2
+S1
+R0
+w1742449933
+8./rtl/latency.sv
+F./rtl/latency.sv
+!i122 3
+L0 40 150
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 ./rtl/latency.sv|
+!s90 -F=/home/shyam/DUAL_PORT_SV_TB-2/latency_banking_hamming_code/vlog.opt|-F=|-sv|./rtl/latency.sv|+define+ECC|+define+ERROR_INJECT|+cover|
+!i113 0
+R7
+R8
+R9
+R10
+vmemory_controller
+R2
+R1
+!i10b 1
+!s100 ]7?]bmTE7le2@8WRY?n:Q3
+I:1fZ5iI^41J]T=dl;G`Sa0
+S1
+R0
+w1742477119
+8./rtl/memory_controller.sv
+F./rtl/memory_controller.sv
+!i122 7
+L0 36 142
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 ./rtl/memory_controller.sv|
+!s90 -F=/home/shyam/DUAL_PORT_SV_TB-2/latency_banking_hamming_code/vlog.opt|-F=|-sv|./rtl/memory_controller.sv|+define+ECC|+define+ERROR_INJECT|+cover|
+!i113 0
+R7
+R8
+R9
+R10
+vmulti_bank
+R2
+R1
+!i10b 1
+!s100 Id]So3B_JDJ_m?n;MLAi:3
+IY7>99:E7JXbeT>iV<h[521
+S1
+R0
+w1742450987
+8./rtl/multi_bank.sv
+F./rtl/multi_bank.sv
+!i122 6
+L0 35 89
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 ./rtl/multi_bank.sv|
+!s90 -F=/home/shyam/DUAL_PORT_SV_TB-2/latency_banking_hamming_code/vlog.opt|-F=|-sv|./rtl/multi_bank.sv|+define+ECC|+define+ERROR_INJECT|+cover|
+!i113 0
+R7
+R8
+R9
+R10
+Xpkg
+!s115 dual_iff
+R2
+R11
+R12
+R1
+!i10b 1
+!s100 Md0WFmC2E0@9cZfV]klZ91
+IM[XQHB7c1hWf7QKaa7FIF1
+S1
+R0
+w1742538461
+8package.sv
+Fpackage.sv
+Fdual_xtn.sv
+Fdual_generator.sv
+Fdual_driver_a.sv
+Fdual_driver_b.sv
+Fdual_monitor_a.sv
+Fdual_monitor_b.sv
+Fdual_refmodel.sv
+Fdual_scoreboard.sv
+Fdual_env.sv
+Fdual_test.sv
+!i122 8
+L0 13 0
+VM[XQHB7c1hWf7QKaa7FIF1
+R5
+r1
+!s85 0
+31
+R6
+R18
+R19
+!i113 0
+R20
+R21
+R22
+R10
+Xpkg_2
+R2
+R1
+!i10b 1
+!s100 hj<Xb;[SE6kFP1jMD^:962
+IHImhM5PHN[dlL2_fm5o0I0
+S1
+R0
+w1742540857
+8package2.sv
+Fpackage2.sv
+!i122 8
+Z23 L0 15 0
+VHImhM5PHN[dlL2_fm5o0I0
+R5
+r1
+!s85 0
+31
+R6
+R18
+R19
+!i113 0
+R20
+R21
+R22
+R10
+vtop
+R2
+R2
+R11
+R12
+R13
+R14
+R1
+R4
+r1
+!s85 0
+!i10b 1
+!s100 AIS5a2>1=S?9L[BUAUSin2
+I]>ZnmCC3IhFTC?lW1[9UQ0
+R15
+S1
+R0
+w1742413212
+Z24 8top.sv
+Z25 Ftop.sv
+!i122 8
+L0 27 90
+R5
+31
+R6
+R18
+R19
+!i113 0
+R20
+R21
+R22
+R10
+Xtop_sv_unit
+R2
+R2
+R11
+R12
+R13
+R1
+VkFNIMV>eYPZGH3e9dS4m[2
+r1
+!s85 0
+!i10b 1
+!s100 X;ZOoMZCC79?<^[3fBR3c0
+IkFNIMV>eYPZGH3e9dS4m[2
+!i103 1
+S1
+R0
+R16
+R24
+R25
+R17
+!i122 8
+R23
+R5
+31
+R6
+R18
+R19
+!i113 0
+R20
+R21
+R22
+R10
+Xtrans_pkg
+R2
+R1
+!i10b 1
+!s100 U;ZzY2bRQ3I`No^Rad91g3
+IO0CSQB^W:=j2@iWkieV`_3
+S1
+R0
+w1742540900
+8trans_pkg.sv
+Ftrans_pkg.sv
+!i122 8
+L0 14 0
+VO0CSQB^W:=j2@iWkieV`_3
+R5
+r1
+!s85 0
+31
+R6
+R18
+R19
+!i113 0
+R20
+R21
+R22
+R10

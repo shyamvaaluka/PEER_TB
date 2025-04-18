@@ -1,0 +1,332 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.2_1 2021.05, May 15 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/shyam/DUAL_PORT_SV_TB-2/peer_tb/murali/banking/murali_design_with_my_tb
+T_opt
+!s11d pkg /home/shyam/DUAL_PORT_SV_TB-2/peer_tb/murali/banking/murali_design_with_my_tb/work 1 dual_iff 1 /home/shyam/DUAL_PORT_SV_TB-2/peer_tb/murali/banking/murali_design_with_my_tb/work 
+Z1 !s110 1742540686
+VfnC@jzgZNW3k<lS<IEE]I1
+04 3 4 work top fast 0
+=1-000ae431a4f1-67dd0f8e-25a48-2304
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2021.2_1;73
+vaddress_decode
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R2
+Z3 DXx4 work 5 pkg_2 0 22 Ti@z[MU1;j]olIZ8[^0YW1
+Z4 DXx4 work 9 trans_pkg 0 22 HlhTcOU216`WI?LnTWUol3
+Z5 DXx4 work 3 pkg 0 22 <DSm_L?Pn<X[>fP<DKMO60
+Z6 DXx4 work 11 top_sv_unit 0 22 N7<mIARAzm?aP96ZC8gPD0
+R1
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 8FU9?PX2CTG[fA>1BzVYS1
+In7GIBHUPG`7kjPVeTfid01
+Z8 !s105 top_sv_unit
+S1
+R0
+Z9 w1740677050
+8./rtl/address_decode.sv
+Z10 F./rtl/address_decode.sv
+!i122 0
+L0 31 57
+Z11 OL;L;2021.2_1;73
+31
+Z12 !s108 1742540685.000000
+Z13 !s107 interface.sv|./rtl/multi_bank.sv|./rtl/address_decode.sv|./rtl/dual_port_ram.sv|./rtl/latency.sv|dual_test.sv|dual_env.sv|dual_scoreboard.sv|dual_refmodel.sv|dual_monitor_b.sv|dual_monitor_a.sv|dual_driver_b.sv|dual_driver_a.sv|dual_generator.sv|dual_xtn.sv|top.sv|package.sv|trans_pkg.sv|package2.sv|
+Z14 !s90 -F=/home/shyam/DUAL_PORT_SV_TB-2/latency_banking_hamming_code/vlog.opt|-F=|-sv|-cover|bcst|package2.sv|trans_pkg.sv|package.sv|top.sv|
+!i113 0
+Z15 !s102 -cover bcst
+Z16 o-sv -cover bcst -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z17 tCoverage 32 CvgOpt 0
+Ydual_iff
+R2
+R2
+R3
+R4
+R5
+R6
+R1
+R7
+r1
+!s85 0
+!i10b 1
+!s100 _VG;20YOKNYn;Q;Rm07>52
+ITgk1Q03V4@5M4DiJXL^:K1
+R8
+S1
+R0
+Z18 w1742469749
+8interface.sv
+Z19 Finterface.sv
+!i122 0
+L0 16 0
+R11
+31
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R17
+vdual_port_ram
+R2
+R2
+R3
+R4
+R5
+R6
+R1
+R7
+r1
+!s85 0
+!i10b 1
+!s100 WlOPf;=]=HN@fN0IX6PKc0
+IlzMj1XK<m1BdPZR5d^DhY3
+R8
+S1
+R0
+R9
+8./rtl/dual_port_ram.sv
+Z20 F./rtl/dual_port_ram.sv
+!i122 0
+L0 38 136
+R11
+31
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R17
+vlatency
+R2
+R2
+R3
+R4
+R5
+R6
+R1
+R7
+r1
+!s85 0
+!i10b 1
+!s100 b21KmcijXeWc_jfG0=H9Y0
+IQ5QN:aMZ=c:gO;58d?jz[3
+R8
+S1
+R0
+w1742449933
+8./rtl/latency.sv
+Z21 F./rtl/latency.sv
+!i122 0
+L0 40 150
+R11
+31
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R17
+vmulti_bank
+R2
+R2
+R3
+R4
+R5
+R6
+R1
+R7
+r1
+!s85 0
+!i10b 1
+!s100 Id]So3B_JDJ_m?n;MLAi:3
+IZ:6RcgVX2O4]PXT@C4zT=2
+R8
+S1
+R0
+w1742450987
+8./rtl/multi_bank.sv
+Z22 F./rtl/multi_bank.sv
+!i122 0
+L0 35 89
+R11
+31
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R17
+Xpkg
+!s115 dual_iff
+R2
+R3
+R4
+R1
+!i10b 1
+!s100 ;25<PTZEkjd5:UHXSjPTP3
+I<DSm_L?Pn<X[>fP<DKMO60
+S1
+R0
+w1742538461
+8package.sv
+Fpackage.sv
+Fdual_xtn.sv
+Fdual_generator.sv
+Fdual_driver_a.sv
+Fdual_driver_b.sv
+Fdual_monitor_a.sv
+Fdual_monitor_b.sv
+Fdual_refmodel.sv
+Fdual_scoreboard.sv
+Fdual_env.sv
+Fdual_test.sv
+!i122 0
+L0 13 0
+V<DSm_L?Pn<X[>fP<DKMO60
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R17
+Xpkg_2
+R2
+R1
+!i10b 1
+!s100 ?eZcP_3O>eF>WCbcIZNGP1
+ITi@z[MU1;j]olIZ8[^0YW1
+S1
+R0
+w1742540674
+8package2.sv
+Fpackage2.sv
+!i122 0
+L0 15 0
+VTi@z[MU1;j]olIZ8[^0YW1
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R17
+vtop
+R2
+R2
+R3
+R4
+R5
+R6
+R1
+R7
+r1
+!s85 0
+!i10b 1
+!s100 PELcSM@hZUNHg:ol4UUbR0
+I:o01b=W7fnc_3=0k2ME_k3
+R8
+S1
+R0
+w1742381911
+Z23 8top.sv
+Z24 Ftop.sv
+!i122 0
+L0 29 55
+R11
+31
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R17
+Xtop_sv_unit
+R2
+R2
+R3
+R4
+R5
+R1
+VN7<mIARAzm?aP96ZC8gPD0
+r1
+!s85 0
+!i10b 1
+!s100 0nO2FPZMMbPNJ8o?6]?WH0
+IN7<mIARAzm?aP96ZC8gPD0
+!i103 1
+S1
+R0
+R18
+R23
+R24
+R21
+R20
+R10
+R22
+R19
+!i122 0
+Z25 L0 14 0
+R11
+31
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R17
+Xtrans_pkg
+R2
+R1
+!i10b 1
+!s100 U;ZzY2bRQ3I`No^Rad91g3
+IHlhTcOU216`WI?LnTWUol3
+S1
+R0
+w1742540353
+8trans_pkg.sv
+Ftrans_pkg.sv
+!i122 0
+R25
+VHlhTcOU216`WI?LnTWUol3
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R17

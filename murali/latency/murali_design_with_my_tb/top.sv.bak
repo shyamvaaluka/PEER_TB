@@ -1,0 +1,74 @@
+
+`include "normal_dual_port_ram.v"
+`include "interface.sv"
+`include "package.sv"
+import pkg::*;
+
+module top;
+	parameter DATA_A=4;
+	parameter DATA_B=DATA_A;
+	parameter ADDR_A=$clog2(MEM_DEPTH);
+	parameter ADDR_B=$clog2(MEM_DEPTH);
+	parameter MEM_DEPTH=1024;
+	parameter MEM_WIDTH=DATA_A+DATA_B;
+	
+	bit clka,clkb;
+	always #5 clka=~clka;
+	always #10 clkb=~clkb;
+	int drv_xtn;	
+
+
+	dual_iff#(.DATA_A(DATA_A),.DATA_B(DATA_B),.ADDR_A(ADDR_A),.ADDR_B(ADDR_B),
+		  .MEM_DEPTH(MEM_DEPTH),.MEM_WIDTH(MEM_WIDTH))in0(.clka(clka),
+		    						.clkb(clkb));
+	
+	dualport_memory#(.DATA_A(DATA_A),.DATA_B(DATA_B),.ADDR_A(ADDR_A),.ADDR_B(ADDR_B),
+			 .MEM_DEPTH(MEM_DEPTH),.MEM_WIDTH(MEM_WIDTH))DUT(.clka(in0.clka),
+			 						 .clkb(in0.clkb),
+									 .ena(in0.ena),
+									 .enb(in0.enb),
+									 .wea(in0.wea),
+									 .web(in0.web),
+									 .dina(in0.dina),
+									 .dinb(in0.dinb),
+									 .addra(in0.addra),
+									 .addrb(in0.addrb),
+									 .douta(in0.douta),
+									 .doutb(in0.doutb));
+
+
+	dual_generator#(.DATA_A_GEN(DATA_A),
+			.MEM_DEPTH_GEN(MEM_DEPTH))gen;
+
+	dual_driver_a#(.DATA_DRV_A(DATA_A),
+		       .MEM_DEPTH_DRV(MEM_DEPTH))drv_a;
+
+	dual_driver_b#(.DATA_DRV_B(DATA_A),
+                       .MEM_DEPTH_DRV(MEM_DEPTH))drv_b;
+
+	typedef trans#(.DATA_A(DATA_A),.MEM_DEPTH(MEM_DEPTH)) t_5;	       
+	
+	mailbox#(t_5)dual_top=new();
+
+	initial
+	begin
+		gen=new(dual_top,dual_top);
+		drv_a=new(in0,dual_top);
+		drv_b=new(dual_top,in0);
+	end	
+
+	initial
+	begin
+		gen.start();
+		repeat(10)
+		fork
+			drv_xtn++;
+			$display("Transaction number :%0d",drv_xtn);
+			drv_a.start();
+			drv_b.start();
+		join
+	
+	end
+
+	initial #1000 $finish;
+endmodule

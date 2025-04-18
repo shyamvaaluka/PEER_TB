@@ -1,0 +1,2 @@
+var g_data = {"16":[15,"in0",1],"19":[18,"ENC_DUTA",1],"20":[18,"ENC_DUTB",1],"21":[18,"DE_ENC_DUTA",1],"22":[18,"DE_ENC_DUTB",1],"18":[17,"ecc_dut",1],"25":[24,"latency",1],"24":[23,"genblk1[3]/mem",1],"27":[26,"latency",1],"26":[23,"genblk1[2]/mem",1],"29":[28,"latency",1],"28":[23,"genblk1[1]/mem",1],"31":[30,"latency",1],"30":[23,"genblk1[0]/mem",1],"32":[23,"decode",1],"23":[17,"multi_bank_dut",1],"17":[15,"DUT",1],"15":[-1,"top",1],"35":[-1,"pkg",1]};
+processInstLinks(g_data);

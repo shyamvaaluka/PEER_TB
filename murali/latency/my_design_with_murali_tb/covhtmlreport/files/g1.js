@@ -1,0 +1,2 @@
+var g_data = {"17":{"pr":"/top_sv_unit","ty":2,"dui":4,"dun":"work.top_sv_unit","cvgs":[{"h":["/top_sv_unit/ram_sb/mutlibank_porta_read_cg",1,1,18],"cov":[90,90,100.00],"opts":{"goal":"100","merge_instance":"auto(true)"}},{"h":["/top_sv_unit/ram_sb/mutlibank_portb_read_cg",1,1,23],"cov":[90,90,100.00],"opts":{"goal":"100","merge_instance":"auto(true)"}}]}};
+processCovergroupsData(g_data);

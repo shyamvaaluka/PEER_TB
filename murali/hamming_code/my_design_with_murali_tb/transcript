@@ -1,0 +1,248 @@
+# do run.tcl
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# ** Warning: (vlog-13288) Multiple macros defined in +define+ command line switch.
+# Start time: 19:03:43 on Mar 20,2025
+# vlog ./rtl/4x1MUX.v "+define+ECC+ERROR_INJECT" "+cover" 
+# -- Compiling module MUX_4x1
+# 
+# Top level modules:
+# 	MUX_4x1
+# End time: 19:03:43 on Mar 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# ** Warning: (vlog-13288) Multiple macros defined in +define+ command line switch.
+# Start time: 19:03:43 on Mar 20,2025
+# vlog ./rtl/Controlling_Memory.v "+define+ECC+ERROR_INJECT" "+cover" 
+# -- Compiling module Memory_Control_Unit
+# 
+# Top level modules:
+# 	Memory_Control_Unit
+# End time: 19:03:43 on Mar 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# ** Warning: (vlog-13288) Multiple macros defined in +define+ command line switch.
+# Start time: 19:03:43 on Mar 20,2025
+# vlog ./rtl/Decoder_enable_lines.v "+define+ECC+ERROR_INJECT" "+cover" 
+# -- Compiling module Decoder_enable_lines
+# 
+# Top level modules:
+# 	Decoder_enable_lines
+# End time: 19:03:43 on Mar 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# ** Warning: (vlog-13288) Multiple macros defined in +define+ command line switch.
+# Start time: 19:03:43 on Mar 20,2025
+# vlog ./rtl/Demultiplexer1_address.v "+define+ECC+ERROR_INJECT" "+cover" 
+# -- Compiling module Demultiplexer1_address
+# 
+# Top level modules:
+# 	Demultiplexer1_address
+# End time: 19:03:43 on Mar 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# ** Warning: (vlog-13288) Multiple macros defined in +define+ command line switch.
+# Start time: 19:03:43 on Mar 20,2025
+# vlog ./rtl/MEMORY_CONTROL_TOP.sv "+define+ECC+ERROR_INJECT" "+cover" 
+# -- Compiling module MEMORY_TOP
+# 
+# Top level modules:
+# 	MEMORY_TOP
+# End time: 19:03:43 on Mar 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# ** Warning: (vlog-13288) Multiple macros defined in +define+ command line switch.
+# Start time: 19:03:43 on Mar 20,2025
+# vlog ./rtl/controller_interface.v "+define+ECC+ERROR_INJECT" "+cover" 
+# -- Compiling module controller_interface
+# 
+# Top level modules:
+# 	controller_interface
+# End time: 19:03:43 on Mar 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# ** Warning: (vlog-13288) Multiple macros defined in +define+ command line switch.
+# Start time: 19:03:43 on Mar 20,2025
+# vlog ./rtl/demultiplexer_data.v "+define+ECC+ERROR_INJECT" "+cover" 
+# -- Compiling module demultiplexer_data
+# 
+# Top level modules:
+# 	demultiplexer_data
+# End time: 19:03:43 on Mar 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# ** Warning: (vlog-13288) Multiple macros defined in +define+ command line switch.
+# Start time: 19:03:43 on Mar 20,2025
+# vlog -sv ./rtl/error_injector.sv "+define+ECC+ERROR_INJECT" "+cover" 
+# -- Compiling module err_inj
+# 
+# Top level modules:
+# 	err_inj
+# End time: 19:03:44 on Mar 20,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# ** Warning: (vlog-13288) Multiple macros defined in +define+ command line switch.
+# Start time: 19:03:44 on Mar 20,2025
+# vlog -sv ./rtl/hamming.sv "+define+ECC+ERROR_INJECT" "+cover" 
+# -- Compiling module ham_enc
+# ** Warning: ./rtl/hamming.sv(46): (vlog-2182) 'j' might be read before written in always_comb or always @* block.
+# ** Warning: ./rtl/hamming.sv(102): (vlog-2182) 'j' might be read before written in always_comb or always @* block.
+# 
+# Top level modules:
+# 	ham_enc
+# End time: 19:03:44 on Mar 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 3
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# ** Warning: (vlog-13288) Multiple macros defined in +define+ command line switch.
+# Start time: 19:03:44 on Mar 20,2025
+# vlog -sv ./rtl/hamming_dec.sv "+define+ECC+ERROR_INJECT" "+cover" 
+# -- Compiling module ham_dec
+# ** Warning: ./rtl/hamming_dec.sv(127): (vlog-2182) 'o' might be read before written in always_comb or always @* block.
+# ** Warning: ./rtl/hamming_dec.sv(229): (vlog-2182) 'u' might be read before written in always_comb or always @* block.
+# 
+# Top level modules:
+# 	ham_dec
+# End time: 19:03:44 on Mar 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 3
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# ** Warning: (vlog-13288) Multiple macros defined in +define+ command line switch.
+# Start time: 19:03:44 on Mar 20,2025
+# vlog -sv ./rtl/hamming_top.sv "+define+ECC+ERROR_INJECT" "+cover" 
+# -- Compiling module hamming_encoder_top
+# 
+# Top level modules:
+# 	hamming_encoder_top
+# End time: 19:03:44 on Mar 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# ** Warning: (vlog-13288) Multiple macros defined in +define+ command line switch.
+# Start time: 19:03:44 on Mar 20,2025
+# vlog -sv ./rtl/latency_module.sv "+define+ECC+ERROR_INJECT" "+cover" 
+# -- Compiling module latency
+# 
+# Top level modules:
+# 	latency
+# End time: 19:03:44 on Mar 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# ** Warning: (vlog-13288) Multiple macros defined in +define+ command line switch.
+# Start time: 19:03:44 on Mar 20,2025
+# vlog -sv ./rtl/latency_ram_top.sv "+define+ECC+ERROR_INJECT" "+cover" 
+# -- Compiling module latency_top
+# 
+# Top level modules:
+# 	latency_top
+# End time: 19:03:44 on Mar 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# ** Warning: (vlog-13288) Multiple macros defined in +define+ command line switch.
+# Start time: 19:03:44 on Mar 20,2025
+# vlog -sv ./rtl/modified_dual_mem.sv "+define+ECC+ERROR_INJECT" "+cover" 
+# -- Compiling module modified_dual_mem
+# 
+# Top level modules:
+# 	modified_dual_mem
+# End time: 19:03:44 on Mar 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# ** Warning: (vlog-13288) Multiple macros defined in +define+ command line switch.
+# Start time: 19:03:44 on Mar 20,2025
+# vlog -sv ./rtl/sel_latency.sv "+define+ECC+ERROR_INJECT" "+cover" 
+# -- Compiling module sel_latency
+# 
+# Top level modules:
+# 	sel_latency
+# End time: 19:03:44 on Mar 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# Start time: 19:03:44 on Mar 20,2025
+# vlog -sv -cover bcst param.sv ram_pkg.sv top.sv "+define+ECC" "+define+ERROR_INJECT" 
+# -- Compiling package param
+# -- Compiling package ram_pkg
+# -- Importing package param
+# -- Compiling package param
+# ** Warning: ** while parsing file included at top.sv(21)
+# ** at param.sv(21): (vlog-2275) Existing package 'param' at line 21 will be overwritten.
+# -- Compiling package ram_pkg
+# ** Warning: ** while parsing file included at top.sv(28)
+# ** at ram_pkg.sv(12): (vlog-2275) Existing package 'ram_pkg' at line 12 will be overwritten.
+# -- Compiling package top_sv_unit
+# -- Importing package ram_pkg
+# -- Compiling interface ram_if
+# -- Compiling package ram_pkg
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:03:44 on Mar 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vsim -gui -coverage -assertdebug -voptargs="+acc" -onfinish stop work.top 
+# Start time: 19:03:44 on Mar 20,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: ./rtl/hamming_dec.sv(127): (vopt-2182) 'o' might be read before written in always_comb or always @* block.
+# ** Warning: ./rtl/hamming_dec.sv(229): (vopt-2182) 'u' might be read before written in always_comb or always @* block.
+# ** Warning: ./rtl/hamming.sv(46): (vopt-2182) 'j' might be read before written in always_comb or always @* block.
+# ** Warning: ./rtl/hamming.sv(102): (vopt-2182) 'j' might be read before written in always_comb or always @* block.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=4.
+# //  Questa Sim-64
+# //  Version 2021.2_1 linux_x86_64 May 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.ram_if(fast)
+# Loading work.param(fast)
+# Loading work.ram_pkg(fast)
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.ram_if(fast__2)
+# Loading work.MEMORY_TOP(fast)
+# Loading work.MUX_4x1(fast)
+# Loading work.Memory_Control_Unit(fast)
+# Loading work.latency_top(fast)
+# Loading work.latency(fast)
+# Loading work.modified_dual_mem(fast)
+# Loading work.controller_interface(fast)
+# Loading work.Demultiplexer1_address(fast)
+# Loading work.demultiplexer_data(fast)
+# Loading work.Decoder_enable_lines(fast)
+# Loading work.sel_latency(fast)
+# Loading work.hamming_encoder_top(fast)
+# Loading work.ham_enc(fast)
+# Loading work.err_inj(fast)
+# Loading work.ham_dec(fast)
+# wave activecursor not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# ** Note: $finish    : top.sv(122)
+#    Time: 324400 ns  Iteration: 1  Instance: /top
+# Break in Module top at top.sv line 122
+# Stopped at top.sv line 122
+# QuestaSim-64 vcover 2021.2_1 Coverage Utility 2021.05 May 15 2021
+# Start time: 19:03:52 on Mar 20,2025
+# vcover report -html -output covhtmlreport -details -assert -directive -cvg -code bcefst -threshL 50 -threshH 90 cov.ucdb 
+# 
+# End time: 19:03:55 on Mar 20,2025, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0
+# 37771
+# End time: 19:03:55 on Mar 20,2025, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 4

@@ -1,0 +1,1781 @@
+# do run.tcl
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# Start time: 12:38:25 on Mar 21,2025
+# vlog -sv ./rtl/ecc.sv "+define+ECC" "+define+ERROR_INJECT" "+cover" 
+# -- Compiling module ecc
+# 
+# Top level modules:
+# 	ecc
+# End time: 12:38:25 on Mar 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# Start time: 12:38:25 on Mar 21,2025
+# vlog -sv ./rtl/hamming_encoder.sv "+define+ECC" "+define+ERROR_INJECT" "+cover" 
+# -- Compiling module hamming_encoder
+# 
+# Top level modules:
+# 	hamming_encoder
+# End time: 12:38:25 on Mar 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# Start time: 12:38:25 on Mar 21,2025
+# vlog -sv ./rtl/hamming_decoder.sv "+define+ECC" "+define+ERROR_INJECT" "+cover" 
+# -- Compiling module hamming_decoder
+# 
+# Top level modules:
+# 	hamming_decoder
+# End time: 12:38:25 on Mar 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# Start time: 12:38:25 on Mar 21,2025
+# vlog -sv ./rtl/latency.sv "+define+ECC" "+define+ERROR_INJECT" "+cover" 
+# -- Compiling module latency
+# 
+# Top level modules:
+# 	latency
+# End time: 12:38:25 on Mar 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# Start time: 12:38:25 on Mar 21,2025
+# vlog -sv ./rtl/dual_port_ram.sv "+define+ECC" "+define+ERROR_INJECT" "+cover" 
+# -- Compiling module dual_port_ram
+# 
+# Top level modules:
+# 	dual_port_ram
+# End time: 12:38:25 on Mar 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# Start time: 12:38:25 on Mar 21,2025
+# vlog -sv ./rtl/address_decode.sv "+define+ECC" "+define+ERROR_INJECT" "+cover" 
+# -- Compiling module address_decode
+# 
+# Top level modules:
+# 	address_decode
+# End time: 12:38:25 on Mar 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# Start time: 12:38:25 on Mar 21,2025
+# vlog -sv ./rtl/multi_bank.sv "+define+ECC" "+define+ERROR_INJECT" "+cover" 
+# -- Compiling module multi_bank
+# 
+# Top level modules:
+# 	multi_bank
+# End time: 12:38:25 on Mar 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# Start time: 12:38:25 on Mar 21,2025
+# vlog -sv ./rtl/memory_controller.sv "+define+ECC" "+define+ERROR_INJECT" "+cover" 
+# -- Compiling module memory_controller
+# 
+# Top level modules:
+# 	memory_controller
+# End time: 12:38:25 on Mar 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# Start time: 12:38:25 on Mar 21,2025
+# vlog -sv -cover bcst package2.sv trans_pkg.sv package.sv top.sv "+define+ECC" "+define+ERROR_INJECT" 
+# -- Compiling package pkg_2
+# -- Compiling package trans_pkg
+# -- Compiling package pkg
+# -- Importing package pkg_2
+# -- Importing package trans_pkg
+# ** Warning: dual_generator.sv(44): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling package top_sv_unit
+# -- Importing package pkg
+# -- Compiling interface dual_iff
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:38:25 on Mar 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim -gui -coverage -assertdebug -voptargs="+acc" -onfinish stop work.top "+TEST0" 
+# Start time: 12:38:25 on Mar 21,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: dual_generator.sv(44): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# //  Questa Sim-64
+# //  Version 2021.2_1 linux_x86_64 May 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.dual_iff(fast)
+# Loading work.trans_pkg(fast)
+# Loading work.pkg_2(fast)
+# Loading work.pkg(fast)
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.dual_iff(fast__2)
+# Loading work.memory_controller(fast)
+# Loading work.ecc(fast)
+# Loading work.hamming_encoder(fast)
+# Loading work.hamming_decoder(fast)
+# Loading work.multi_bank(fast)
+# Loading work.dual_port_ram(fast)
+# Loading work.latency(fast)
+# Loading work.address_decode(fast)
+# wave activecursor not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# ** Warning: (vsim-3881) dual_monitor_a.sv(53): Sign-and-Width conversion applied in bin 'MIN1' for Coverpoint 'DATA_IN_A'. Value '20' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3882) dual_monitor_a.sv(53): Out of bounds value range in bin 'MIN1' for Coverpoint 'DATA_IN_A' converted to nearest valid bounded range of [10:15].
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_a.sv(54): Sign-and-Width conversion applied in bin 'MID' for Coverpoint 'DATA_IN_A'. Value '21' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_a.sv(54): Sign-and-Width conversion applied in bin 'MID' for Coverpoint 'DATA_IN_A'. Value '50' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-8475) The invalid value range [21 : 50] is found in bin 'MID' of Coverpoint 'DATA_IN_A'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#105 File: dual_monitor_a.sv Line: 54
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'MID' in Coverpoint 'DATA_IN_A' of Covergroup instance '\/pkg::dual_monitor_a::write_port_a ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_a.sv(55): Sign-and-Width conversion applied in bin 'MID1' for Coverpoint 'DATA_IN_A'. Value '51' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_a.sv(55): Sign-and-Width conversion applied in bin 'MID1' for Coverpoint 'DATA_IN_A'. Value '100' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-8475) The invalid value range [51 : 100] is found in bin 'MID1' of Coverpoint 'DATA_IN_A'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#105 File: dual_monitor_a.sv Line: 55
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'MID1' in Coverpoint 'DATA_IN_A' of Covergroup instance '\/pkg::dual_monitor_a::write_port_a ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_a.sv(56): Sign-and-Width conversion applied in bin 'HIGH' for Coverpoint 'DATA_IN_A'. Value '101' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_a.sv(56): Sign-and-Width conversion applied in bin 'HIGH' for Coverpoint 'DATA_IN_A'. Value '200' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-8475) The invalid value range [101 : 200] is found in bin 'HIGH' of Coverpoint 'DATA_IN_A'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#105 File: dual_monitor_a.sv Line: 56
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'HIGH' in Coverpoint 'DATA_IN_A' of Covergroup instance '\/pkg::dual_monitor_a::write_port_a ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_a.sv(57): Sign-and-Width conversion applied in bin 'HIGH1' for Coverpoint 'DATA_IN_A'. Value '201' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_a.sv(57): Sign-and-Width conversion applied in bin 'HIGH1' for Coverpoint 'DATA_IN_A'. Value '255' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-8475) The invalid value range [201 : 255] is found in bin 'HIGH1' of Coverpoint 'DATA_IN_A'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#105 File: dual_monitor_a.sv Line: 57
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'HIGH1' in Coverpoint 'DATA_IN_A' of Covergroup instance '\/pkg::dual_monitor_a::write_port_a ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_a.sv(77): Sign-and-Width conversion applied in bin 'MIN1' for Coverpoint 'DATA_IN_A'. Value '20' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3882) dual_monitor_a.sv(77): Out of bounds value range in bin 'MIN1' for Coverpoint 'DATA_IN_A' converted to nearest valid bounded range of [10:15].
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_a.sv(78): Sign-and-Width conversion applied in bin 'MID' for Coverpoint 'DATA_IN_A'. Value '21' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_a.sv(78): Sign-and-Width conversion applied in bin 'MID' for Coverpoint 'DATA_IN_A'. Value '50' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-8475) The invalid value range [21 : 50] is found in bin 'MID' of Coverpoint 'DATA_IN_A'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#105 File: dual_monitor_a.sv Line: 78
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'MID' in Coverpoint 'DATA_IN_A' of Covergroup instance '\/pkg::dual_monitor_a::read_port_a ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_a.sv(79): Sign-and-Width conversion applied in bin 'MID1' for Coverpoint 'DATA_IN_A'. Value '51' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_a.sv(79): Sign-and-Width conversion applied in bin 'MID1' for Coverpoint 'DATA_IN_A'. Value '100' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-8475) The invalid value range [51 : 100] is found in bin 'MID1' of Coverpoint 'DATA_IN_A'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#105 File: dual_monitor_a.sv Line: 79
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'MID1' in Coverpoint 'DATA_IN_A' of Covergroup instance '\/pkg::dual_monitor_a::read_port_a ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_a.sv(80): Sign-and-Width conversion applied in bin 'HIGH' for Coverpoint 'DATA_IN_A'. Value '101' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_a.sv(80): Sign-and-Width conversion applied in bin 'HIGH' for Coverpoint 'DATA_IN_A'. Value '200' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-8475) The invalid value range [101 : 200] is found in bin 'HIGH' of Coverpoint 'DATA_IN_A'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#105 File: dual_monitor_a.sv Line: 80
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'HIGH' in Coverpoint 'DATA_IN_A' of Covergroup instance '\/pkg::dual_monitor_a::read_port_a ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_a.sv(81): Sign-and-Width conversion applied in bin 'HIGH1' for Coverpoint 'DATA_IN_A'. Value '201' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_a.sv(81): Sign-and-Width conversion applied in bin 'HIGH1' for Coverpoint 'DATA_IN_A'. Value '255' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-8475) The invalid value range [201 : 255] is found in bin 'HIGH1' of Coverpoint 'DATA_IN_A'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#105 File: dual_monitor_a.sv Line: 81
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'HIGH1' in Coverpoint 'DATA_IN_A' of Covergroup instance '\/pkg::dual_monitor_a::read_port_a ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_b.sv(54): Sign-and-Width conversion applied in bin 'MIN1' for Coverpoint 'DATA_IN_B'. Value '20' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3882) dual_monitor_b.sv(54): Out of bounds value range in bin 'MIN1' for Coverpoint 'DATA_IN_B' converted to nearest valid bounded range of [10:15].
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_b.sv(55): Sign-and-Width conversion applied in bin 'MID' for Coverpoint 'DATA_IN_B'. Value '21' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_b.sv(55): Sign-and-Width conversion applied in bin 'MID' for Coverpoint 'DATA_IN_B'. Value '50' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-8475) The invalid value range [21 : 50] is found in bin 'MID' of Coverpoint 'DATA_IN_B'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#105 File: dual_monitor_b.sv Line: 55
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'MID' in Coverpoint 'DATA_IN_B' of Covergroup instance '\/pkg::dual_monitor_b::write_port_b ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_b.sv(56): Sign-and-Width conversion applied in bin 'MID1' for Coverpoint 'DATA_IN_B'. Value '51' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_b.sv(56): Sign-and-Width conversion applied in bin 'MID1' for Coverpoint 'DATA_IN_B'. Value '100' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-8475) The invalid value range [51 : 100] is found in bin 'MID1' of Coverpoint 'DATA_IN_B'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#105 File: dual_monitor_b.sv Line: 56
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'MID1' in Coverpoint 'DATA_IN_B' of Covergroup instance '\/pkg::dual_monitor_b::write_port_b ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_b.sv(57): Sign-and-Width conversion applied in bin 'HIGH' for Coverpoint 'DATA_IN_B'. Value '101' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_b.sv(57): Sign-and-Width conversion applied in bin 'HIGH' for Coverpoint 'DATA_IN_B'. Value '200' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-8475) The invalid value range [101 : 200] is found in bin 'HIGH' of Coverpoint 'DATA_IN_B'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#105 File: dual_monitor_b.sv Line: 57
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'HIGH' in Coverpoint 'DATA_IN_B' of Covergroup instance '\/pkg::dual_monitor_b::write_port_b ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_b.sv(58): Sign-and-Width conversion applied in bin 'HIGH1' for Coverpoint 'DATA_IN_B'. Value '201' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_b.sv(58): Sign-and-Width conversion applied in bin 'HIGH1' for Coverpoint 'DATA_IN_B'. Value '255' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-8475) The invalid value range [201 : 255] is found in bin 'HIGH1' of Coverpoint 'DATA_IN_B'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#105 File: dual_monitor_b.sv Line: 58
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'HIGH1' in Coverpoint 'DATA_IN_B' of Covergroup instance '\/pkg::dual_monitor_b::write_port_b ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_b.sv(78): Sign-and-Width conversion applied in bin 'MIN1' for Coverpoint 'DATA_IN_B'. Value '20' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3882) dual_monitor_b.sv(78): Out of bounds value range in bin 'MIN1' for Coverpoint 'DATA_IN_B' converted to nearest valid bounded range of [10:15].
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_b.sv(79): Sign-and-Width conversion applied in bin 'MID' for Coverpoint 'DATA_IN_B'. Value '21' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_b.sv(79): Sign-and-Width conversion applied in bin 'MID' for Coverpoint 'DATA_IN_B'. Value '50' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-8475) The invalid value range [21 : 50] is found in bin 'MID' of Coverpoint 'DATA_IN_B'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#105 File: dual_monitor_b.sv Line: 79
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'MID' in Coverpoint 'DATA_IN_B' of Covergroup instance '\/pkg::dual_monitor_b::read_port_b ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_b.sv(80): Sign-and-Width conversion applied in bin 'MID1' for Coverpoint 'DATA_IN_B'. Value '51' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_b.sv(80): Sign-and-Width conversion applied in bin 'MID1' for Coverpoint 'DATA_IN_B'. Value '100' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-8475) The invalid value range [51 : 100] is found in bin 'MID1' of Coverpoint 'DATA_IN_B'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#105 File: dual_monitor_b.sv Line: 80
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'MID1' in Coverpoint 'DATA_IN_B' of Covergroup instance '\/pkg::dual_monitor_b::read_port_b ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_b.sv(81): Sign-and-Width conversion applied in bin 'HIGH' for Coverpoint 'DATA_IN_B'. Value '101' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_b.sv(81): Sign-and-Width conversion applied in bin 'HIGH' for Coverpoint 'DATA_IN_B'. Value '200' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-8475) The invalid value range [101 : 200] is found in bin 'HIGH' of Coverpoint 'DATA_IN_B'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#105 File: dual_monitor_b.sv Line: 81
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'HIGH' in Coverpoint 'DATA_IN_B' of Covergroup instance '\/pkg::dual_monitor_b::read_port_b ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_b.sv(82): Sign-and-Width conversion applied in bin 'HIGH1' for Coverpoint 'DATA_IN_B'. Value '201' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_b.sv(82): Sign-and-Width conversion applied in bin 'HIGH1' for Coverpoint 'DATA_IN_B'. Value '255' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-8475) The invalid value range [201 : 255] is found in bin 'HIGH1' of Coverpoint 'DATA_IN_B'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#105 File: dual_monitor_b.sv Line: 82
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'HIGH1' in Coverpoint 'DATA_IN_B' of Covergroup instance '\/pkg::dual_monitor_b::read_port_b ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# at time:110 : error = 00000001
+# at time:250 : error = 00000000
+# at time:370 : error = 00100000
+# at time:470 : error = 10000000
+# at time:470 : error = 10000000
+# at time:545 : error = 00011000
+# ***************************************************at time: 615ns : o_error  = 0***************************************************
+# at time: 615ns : PORTA: NO ERROR OCCURED
+# ***************************************************at time: 625ns : o_error  = x***************************************************
+# ===========================PORT_A===================================
+# Passed: output of reference model: 1 and output of monitor: 1 at time 625
+# 
+# at time:790 : error = 00010001
+# at time:890 : error = 00100100
+# at time:935 : error = 00010100
+# ***************************************************at time: 1005ns : o_error  = 0***************************************************
+# at time: 1005ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 5 and output of monitor: 5 at time 1015
+# 
+# at time:1350 : error = 00100000
+# at time:1390 : error = 00100010
+# at time:1450 : error = 10010000
+# at time:1510 : error = 00110000
+# ***************************************************at time: 1690ns : o_error  = 0***************************************************
+# at time: 1690ns : PORTA: NO ERROR OCCURED
+# ***************************************************at time: 1705ns : o_error  = x***************************************************
+# ===========================PORT_B===================================
+# Passed: output of reference model: 13 and output of monitor: 13 at time 1710
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 13 and output of monitor: 13 at time 1730
+# 
+# at time:1770 : error = 01000001
+# at time:1770 : error = 01000001
+# ***************************************************at time: 1775ns : o_error  = 1***************************************************
+# at time: 1775ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:1850 : error = 10000000
+# ***************************************************at time: 1950ns : o_error  = x***************************************************
+# at time:1985 : error = 00000000
+# ***************************************************at time: 2065ns : o_error  = x***************************************************
+# ***************************************************at time: 2075ns : o_error  = 1***************************************************
+# at time: 2075ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:2170 : error = 00100010
+# at time:2485 : error = 00100000
+# ***************************************************at time: 2545ns : o_error  = x***************************************************
+# at time:2590 : error = 00010000
+# at time:2590 : error = 00010000
+# ***************************************************at time: 2610ns : o_error  = 0***************************************************
+# at time: 2610ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 13 and output of monitor: 13 at time 2630
+# 
+# at time:2690 : error = 00000000
+# ***************************************************at time: 2765ns : o_error  = 1***************************************************
+# at time: 2765ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:2770 : error = 00010000
+# at time:2770 : error = 00010000
+# ***************************************************at time: 2775ns : o_error  = x***************************************************
+# ===========================PORT_B===================================
+# Passed: output of reference model: 7 and output of monitor: 7 at time 2790
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 7 and output of monitor: 7 at time 2830
+# 
+# at time:2850 : error = 00001001
+# at time:2850 : error = 00001001
+# at time:2850 : error = 00001001
+# ***************************************************at time: 2930ns : o_error  = x***************************************************
+# at time:2955 : error = 00011000
+# at time:3065 : error = 00000100
+# ***************************************************at time: 3125ns : o_error  = 0***************************************************
+# ***************************************************at time: 3135ns : o_error  = 1***************************************************
+# at time: 3135ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 5 and output of monitor: 5 at time 3135
+# 
+# at time:3170 : error = 00000000
+# at time:3230 : error = 00000000
+# at time:3230 : error = 00000000
+# ***************************************************at time: 3290ns : o_error  = 1***************************************************
+# at time: 3290ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:3310 : error = 01000010
+# at time:3310 : error = 01000010
+# at time:3375 : error = 00000000
+# ***************************************************at time: 3390ns : o_error  = 0***************************************************
+# at time: 3390ns : PORTA: SINGLE BIT ERROR OCCURED
+# at time: 3405ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 13 and output of monitor: 13 at time 3410
+# 
+# at time:3470 : error = 01000000
+# at time:3555 : error = 00010000
+# ***************************************************at time: 3570ns : o_error  = x***************************************************
+# at time:3675 : error = 00000000
+# at time:3675 : error = 00000000
+# ***************************************************at time: 3775ns : o_error  = 0***************************************************
+# at time: 3775ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 8 and output of monitor: 8 at time 3785
+# 
+# at time:3805 : error = 01000010
+# at time:3985 : error = 00000000
+# at time:4015 : error = 00000010
+# at time: 4065ns : PORTA: NO ERROR OCCURED
+# at time:4075 : error = 00000000
+# ===========================PORT_A===================================
+# Passed: output of reference model: 1 and output of monitor: 1 at time 4075
+# 
+# at time:4255 : error = 00000001
+# ***************************************************at time: 4270ns : o_error  = 0***************************************************
+# at time: 4270ns : PORTA: NO ERROR OCCURED
+# at time:4285 : error = 00000010
+# ===========================PORT_B===================================
+# Passed: output of reference model: 3 and output of monitor: 3 at time 4290
+# 
+# at time:4325 : error = 00000000
+# ===========================PORT_B===================================
+# Passed: output of reference model: 0 and output of monitor: 0 at time 4330
+# 
+# ***************************************************at time: 4370ns : o_error  = 0***************************************************
+# at time: 4370ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 13 and output of monitor: 13 at time 4390
+# 
+# at time:4425 : error = 00000000
+# ===========================PORT_A===================================
+# Passed: output of reference model: 10 and output of monitor: 10 at time 4495
+# 
+# at time:4530 : error = 00000000
+# ***************************************************at time: 4630ns : o_error  = x***************************************************
+# at time:4650 : error = 01000001
+# ***************************************************at time: 4710ns : o_error  = 0***************************************************
+# at time: 4710ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 7 and output of monitor: 7 at time 4730
+# 
+# at time:4750 : error = 11000000
+# at time: 4905ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 3 and output of monitor: 3 at time 4915
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 4 and output of monitor: 4 at time 4950
+# 
+# at time:4965 : error = 00000000
+# ===========================PORT_B===================================
+# Passed: output of reference model: 7 and output of monitor: 7 at time 5110
+# 
+# ***************************************************at time: 5175ns : o_error  = x***************************************************
+# ***************************************************at time: 5210ns : o_error  = x***************************************************
+# ***************************************************at time: 5215ns : o_error  = 0***************************************************
+# at time: 5215ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 8 and output of monitor: 8 at time 5225
+# 
+# at time:5250 : error = 00000010
+# at time:5410 : error = 00000001
+# at time:5410 : error = 00000001
+# ***************************************************at time: 5430ns : o_error  = 0***************************************************
+# at time: 5430ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 7 and output of monitor: 7 at time 5450
+# 
+# at time: 5470ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 3 and output of monitor: 3 at time 5490
+# 
+# at time:5515 : error = 00010001
+# ***************************************************at time: 5545ns : o_error  = x***************************************************
+# at time:5570 : error = 01010000
+# ===========================PORT_B===================================
+# Passed: output of reference model: 4 and output of monitor: 4 at time 5630
+# 
+# ***************************************************at time: 5730ns : o_error  = 0***************************************************
+# at time: 5730ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 13 and output of monitor: 13 at time 5750
+# 
+# at time:5770 : error = 00000001
+# at time: 5770ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 13 and output of monitor: 13 at time 5770
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 10 and output of monitor: 10 at time 5790
+# 
+# ***************************************************at time: 5905ns : o_error  = 0***************************************************
+# at time: 5905ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 13 and output of monitor: 13 at time 5915
+# 
+# at time:5945 : error = 10010000
+# ===========================PORT_A===================================
+# Passed: output of reference model: 5 and output of monitor: 5 at time 6015
+# 
+# at time:6025 : error = 00000010
+# ***************************************************at time: 6070ns : o_error  = 0***************************************************
+# at time: 6070ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 5 and output of monitor: 5 at time 6070
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 13 and output of monitor: 13 at time 6090
+# 
+# ***************************************************at time: 6105ns : o_error  = 1***************************************************
+# at time: 6105ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:6170 : error = 00000001
+# at time:6205 : error = 11000000
+# at time:6235 : error = 00000000
+# at time:6255 : error = 00000000
+# ***************************************************at time: 6265ns : o_error  = 0***************************************************
+# at time: 6265ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 7 and output of monitor: 7 at time 6275
+# 
+# ***************************************************at time: 6285ns : o_error  = x***************************************************
+# at time:6290 : error = 00000000
+# ***************************************************at time: 6305ns : o_error  = 0***************************************************
+# at time: 6305ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 9 and output of monitor: 9 at time 6315
+# 
+# at time:6350 : error = 00010000
+# at time:6350 : error = 00010000
+# at time:6350 : error = 00010000
+# at time:6395 : error = 00000100
+# at time:6395 : error = 00000100
+# ===========================PORT_A===================================
+# Passed: output of reference model: 9 and output of monitor: 9 at time 6415
+# 
+# at time:6445 : error = 10000000
+# at time:6505 : error = 00010100
+# ===========================PORT_A===================================
+# Passed: output of reference model: 14 and output of monitor: 14 at time 6505
+# 
+# ***************************************************at time: 6605ns : o_error  = 0***************************************************
+# at time: 6605ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 7 and output of monitor: 7 at time 6615
+# 
+# at time:6635 : error = 00000000
+# at time:6665 : error = 00000001
+# at time:6685 : error = 00010000
+# ***************************************************at time: 6685ns : o_error  = 1***************************************************
+# at time: 6685ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:6750 : error = 00000000
+# at time:6750 : error = 00000000
+# at time:6805 : error = 00000101
+# at time:6845 : error = 00000000
+# ***************************************************at time: 6855ns : o_error  = 0***************************************************
+# at time: 6855ns : PORTA: NO ERROR OCCURED
+# ***************************************************at time: 6865ns : o_error  = 1***************************************************
+# at time: 6865ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 13 and output of monitor: 13 at time 6865
+# 
+# at time:7035 : error = 00000000
+# at time:7105 : error = 00000010
+# ***************************************************at time: 7110ns : o_error  = 1***************************************************
+# at time: 7110ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:7130 : error = 10000000
+# at time:7205 : error = 10001000
+# ***************************************************at time: 7315ns : o_error  = 0***************************************************
+# at time: 7315ns : PORTA: NO ERROR OCCURED
+# ***************************************************at time: 7325ns : o_error  = 0***************************************************
+# at time: 7325ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 2 and output of monitor: 2 at time 7325
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 15 and output of monitor: 15 at time 7335
+# 
+# at time: 7365ns : PORTA: NO ERROR OCCURED
+# ***************************************************at time: 7375ns : o_error  = 0***************************************************
+# at time: 7375ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 4 and output of monitor: 4 at time 7375
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 2 and output of monitor: 2 at time 7385
+# 
+# ***************************************************at time: 7390ns : o_error  = 0***************************************************
+# at time: 7390ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 4 and output of monitor: 4 at time 7410
+# 
+# at time: 7435ns : PORTA: NO ERROR OCCURED
+# at time:7445 : error = 00000000
+# ===========================PORT_A===================================
+# Passed: output of reference model: 13 and output of monitor: 13 at time 7445
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 8 and output of monitor: 8 at time 7475
+# 
+# at time:7485 : error = 00000000
+# at time:7510 : error = 00000001
+# ===========================PORT_A===================================
+# Passed: output of reference model: 11 and output of monitor: 11 at time 7515
+# 
+# at time:7570 : error = 00000000
+# at time:7665 : error = 00000000
+# ===========================PORT_A===================================
+# Passed: output of reference model: 11 and output of monitor: 11 at time 7685
+# 
+# at time:7725 : error = 00000000
+# ***************************************************at time: 7725ns : o_error  = 0***************************************************
+# at time: 7725ns : PORTA: SINGLE BIT ERROR OCCURED
+# at time: 7735ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 2 and output of monitor: 2 at time 7735
+# 
+# at time: 7745ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 11 and output of monitor: 11 at time 7745
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 2 and output of monitor: 2 at time 7755
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 9 and output of monitor: 9 at time 7765
+# 
+# at time: 7785ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 1 and output of monitor: 1 at time 7795
+# 
+# at time:7890 : error = 00000011
+# at time:7905 : error = 00001000
+# at time:7950 : error = 00000000
+# ***************************************************at time: 7955ns : o_error  = 0***************************************************
+# at time: 7955ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 10 and output of monitor: 10 at time 7965
+# 
+# at time:8065 : error = 00000011
+# at time:8085 : error = 00000000
+# at time: 8095ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 4 and output of monitor: 4 at time 8105
+# 
+# at time: 8135ns : PORTA: NO ERROR OCCURED
+# at time: 8145ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 13 and output of monitor: 13 at time 8145
+# 
+# at time:8150 : error = 00000000
+# at time: 8150ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 1 and output of monitor: 1 at time 8155
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 7 and output of monitor: 7 at time 8170
+# 
+# at time:8210 : error = 00010010
+# at time:8210 : error = 00010010
+# at time:8235 : error = 01000000
+# at time:8235 : error = 01000000
+# at time: 8265ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 13 and output of monitor: 13 at time 8275
+# 
+# at time: 8355ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 11 and output of monitor: 11 at time 8365
+# 
+# at time: 8375ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 13 and output of monitor: 13 at time 8385
+# 
+# at time: 8410ns : PORTA: NO ERROR OCCURED
+# ***************************************************at time: 8430ns : o_error  = 0***************************************************
+# at time: 8430ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 5 and output of monitor: 5 at time 8430
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 15 and output of monitor: 15 at time 8450
+# 
+# at time:8545 : error = 00000001
+# at time: 8570ns : PORTA: NO ERROR OCCURED
+# ***************************************************at time: 8575ns : o_error  = 0***************************************************
+# at time: 8575ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 4 and output of monitor: 4 at time 8585
+# 
+# ***************************************************at time: 8590ns : o_error  = 0***************************************************
+# at time: 8590ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 1 and output of monitor: 1 at time 8590
+# 
+# at time:8610 : error = 00000000
+# ===========================PORT_B===================================
+# Passed: output of reference model: 10 and output of monitor: 10 at time 8610
+# 
+# at time:8655 : error = 00000010
+# ===========================PORT_A===================================
+# Passed: output of reference model: 14 and output of monitor: 14 at time 8715
+# 
+# at time:8725 : error = 10000000
+# at time: 8730ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 4 and output of monitor: 4 at time 8750
+# 
+# at time:8765 : error = 00000000
+# ***************************************************at time: 8775ns : o_error  = 1***************************************************
+# at time: 8775ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:8805 : error = 00000010
+# at time:8825 : error = 00000000
+# at time:8865 : error = 00000100
+# ***************************************************at time: 8925ns : o_error  = 0***************************************************
+# at time: 8925ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 8 and output of monitor: 8 at time 8935
+# 
+# at time:8965 : error = 00000010
+# at time: 9015ns : PORTA: SINGLE BIT ERROR OCCURED
+# at time: 9025ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 14 and output of monitor: 14 at time 9025
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 0 and output of monitor: 0 at time 9035
+# 
+# at time: 9090ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 15 and output of monitor: 15 at time 9110
+# 
+# at time: 9145ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 14 and output of monitor: 14 at time 9155
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 5 and output of monitor: 5 at time 9175
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 5 and output of monitor: 5 at time 9195
+# 
+# at time:9235 : error = 00000000
+# at time: 9235ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 13 and output of monitor: 13 at time 9245
+# 
+# at time:9270 : error = 00000010
+# at time:9310 : error = 00000000
+# at time:9490 : error = 00100000
+# at time: 9565ns : PORTA: NO ERROR OCCURED
+# at time:9570 : error = 10000001
+# ===========================PORT_A===================================
+# Passed: output of reference model: 4 and output of monitor: 4 at time 9575
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 11 and output of monitor: 11 at time 9610
+# 
+# at time:9635 : error = 00001000
+# ***************************************************at time: 9685ns : o_error  = 0***************************************************
+# at time: 9685ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 11 and output of monitor: 11 at time 9695
+# 
+# at time:9705 : error = 00010000
+# at time: 9765ns : PORTA: SINGLE BIT ERROR OCCURED
+# at time: 9775ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 10 and output of monitor: 10 at time 9775
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 10 and output of monitor: 10 at time 9785
+# 
+# at time:9790 : error = 00010001
+# at time:9790 : error = 00010001
+# at time:10010 : error = 00000000
+# ===========================PORT_B===================================
+# Passed: output of reference model: 14 and output of monitor: 14 at time 10130
+# 
+# at time: 10215ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 12 and output of monitor: 12 at time 10225
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 14 and output of monitor: 14 at time 10250
+# 
+# at time:10310 : error = 00000000
+# at time: 10370ns : PORTA: NO ERROR OCCURED
+# at time:10390 : error = 00000000
+# ===========================PORT_B===================================
+# Passed: output of reference model: 4 and output of monitor: 4 at time 10390
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 15 and output of monitor: 15 at time 10410
+# 
+# at time:10490 : error = 11000000
+# ***************************************************at time: 10490ns : o_error  = 0***************************************************
+# at time: 10490ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 0 and output of monitor: 0 at time 10490
+# 
+# ***************************************************at time: 10510ns : o_error  = 1***************************************************
+# at time: 10510ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 11 and output of monitor: 11 at time 10510
+# 
+# at time:10550 : error = 10000001
+# ***************************************************at time: 10570ns : o_error  = 0***************************************************
+# at time: 10570ns : PORTA: NO ERROR OCCURED
+# ***************************************************at time: 10590ns : o_error  = 0***************************************************
+# at time: 10590ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 4 and output of monitor: 4 at time 10590
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 15 and output of monitor: 15 at time 10610
+# 
+# ***************************************************at time: 10670ns : o_error  = 1***************************************************
+# at time: 10670ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:10685 : error = 00000000
+# at time:10790 : error = 10000100
+# ***************************************************at time: 10865ns : o_error  = 0***************************************************
+# at time: 10865ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 5 and output of monitor: 5 at time 10875
+# 
+# at time:10915 : error = 00100010
+# at time:10915 : error = 00100010
+# at time:10935 : error = 10000100
+# at time:10995 : error = 00000011
+# at time: 11005ns : PORTA: NO ERROR OCCURED
+# at time:11015 : error = 00000000
+# ===========================PORT_A===================================
+# Passed: output of reference model: 4 and output of monitor: 4 at time 11015
+# 
+# ***************************************************at time: 11025ns : o_error  = 0***************************************************
+# at time: 11025ns : PORTA: SINGLE BIT ERROR OCCURED
+# at time:11035 : error = 01100000
+# ===========================PORT_A===================================
+# Passed: output of reference model: 11 and output of monitor: 11 at time 11035
+# 
+# at time: 11045ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 4 and output of monitor: 4 at time 11055
+# 
+# ***************************************************at time: 11065ns : o_error  = 1***************************************************
+# at time: 11065ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:11105 : error = 00000000
+# at time:11135 : error = 01000000
+# at time:11185 : error = 01000000
+# ***************************************************at time: 11245ns : o_error  = 0***************************************************
+# at time: 11245ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 4 and output of monitor: 4 at time 11255
+# 
+# at time:11305 : error = 00000000
+# at time:11325 : error = 00000101
+# at time:11345 : error = 01000100
+# at time: 11355ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 8 and output of monitor: 8 at time 11365
+# 
+# ***************************************************at time: 11370ns : o_error  = 0***************************************************
+# at time: 11370ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 15 and output of monitor: 15 at time 11390
+# 
+# ***************************************************at time: 11405ns : o_error  = 1***************************************************
+# at time: 11405ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 8 and output of monitor: 8 at time 11405
+# 
+# at time:11425 : error = 01000000
+# ***************************************************at time: 11425ns : o_error  = 0***************************************************
+# at time: 11425ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 4 and output of monitor: 4 at time 11435
+# 
+# at time:11470 : error = 00000000
+# at time:11530 : error = 00100100
+# at time:11590 : error = 00000001
+# at time:11590 : error = 00000001
+# at time:11650 : error = 00000000
+# ***************************************************at time: 11785ns : o_error  = 0***************************************************
+# at time: 11785ns : PORTA: SINGLE BIT ERROR OCCURED
+# ***************************************************at time: 11795ns : o_error  = 1***************************************************
+# at time: 11795ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 10 and output of monitor: 10 at time 11795
+# 
+# at time:11825 : error = 00101000
+# ***************************************************at time: 11825ns : o_error  = 0***************************************************
+# at time: 11825ns : PORTA: SINGLE BIT ERROR OCCURED
+# ***************************************************at time: 11835ns : o_error  = 1***************************************************
+# at time: 11835ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 8 and output of monitor: 8 at time 11835
+# 
+# at time: 11850ns : PORTA: NO ERROR OCCURED
+# ***************************************************at time: 11870ns : o_error  = 1***************************************************
+# at time: 11870ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 13 and output of monitor: 13 at time 11870
+# 
+# ***************************************************at time: 11965ns : o_error  = 0***************************************************
+# at time: 11965ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 11 and output of monitor: 11 at time 11975
+# 
+# at time:11990 : error = 00000000
+# at time:11990 : error = 00000000
+# at time:12090 : error = 01000000
+# at time:12170 : error = 01000000
+# ***************************************************at time: 12190ns : o_error  = 0***************************************************
+# at time: 12190ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 13 and output of monitor: 13 at time 12210
+# 
+# at time:12230 : error = 00001000
+# ***************************************************at time: 12250ns : o_error  = 1***************************************************
+# at time: 12250ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# ***************************************************at time: 12330ns : o_error  = 0***************************************************
+# at time: 12330ns : PORTA: NO ERROR OCCURED
+# ***************************************************at time: 12350ns : o_error  = 1***************************************************
+# at time: 12350ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 14 and output of monitor: 14 at time 12350
+# 
+# at time:12370 : error = 00000001
+# at time:12410 : error = 01001000
+# ***************************************************at time: 12470ns : o_error  = 0***************************************************
+# at time: 12470ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 5 and output of monitor: 5 at time 12490
+# 
+# at time:12530 : error = 00100000
+# at time: 12650ns : PORTA: NO ERROR OCCURED
+# at time:12665 : error = 00000100
+# ===========================PORT_B===================================
+# Passed: output of reference model: 13 and output of monitor: 13 at time 12670
+# 
+# at time: 12685ns : PORTA: NO ERROR OCCURED
+# at time:12695 : error = 00000010
+# ***************************************************at time: 12695ns : o_error  = 0***************************************************
+# at time: 12695ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 2 and output of monitor: 2 at time 12695
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 10 and output of monitor: 10 at time 12705
+# 
+# ***************************************************at time: 12710ns : o_error  = 0***************************************************
+# at time: 12710ns : PORTA: SINGLE BIT ERROR OCCURED
+# at time:12725 : error = 00000010
+# ===========================PORT_B===================================
+# Passed: output of reference model: 8 and output of monitor: 8 at time 12730
+# 
+# at time:12770 : error = 00000000
+# at time: 13010ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 5 and output of monitor: 5 at time 13030
+# 
+# at time: 13110ns : PORTA: NO ERROR OCCURED
+# ***************************************************at time: 13130ns : o_error  = 1***************************************************
+# at time: 13130ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 6 and output of monitor: 6 at time 13130
+# 
+# ***************************************************at time: 13150ns : o_error  = 0***************************************************
+# at time: 13150ns : PORTA: SINGLE BIT ERROR OCCURED
+# at time: 13170ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 10 and output of monitor: 10 at time 13170
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 10 and output of monitor: 10 at time 13190
+# 
+# ***************************************************at time: 13210ns : o_error  = 1***************************************************
+# at time: 13210ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# ***************************************************at time: 13230ns : o_error  = 0***************************************************
+# at time: 13230ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 11 and output of monitor: 11 at time 13250
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 14 and output of monitor: 14 at time 13270
+# 
+# at time:13325 : error = 00000100
+# ===========================PORT_A===================================
+# Passed: output of reference model: 9 and output of monitor: 9 at time 13325
+# 
+# at time:13355 : error = 01001000
+# ***************************************************at time: 13390ns : o_error  = 0***************************************************
+# at time: 13390ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 5 and output of monitor: 5 at time 13410
+# 
+# at time:13485 : error = 00000000
+# at time: 13535ns : PORTA: SINGLE BIT ERROR OCCURED
+# ***************************************************at time: 13545ns : o_error  = 1***************************************************
+# at time: 13545ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 2 and output of monitor: 2 at time 13545
+# 
+# ***************************************************at time: 13870ns : o_error  = 1***************************************************
+# at time: 13870ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# ***************************************************at time: 13930ns : o_error  = 0***************************************************
+# at time: 13930ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 2 and output of monitor: 2 at time 13950
+# 
+# at time: 13970ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 4 and output of monitor: 4 at time 13990
+# 
+# at time:13995 : error = 10001000
+# at time: 14010ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 2 and output of monitor: 2 at time 14030
+# 
+# ***************************************************at time: 14075ns : o_error  = 0***************************************************
+# at time: 14075ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 0 and output of monitor: 0 at time 14085
+# 
+# at time:14170 : error = 00010010
+# at time: 14210ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 8 and output of monitor: 8 at time 14230
+# 
+# at time: 14290ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 15 and output of monitor: 15 at time 14310
+# 
+# at time:14330 : error = 00100000
+# ***************************************************at time: 14350ns : o_error  = 1***************************************************
+# at time: 14350ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:14445 : error = 00010000
+# at time: 14450ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:14485 : error = 00010010
+# at time: 14510ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:14545 : error = 00000000
+# ***************************************************at time: 14545ns : o_error  = 1***************************************************
+# at time: 14545ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:14630 : error = 10000000
+# at time:14650 : error = 00100000
+# at time:14710 : error = 00000000
+# at time:14905 : error = 00000000
+# at time: 14910ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# ***************************************************at time: 14965ns : o_error  = 0***************************************************
+# at time: 14965ns : PORTA: NO ERROR OCCURED
+# at time:14975 : error = 00000000
+# ===========================PORT_A===================================
+# Passed: output of reference model: 0 and output of monitor: 0 at time 14975
+# 
+# ***************************************************at time: 14990ns : o_error  = 0***************************************************
+# at time: 14990ns : PORTA: SINGLE BIT ERROR OCCURED
+# ***************************************************at time: 15005ns : o_error  = 0***************************************************
+# at time: 15005ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 8 and output of monitor: 8 at time 15010
+# 
+# at time:15015 : error = 00000000
+# ===========================PORT_A===================================
+# Passed: output of reference model: 10 and output of monitor: 10 at time 15015
+# 
+# at time: 15025ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 15 and output of monitor: 15 at time 15035
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 11 and output of monitor: 11 at time 15055
+# 
+# at time:15065 : error = 00000000
+# ***************************************************at time: 15065ns : o_error  = 1***************************************************
+# at time: 15065ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# ***************************************************at time: 15135ns : o_error  = 0***************************************************
+# at time: 15135ns : PORTA: SINGLE BIT ERROR OCCURED
+# at time: 15145ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 5 and output of monitor: 5 at time 15145
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 4 and output of monitor: 4 at time 15155
+# 
+# ***************************************************at time: 15165ns : o_error  = 0***************************************************
+# at time: 15165ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 2 and output of monitor: 2 at time 15175
+# 
+# at time:15185 : error = 11000000
+# at time:15265 : error = 00000000
+# at time: 15265ns : PORTA: NO ERROR OCCURED
+# ***************************************************at time: 15275ns : o_error  = 1***************************************************
+# at time: 15275ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 11 and output of monitor: 11 at time 15275
+# 
+# at time:15285 : error = 01000010
+# ***************************************************at time: 15285ns : o_error  = 0***************************************************
+# at time: 15285ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 13 and output of monitor: 13 at time 15295
+# 
+# at time:15410 : error = 00101000
+# ***************************************************at time: 15530ns : o_error  = 1***************************************************
+# at time: 15530ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:15630 : error = 01000000
+# at time:15750 : error = 01000100
+# at time:15810 : error = 00010000
+# at time: 15825ns : PORTA: NO ERROR OCCURED
+# ***************************************************at time: 15830ns : o_error  = 0***************************************************
+# at time: 15830ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 0 and output of monitor: 0 at time 15835
+# 
+# ***************************************************at time: 15850ns : o_error  = 0***************************************************
+# at time: 15850ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 0 and output of monitor: 0 at time 15850
+# 
+# at time:15870 : error = 10000000
+# ===========================PORT_B===================================
+# Passed: output of reference model: 5 and output of monitor: 5 at time 15870
+# 
+# at time: 15970ns : PORTA: NO ERROR OCCURED
+# at time: 15990ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 15 and output of monitor: 15 at time 15990
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 13 and output of monitor: 13 at time 16010
+# 
+# at time: 16030ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 0 and output of monitor: 0 at time 16050
+# 
+# at time:16065 : error = 00100010
+# ===========================PORT_A===================================
+# Passed: output of reference model: 15 and output of monitor: 15 at time 16085
+# 
+# ***************************************************at time: 16095ns : o_error  = 0***************************************************
+# at time: 16095ns : PORTA: SINGLE BIT ERROR OCCURED
+# at time:16105 : error = 10010000
+# ===========================PORT_A===================================
+# Passed: output of reference model: 8 and output of monitor: 8 at time 16105
+# 
+# at time:16115 : error = 00000101
+# at time: 16115ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 2 and output of monitor: 2 at time 16125
+# 
+# at time: 16130ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 6 and output of monitor: 6 at time 16150
+# 
+# ***************************************************at time: 16165ns : o_error  = 1***************************************************
+# at time: 16165ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# ***************************************************at time: 16225ns : o_error  = 0***************************************************
+# at time: 16225ns : PORTA: NO ERROR OCCURED
+# at time:16230 : error = 00101000
+# ===========================PORT_A===================================
+# Passed: output of reference model: 13 and output of monitor: 13 at time 16235
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 10 and output of monitor: 10 at time 16245
+# 
+# at time:16270 : error = 01000000
+# at time:16290 : error = 00001100
+# at time:16290 : error = 00001100
+# ***************************************************at time: 16375ns : o_error  = 0***************************************************
+# at time: 16375ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 8 and output of monitor: 8 at time 16385
+# 
+# at time:16390 : error = 01000000
+# at time: 16445ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 4 and output of monitor: 4 at time 16455
+# 
+# at time: 16465ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 13 and output of monitor: 13 at time 16475
+# 
+# ***************************************************at time: 16610ns : o_error  = 1***************************************************
+# at time: 16610ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:16650 : error = 11000000
+# at time: 16690ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:16750 : error = 00000000
+# ***************************************************at time: 16850ns : o_error  = 0***************************************************
+# at time: 16850ns : PORTA: NO ERROR OCCURED
+# at time:16870 : error = 00001000
+# at time:16870 : error = 00001000
+# ===========================PORT_B===================================
+# Passed: output of reference model: 8 and output of monitor: 8 at time 16870
+# 
+# ***************************************************at time: 16950ns : o_error  = 0***************************************************
+# at time: 16950ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 5 and output of monitor: 5 at time 16970
+# 
+# at time: 16995ns : PORTA: NO ERROR OCCURED
+# ***************************************************at time: 17005ns : o_error  = 1***************************************************
+# at time: 17005ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 15 and output of monitor: 15 at time 17005
+# 
+# ***************************************************at time: 17015ns : o_error  = 0***************************************************
+# at time: 17015ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 15 and output of monitor: 15 at time 17025
+# 
+# at time:17070 : error = 00000100
+# at time:17150 : error = 00000000
+# at time: 17150ns : PORTA: SINGLE BIT ERROR OCCURED
+# ***************************************************at time: 17170ns : o_error  = 1***************************************************
+# at time: 17170ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 12 and output of monitor: 12 at time 17170
+# 
+# ***************************************************at time: 17190ns : o_error  = 0***************************************************
+# at time: 17190ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 8 and output of monitor: 8 at time 17210
+# 
+# at time: 17270ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 4 and output of monitor: 4 at time 17290
+# 
+# ***************************************************at time: 17310ns : o_error  = 1***************************************************
+# at time: 17310ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:17385 : error = 00000010
+# ***************************************************at time: 17390ns : o_error  = 0***************************************************
+# at time: 17390ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 10 and output of monitor: 10 at time 17395
+# 
+# ***************************************************at time: 17410ns : o_error  = 1***************************************************
+# at time: 17410ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 2 and output of monitor: 2 at time 17410
+# 
+# at time:17430 : error = 00000001
+# ===========================PORT_A===================================
+# Passed: output of reference model: 15 and output of monitor: 15 at time 17595
+# 
+# at time:17605 : error = 00000000
+# ***************************************************at time: 17630ns : o_error  = 0***************************************************
+# at time: 17630ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 15 and output of monitor: 15 at time 17635
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 2 and output of monitor: 2 at time 17650
+# 
+# at time:17665 : error = 00010000
+# ***************************************************at time: 17670ns : o_error  = 1***************************************************
+# at time: 17670ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 9 and output of monitor: 9 at time 17670
+# 
+# ***************************************************at time: 17745ns : o_error  = 1***************************************************
+# at time: 17745ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# ***************************************************at time: 17835ns : o_error  = 0***************************************************
+# at time: 17835ns : PORTA: NO ERROR OCCURED
+# at time: 17845ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 2 and output of monitor: 2 at time 17845
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 15 and output of monitor: 15 at time 17855
+# 
+# at time: 17890ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# ***************************************************at time: 17990ns : o_error  = 0***************************************************
+# at time: 17990ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 15 and output of monitor: 15 at time 18010
+# 
+# at time:18050 : error = 00010010
+# ***************************************************at time: 18050ns : o_error  = 0***************************************************
+# at time: 18050ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 11 and output of monitor: 11 at time 18070
+# 
+# at time:18130 : error = 00100100
+# at time:18150 : error = 00010000
+# at time:18230 : error = 01010000
+# ***************************************************at time: 18250ns : o_error  = 1***************************************************
+# at time: 18250ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:18270 : error = 00000100
+# ***************************************************at time: 18285ns : o_error  = 0***************************************************
+# at time: 18285ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 4 and output of monitor: 4 at time 18295
+# 
+# ***************************************************at time: 18310ns : o_error  = 0***************************************************
+# at time: 18310ns : PORTA: SINGLE BIT ERROR OCCURED
+# at time:18330 : error = 00000000
+# at time:18330 : error = 00000000
+# at time: 18330ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 5 and output of monitor: 5 at time 18330
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 8 and output of monitor: 8 at time 18350
+# 
+# ***************************************************at time: 18430ns : o_error  = 0***************************************************
+# at time: 18430ns : PORTA: SINGLE BIT ERROR OCCURED
+# at time:18450 : error = 00000010
+# ===========================PORT_B===================================
+# Passed: output of reference model: 2 and output of monitor: 2 at time 18450
+# 
+# ***************************************************at time: 18510ns : o_error  = 1***************************************************
+# at time: 18510ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# ***************************************************at time: 18530ns : o_error  = 0***************************************************
+# at time: 18530ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 0 and output of monitor: 0 at time 18550
+# 
+# at time: 18565ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 8 and output of monitor: 8 at time 18575
+# 
+# ***************************************************at time: 18610ns : o_error  = 1***************************************************
+# at time: 18610ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# ***************************************************at time: 18630ns : o_error  = 0***************************************************
+# at time: 18630ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 1 and output of monitor: 1 at time 18650
+# 
+# at time:18690 : error = 00000100
+# at time:18690 : error = 00000100
+# ===========================PORT_B===================================
+# Passed: output of reference model: 15 and output of monitor: 15 at time 18710
+# 
+# at time:18730 : error = 00000000
+# ***************************************************at time: 18790ns : o_error  = 0***************************************************
+# at time: 18790ns : PORTA: SINGLE BIT ERROR OCCURED
+# at time: 18810ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 12 and output of monitor: 12 at time 18810
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 2 and output of monitor: 2 at time 18830
+# 
+# at time:18950 : error = 00000000
+# ***************************************************at time: 18990ns : o_error  = 1***************************************************
+# at time: 18990ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:19010 : error = 00000000
+# ***************************************************at time: 19050ns : o_error  = 0***************************************************
+# ===========================PORT_B===================================
+# Passed: output of reference model: 13 and output of monitor: 13 at time 19070
+# 
+# ***************************************************at time: 19125ns : o_error  = 0***************************************************
+# at time: 19125ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 0 and output of monitor: 0 at time 19135
+# 
+# at time:19245 : error = 00100000
+# at time:19285 : error = 00001000
+# at time: 19310ns : PORTA: NO ERROR OCCURED
+# at time:19315 : error = 00000101
+# ===========================PORT_B===================================
+# Passed: output of reference model: 3 and output of monitor: 3 at time 19330
+# 
+# ***************************************************at time: 19370ns : o_error  = 1***************************************************
+# at time: 19370ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:19415 : error = 10000001
+# at time: 19475ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 15 and output of monitor: 15 at time 19485
+# 
+# at time:19505 : error = 10001000
+# at time: 19515ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 2 and output of monitor: 2 at time 19525
+# 
+# at time:19590 : error = 00001010
+# at time:19655 : error = 10010000
+# ===========================PORT_A===================================
+# Passed: output of reference model: 7 and output of monitor: 7 at time 19675
+# 
+# at time:19685 : error = 00000010
+# ***************************************************at time: 19710ns : o_error  = 0***************************************************
+# at time: 19710ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 15 and output of monitor: 15 at time 19730
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 8 and output of monitor: 8 at time 19770
+# 
+# at time:19830 : error = 00001000
+# at time:19895 : error = 00010010
+# at time: 19945ns : PORTA: NO ERROR OCCURED
+# ***************************************************at time: 19950ns : o_error  = 0***************************************************
+# at time: 19950ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 10 and output of monitor: 10 at time 19955
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 5 and output of monitor: 5 at time 19970
+# 
+# at time:20005 : error = 00010001
+# at time:20015 : error = 00000000
+# ***************************************************at time: 20085ns : o_error  = 1***************************************************
+# at time: 20085ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:20095 : error = 01000000
+# ***************************************************at time: 20110ns : o_error  = 1***************************************************
+# at time: 20110ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:20125 : error = 00001000
+# ***************************************************at time: 20130ns : o_error  = 0***************************************************
+# at time: 20130ns : PORTA: NO ERROR OCCURED
+# ***************************************************at time: 20145ns : o_error  = 0***************************************************
+# at time: 20145ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 8 and output of monitor: 8 at time 20150
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 2 and output of monitor: 2 at time 20155
+# 
+# at time: 20175ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 7 and output of monitor: 7 at time 20185
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 4 and output of monitor: 4 at time 20235
+# 
+# ***************************************************at time: 20410ns : o_error  = 0***************************************************
+# at time: 20410ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 7 and output of monitor: 7 at time 20430
+# 
+# ***************************************************at time: 20450ns : o_error  = 1***************************************************
+# at time: 20450ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:20490 : error = 10100000
+# ***************************************************at time: 20530ns : o_error  = 0***************************************************
+# at time: 20530ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 0 and output of monitor: 0 at time 20550
+# 
+# ***************************************************at time: 20565ns : o_error  = 0***************************************************
+# at time: 20565ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 0 and output of monitor: 0 at time 20575
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 15 and output of monitor: 15 at time 20610
+# 
+# ***************************************************at time: 20665ns : o_error  = 1***************************************************
+# at time: 20665ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:20815 : error = 01100000
+# at time:20850 : error = 00001100
+# ===========================PORT_B===================================
+# Passed: output of reference model: 0 and output of monitor: 0 at time 20850
+# 
+# at time:20870 : error = 00010000
+# ***************************************************at time: 20870ns : o_error  = 0***************************************************
+# at time: 20870ns : PORTA: SINGLE BIT ERROR OCCURED
+# at time:20885 : error = 00100000
+# ===========================PORT_B===================================
+# Passed: output of reference model: 0 and output of monitor: 0 at time 20890
+# 
+# at time:20935 : error = 01010000
+# at time: 20945ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time: 21025ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time: 21045ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:21095 : error = 01010000
+# ***************************************************at time: 21110ns : o_error  = 1***************************************************
+# at time: 21110ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:21190 : error = 00000000
+# at time:21190 : error = 00000000
+# at time:21190 : error = 00000000
+# at time:21215 : error = 00000100
+# ***************************************************at time: 21270ns : o_error  = 0***************************************************
+# at time: 21270ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 8 and output of monitor: 8 at time 21290
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 3 and output of monitor: 3 at time 21310
+# 
+# at time:21350 : error = 00000100
+# at time:21425 : error = 01010000
+# ***************************************************at time: 21495ns : o_error  = 0***************************************************
+# at time: 21495ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 0 and output of monitor: 0 at time 21505
+# 
+# at time:21550 : error = 00000000
+# ===========================PORT_B===================================
+# Passed: output of reference model: 13 and output of monitor: 13 at time 21670
+# 
+# at time:21690 : error = 00100010
+# ===========================PORT_B===================================
+# Passed: output of reference model: 13 and output of monitor: 13 at time 21690
+# 
+# at time: 21730ns : PORTA: NO ERROR OCCURED
+# ***************************************************at time: 21750ns : o_error  = 0***************************************************
+# at time: 21750ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 0 and output of monitor: 0 at time 21750
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 4 and output of monitor: 4 at time 21770
+# 
+# at time: 21790ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 5 and output of monitor: 5 at time 21810
+# 
+# at time:21830 : error = 00000001
+# at time:21830 : error = 00000001
+# at time:21830 : error = 00000001
+# ***************************************************at time: 21870ns : o_error  = 1***************************************************
+# at time: 21870ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# ***************************************************at time: 21890ns : o_error  = 0***************************************************
+# at time: 21890ns : PORTA: NO ERROR OCCURED
+# at time:21895 : error = 01000001
+# ===========================PORT_A===================================
+# Passed: output of reference model: 0 and output of monitor: 0 at time 21895
+# 
+# ***************************************************at time: 21905ns : o_error  = 1***************************************************
+# at time: 21905ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# ***************************************************at time: 21910ns : o_error  = 0***************************************************
+# at time: 21910ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 7 and output of monitor: 7 at time 21910
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 7 and output of monitor: 7 at time 21930
+# 
+# ***************************************************at time: 21945ns : o_error  = 0***************************************************
+# at time: 21945ns : PORTA: NO ERROR OCCURED
+# at time: 21950ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 7 and output of monitor: 7 at time 21955
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 8 and output of monitor: 8 at time 21970
+# 
+# at time:21990 : error = 00100001
+# at time:22090 : error = 01001000
+# at time:22090 : error = 01001000
+# at time:22115 : error = 10000100
+# ***************************************************at time: 22150ns : o_error  = 1***************************************************
+# at time: 22150ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# ***************************************************at time: 22225ns : o_error  = 0***************************************************
+# at time: 22225ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 9 and output of monitor: 9 at time 22235
+# 
+# at time:22265 : error = 00000001
+# at time:22285 : error = 10010000
+# ***************************************************at time: 22355ns : o_error  = 1***************************************************
+# at time: 22355ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:22375 : error = 00000100
+# at time: 22375ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# ***************************************************at time: 22385ns : o_error  = 0***************************************************
+# at time: 22385ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 1 and output of monitor: 1 at time 22395
+# 
+# at time:22510 : error = 00100001
+# at time:22510 : error = 00100001
+# at time:22570 : error = 00010000
+# at time:22610 : error = 00001000
+# at time:22675 : error = 00100001
+# at time: 22705ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 0 and output of monitor: 0 at time 22715
+# 
+# ***************************************************at time: 22805ns : o_error  = 1***************************************************
+# at time: 22805ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:22825 : error = 01010000
+# ***************************************************at time: 22855ns : o_error  = 0***************************************************
+# at time: 22855ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 10 and output of monitor: 10 at time 22865
+# 
+# at time:22955 : error = 00000000
+# ***************************************************at time: 22965ns : o_error  = 0***************************************************
+# at time: 22965ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 9 and output of monitor: 9 at time 22975
+# 
+# ***************************************************at time: 22990ns : o_error  = 0***************************************************
+# at time: 22990ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 9 and output of monitor: 9 at time 23010
+# 
+# ***************************************************at time: 23050ns : o_error  = 1***************************************************
+# at time: 23050ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:23075 : error = 10001000
+# ***************************************************at time: 23105ns : o_error  = 1***************************************************
+# at time: 23105ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:23130 : error = 01000010
+# at time:23250 : error = 00000000
+# at time:23250 : error = 00000000
+# at time:23270 : error = 10000000
+# ***************************************************at time: 23370ns : o_error  = 0***************************************************
+# at time: 23370ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 0 and output of monitor: 0 at time 23390
+# 
+# ***************************************************at time: 23425ns : o_error  = 0***************************************************
+# at time: 23425ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 9 and output of monitor: 9 at time 23435
+# 
+# at time: 23450ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 3 and output of monitor: 3 at time 23470
+# 
+# ***************************************************at time: 23485ns : o_error  = 1***************************************************
+# at time: 23485ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time: 23525ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:23605 : error = 00000000
+# at time:23710 : error = 00000000
+# at time:23810 : error = 00010000
+# at time:23810 : error = 00010000
+# at time:23810 : error = 00010000
+# ***************************************************at time: 23830ns : o_error  = 1***************************************************
+# at time: 23830ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:23910 : error = 00010010
+# ***************************************************at time: 23910ns : o_error  = 0***************************************************
+# at time: 23910ns : PORTA: NO ERROR OCCURED
+# ***************************************************at time: 23930ns : o_error  = 0***************************************************
+# at time: 23930ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 3 and output of monitor: 3 at time 23930
+# 
+# at time:23950 : error = 00000000
+# ===========================PORT_B===================================
+# Passed: output of reference model: 9 and output of monitor: 9 at time 23950
+# 
+# ***************************************************at time: 23990ns : o_error  = 1***************************************************
+# at time: 23990ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time: 24030ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:24105 : error = 00000000
+# at time:24125 : error = 00000000
+# ***************************************************at time: 24175ns : o_error  = 0***************************************************
+# at time: 24175ns : PORTA: NO ERROR OCCURED
+# ***************************************************at time: 24185ns : o_error  = 1***************************************************
+# at time: 24185ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 3 and output of monitor: 3 at time 24185
+# 
+# at time: 24190ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:24210 : error = 00000000
+# at time: 24230ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# ***************************************************at time: 24310ns : o_error  = 0***************************************************
+# at time: 24310ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 7 and output of monitor: 7 at time 24330
+# 
+# at time:24335 : error = 11000000
+# at time: 24345ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time: 24365ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:24375 : error = 00000000
+# at time:24405 : error = 00000000
+# ***************************************************at time: 24410ns : o_error  = 1***************************************************
+# at time: 24410ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# ***************************************************at time: 24465ns : o_error  = 0***************************************************
+# at time: 24465ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 7 and output of monitor: 7 at time 24475
+# 
+# at time: 24610ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# ***************************************************at time: 24650ns : o_error  = 0***************************************************
+# at time: 24650ns : PORTA: SINGLE BIT ERROR OCCURED
+# at time: 24670ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 3 and output of monitor: 3 at time 24670
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 6 and output of monitor: 6 at time 24690
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 6 and output of monitor: 6 at time 24750
+# 
+# at time:24755 : error = 00000000
+# at time:24810 : error = 00001000
+# ***************************************************at time: 24810ns : o_error  = 1***************************************************
+# at time: 24810ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 12 and output of monitor: 12 at time 24875
+# 
+# ***************************************************at time: 24945ns : o_error  = 0***************************************************
+# at time: 24945ns : PORTA: SINGLE BIT ERROR OCCURED
+# at time:24955 : error = 00010100
+# ===========================PORT_A===================================
+# Passed: output of reference model: 1 and output of monitor: 1 at time 24955
+# 
+# ***************************************************at time: 24990ns : o_error  = 0***************************************************
+# at time: 24990ns : PORTA: NO ERROR OCCURED
+# at time: 25005ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 4 and output of monitor: 4 at time 25010
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 6 and output of monitor: 6 at time 25015
+# 
+# ***************************************************at time: 25025ns : o_error  = 1***************************************************
+# at time: 25025ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time: 25165ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# at time:25215 : error = 00000000
+# ***************************************************at time: 25245ns : o_error  = 0***************************************************
+# at time: 25245ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 11 and output of monitor: 11 at time 25255
+# 
+# at time:25270 : error = 00100000
+# at time:25270 : error = 00100000
+# at time:25290 : error = 00000000
+# at time:25365 : error = 00000000
+# at time:25425 : error = 00000100
+# at time:25445 : error = 00000000
+# at time:25530 : error = 00000000
+# at time:25590 : error = 00000000
+# at time:25590 : error = 00000000
+# at time: 25645ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 7 and output of monitor: 7 at time 25655
+# 
+# at time:25690 : error = 00010010
+# ===========================PORT_A===================================
+# Passed: output of reference model: 13 and output of monitor: 13 at time 25695
+# 
+# at time:25750 : error = 01000000
+# ***************************************************at time: 25845ns : o_error  = 0***************************************************
+# at time: 25845ns : PORTA: SINGLE BIT ERROR OCCURED
+# at time:25850 : error = 00000000
+# ===========================PORT_A===================================
+# Passed: output of reference model: 9 and output of monitor: 9 at time 25855
+# 
+# at time:25890 : error = 00010001
+# at time:25950 : error = 00000000
+# at time: 26010ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 13 and output of monitor: 13 at time 26030
+# 
+# ***************************************************at time: 26110ns : o_error  = 0***************************************************
+# at time: 26110ns : PORTA: SINGLE BIT ERROR OCCURED
+# at time: 26130ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 1 and output of monitor: 1 at time 26130
+# 
+# at time:26150 : error = 00000000
+# at time: 26150ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 15 and output of monitor: 15 at time 26150
+# 
+# at time:26165 : error = 00000000
+# ***************************************************at time: 26170ns : o_error  = 1***************************************************
+# at time: 26170ns : PORTA: DOUBLE BIT ERROR ENCOUNTERED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 14 and output of monitor: 14 at time 26170
+# 
+# ***************************************************at time: 26210ns : o_error  = 0***************************************************
+# at time: 26210ns : PORTA: NO ERROR OCCURED
+# ===========================PORT_B===================================
+# Passed: output of reference model: 6 and output of monitor: 6 at time 26230
+# 
+# at time:26245 : error = 00000001
+# ===========================PORT_B===================================
+# Passed: output of reference model: 3 and output of monitor: 3 at time 26250
+# 
+# at time: 26265ns : PORTA: SINGLE BIT ERROR OCCURED
+# at time: 26275ns : PORTA: SINGLE BIT ERROR OCCURED
+# ===========================PORT_A===================================
+# Passed: output of reference model: 15 and output of monitor: 15 at time 26275
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 4 and output of monitor: 4 at time 26285
+# 
+# COVERED 100% COVERAGE
+# write_coverage_a :100.000000
+# read_coverage_a  :100.000000
+# write_coverage_b :100.000000
+# read_coverage_b  :100.000000
+# 
+# 
+# PASS COUNT PORT-A:122
+# FAIL COUNT PORT-A:0
+# PASS COUNT PORT-B:118
+# FAIL COUNT PORT-B:0
+# 
+# 
+# write_coverage :100.000000
+# read_coverage  :100.000000
+# ** Note: $finish    : dual_env.sv(143)
+#    Time: 26290 ns  Iteration: 4  Instance: /top
+# Break in Task pkg/dual_env::run at dual_env.sv line 143
+# Stopped at dual_env.sv line 143
+# QuestaSim-64 vcover 2021.2_1 Coverage Utility 2021.05 May 15 2021
+# Start time: 12:38:28 on Mar 21,2025
+# vcover report -html -output covhtmlreport -details -assert -directive -cvg -code bcefst -threshL 50 -threshH 90 cov.ucdb 
+# 
+# End time: 12:38:30 on Mar 21,2025, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# 9735
+# End time: 12:38:30 on Mar 21,2025, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 73

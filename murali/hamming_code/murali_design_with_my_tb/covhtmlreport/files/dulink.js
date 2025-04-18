@@ -1,0 +1,2 @@
+var g_data = {"14":["work.address_decode",100.00,1],"1":["work.dual_iff",100.00,1],"12":["work.dual_port_ram",100.00,1],"8":["work.ecc",100.00,1],"10":["work.hamming_decoder",96.34,1],"9":["work.hamming_encoder",90.45,1],"13":["work.latency",100.00,1],"7":["work.memory_controller",100.00,1],"11":["work.multi_bank",100.00,1],"4":["work.pkg",84.50,1],"6":["work.top",100.00,1]};
+processDuLinks(g_data);

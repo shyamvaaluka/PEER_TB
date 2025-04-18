@@ -1,0 +1,2 @@
+var g_data = {"9":{"pr":"/top","ty":2,"dui":5,"dun":"work.top","asserts":[{"n":["PORTA_RD_CHECK"],"h":[0,25588,51081,0,76672,3,7]},{"n":["PORTB_RD_CHECK"],"h":[0,12664,25670,0,38336,2,7]}],"ad":1}}
+processAssertionsData(g_data);

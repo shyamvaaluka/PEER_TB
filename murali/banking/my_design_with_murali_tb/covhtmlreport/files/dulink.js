@@ -1,0 +1,2 @@
+var g_data = {"15":["work.Decoder_enable_lines",100.00,1],"13":["work.Demultiplexer1_address",100.00,1],"6":["work.MEMORY_TOP",100.00,1],"7":["work.MUX_4x1",100.00,1],"8":["work.Memory_Control_Unit",100.00,1],"12":["work.controller_interface",100.00,1],"14":["work.demultiplexer_data",100.00,1],"10":["work.latency",100.00,1],"9":["work.latency_top",100.00,1],"11":["work.modified_dual_mem",100.00,1],"1":["work.ram_if",99.35,1],"3":["work.ram_pkg",63.71,1],"16":["work.sel_latency",100.00,1],"5":["work.top",88.88,1],"4":["work.top_sv_unit",87.50,1]};
+processDuLinks(g_data);

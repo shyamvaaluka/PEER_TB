@@ -1,0 +1,66 @@
+# do run.tcl
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# Start time: 16:07:26 on Mar 20,2025
+# vlog -sv -cover bcst -f run.f param.sv ram_pkg.sv top.sv 
+# -- Compiling module latency
+# -- Compiling module modified_dual_mem
+# -- Compiling module latency_top
+# -- Compiling package param
+# -- Compiling package ram_pkg
+# -- Importing package param
+# -- Compiling package param
+# ** Warning: ** while parsing file included at top.sv(21)
+# ** at param.sv(21): (vlog-2275) Existing package 'param' at line 21 will be overwritten.
+# -- Compiling package ram_pkg
+# ** Warning: ** while parsing file included at top.sv(28)
+# ** at ram_pkg.sv(12): (vlog-2275) Existing package 'ram_pkg' at line 12 will be overwritten.
+# -- Compiling package top_sv_unit
+# -- Importing package ram_pkg
+# -- Compiling interface ram_if
+# -- Compiling package ram_pkg
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:07:26 on Mar 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vsim -gui -coverage -assertdebug -voptargs="+acc" -onfinish stop work.top 
+# Start time: 16:07:26 on Mar 20,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# //  Questa Sim-64
+# //  Version 2021.2_1 linux_x86_64 May 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.ram_if(fast)
+# Loading work.param(fast)
+# Loading work.ram_pkg(fast)
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.ram_if(fast__2)
+# Loading work.latency_top(fast)
+# Loading work.latency(fast)
+# Loading work.modified_dual_mem(fast)
+# ** Note: $finish    : top.sv(100)
+#    Time: 766720 ns  Iteration: 1  Instance: /top
+# Break in Module top at top.sv line 100
+# Stopped at top.sv line 100
+# QuestaSim-64 vcover 2021.2_1 Coverage Utility 2021.05 May 15 2021
+# Start time: 16:07:34 on Mar 20,2025
+# vcover report -html -output covhtmlreport -details -assert -directive -cvg -code bcefst -threshL 50 -threshH 90 cov.ucdb 
+# 
+# End time: 16:07:37 on Mar 20,2025, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0
+# 25940
+# End time: 16:07:37 on Mar 20,2025, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 0
