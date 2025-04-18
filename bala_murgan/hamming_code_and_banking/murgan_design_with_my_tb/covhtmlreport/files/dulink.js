@@ -1,0 +1,2 @@
+var g_data = {"14":["work.demux",91.48,1],"1":["work.dual_iff",100.00,1],"12":["work.dual_port_ram",100.00,1],"9":["work.hamming",98.58,1],"10":["work.hamming_decod",90.60,1],"8":["work.hamming_en_decode",100.00,1],"13":["work.latency",100.00,1],"16":["work.latencys",100.00,1],"11":["work.multibank_controller",100.00,1],"15":["work.mux_out",87.77,1],"4":["work.pkg",87.46,1],"6":["work.top",100.00,1],"7":["work.top_module",100.00,1]};
+processDuLinks(g_data);

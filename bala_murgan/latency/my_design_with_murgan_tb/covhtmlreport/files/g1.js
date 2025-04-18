@@ -1,0 +1,2 @@
+var g_data = {"14":{"pr":"/dual_package","ty":2,"dui":2,"dun":"work.dual_package","cvgs":[{"h":["/dual_package/monitor/ram_gr",1,1,15],"cov":[2152,1324,91.91],"opts":{"goal":"100","merge_instance":"auto(true)"}}]}};
+processCovergroupsData(g_data);

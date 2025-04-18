@@ -1,0 +1,276 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+!s11f vlog 2021.2_1 2021.05, May 15 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/shyam/DUAL_PORT_SV_TB-2/peer_tb/bala_murgan/latency/my_design_with_murgan_tb
+T_opt
+!s11d dual_package /home/shyam/DUAL_PORT_SV_TB-2/peer_tb/bala_murgan/latency/my_design_with_murgan_tb/work 1 inf 1 /home/shyam/DUAL_PORT_SV_TB-2/peer_tb/bala_murgan/latency/my_design_with_murgan_tb/work 
+!s110 1742464733
+V6JoE45iSQiOkGejHQ7:<k2
+04 8 4 work dual_tbb fast 0
+=1-000ae431a4f1-67dbe6dd-942e5-5d85
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2021.2_1;73
+R1
+vassertions
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1742534674
+!i10b 1
+!s100 >I;j0202>W7KmjI0D8o?U0
+I@Be_loa7z6<L0dS4?DOcG1
+S1
+R1
+Z4 w1741063740
+8assertions.sv
+Fassertions.sv
+!i122 15
+L0 1 15
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2021.2_1;73
+r1
+!s85 0
+31
+Z7 !s108 1742534674.000000
+!s107 test.sv|environment.sv|score_board.sv|monitor.sv|reference_model.sv|driver.sv|generator.sv|transaction.sv|top_modules.sv|assertions.sv|interface.sv|packages.sv|./rtl/latency_ram_top.sv|./rtl/modified_dual_mem.sv|./rtl/latency_module.sv|
+Z8 !s90 -F=/home/shyam/DUAL_PORT_SV_TB-2/latency_banking_hamming_code/vlog.opt|-F=|-sv|-cover|bcst|-f|run.f|packages.sv|interface.sv|assertions.sv|top_modules.sv|
+!i113 0
+Z9 !s102 -cover bcst
+Z10 o-sv -cover bcst -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 tCoverage 32 CvgOpt 0
+Xdual_package
+!s115 inf
+R2
+R3
+!i10b 1
+!s100 j=kPD0k>OTg^eo^3DZG[I1
+IW71X1O7]d7jnH2mIk?Ico0
+S1
+R1
+w1742464724
+8packages.sv
+Fpackages.sv
+Ftransaction.sv
+Fgenerator.sv
+Fdriver.sv
+Freference_model.sv
+Fmonitor.sv
+Fscore_board.sv
+Fenvironment.sv
+Ftest.sv
+!i122 15
+Z12 L0 4 0
+VW71X1O7]d7jnH2mIk?Ico0
+R6
+r1
+!s85 0
+31
+R7
+Z13 !s107 test.sv|environment.sv|score_board.sv|monitor.sv|reference_model.sv|driver.sv|generator.sv|transaction.sv|top_modules.sv|assertions.sv|interface.sv|packages.sv|./rtl/latency_ram_top.sv|./rtl/modified_dual_mem.sv|./rtl/latency_module.sv|
+R8
+!i113 0
+R9
+R10
+R11
+vdual_tbb
+R2
+R2
+Z14 DXx4 work 12 dual_package 0 22 W71X1O7]d7jnH2mIk?Ico0
+Z15 DXx4 work 19 top_modules_sv_unit 0 22 j8zSKAC1:XhIVNGV^R?@b2
+R3
+R5
+r1
+!s85 0
+!i10b 1
+!s100 Y>g9aQo[3:ZbRmo1WLejb2
+IcH250b9W97]go69lhQIGa3
+Z16 !s105 top_modules_sv_unit
+S1
+R1
+Z17 w1741327090
+Z18 8top_modules.sv
+Z19 Ftop_modules.sv
+!i122 15
+L0 8 37
+R6
+31
+R7
+R13
+R8
+!i113 0
+R9
+R10
+R11
+Yinf
+R2
+R2
+R14
+R15
+R3
+R5
+r1
+!s85 0
+!i10b 1
+!s100 bkKVcm=[iA`f4^^OzRSVG2
+Ig6?mEk5TQID4nVQQm<m9N0
+R16
+S1
+R1
+R4
+Z20 8interface.sv
+Z21 Finterface.sv
+!i122 15
+L0 5 0
+R6
+31
+R7
+R13
+R8
+!i113 0
+R9
+R10
+R11
+Xinterface_sv_unit
+R2
+R14
+R3
+V<@VgCFC;HGTXUO4=YzDnZ0
+r1
+!s85 0
+!i10b 1
+!s100 013M;d:eZ=K0hQTC60Lbk1
+I<@VgCFC;HGTXUO4=YzDnZ0
+!i103 1
+S1
+R1
+R4
+R20
+R21
+!i122 15
+L0 3 0
+R6
+31
+R7
+R13
+R8
+!i113 0
+R9
+R10
+R11
+vlatency
+R2
+R3
+!i10b 1
+!s100 @d85nn@UZC73;C;b8nc9i0
+IEeEk1R<2l6J:>8VIU1Q>i1
+S1
+R1
+w1742308236
+8./rtl/latency_module.sv
+F./rtl/latency_module.sv
+!i122 15
+L0 22 373
+R5
+R6
+r1
+!s85 0
+31
+R7
+R13
+R8
+!i113 0
+R9
+R10
+R11
+vlatency_top
+R2
+R3
+!i10b 1
+!s100 66b8g7;KI7iAHODiVJN:V1
+ID=X_8eUL:33PQHBhNma>>3
+S1
+R1
+w1742362933
+8./rtl/latency_ram_top.sv
+F./rtl/latency_ram_top.sv
+!i122 15
+L0 18 84
+R5
+R6
+r1
+!s85 0
+31
+R7
+R13
+R8
+!i113 0
+R9
+R10
+R11
+vmodified_dual_mem
+R2
+R3
+!i10b 1
+!s100 `HC?8]z6h@P_d9:Ne`N^i0
+IPdicibHh]dZYzc?n[n`no3
+S1
+R1
+w1742364565
+8./rtl/modified_dual_mem.sv
+F./rtl/modified_dual_mem.sv
+!i122 15
+L0 20 68
+R5
+R6
+r1
+!s85 0
+31
+R7
+R13
+R8
+!i113 0
+R9
+R10
+R11
+Xtop_modules_sv_unit
+R2
+R2
+R14
+R3
+Vj8zSKAC1:XhIVNGV^R?@b2
+r1
+!s85 0
+!i10b 1
+!s100 d=l0kljlZ3K^5BO^>Vmee2
+Ij8zSKAC1:XhIVNGV^R?@b2
+!i103 1
+S1
+R1
+R17
+R18
+R19
+R21
+!i122 15
+R12
+R6
+31
+R7
+R13
+R8
+!i113 0
+R9
+R10
+R11

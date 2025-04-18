@@ -1,0 +1,2 @@
+var g_data = ["","interface.sv","trans_pkg.sv","package2.sv","package.sv","dual_monitor_a.sv","dual_monitor_b.sv","dual_xtn.sv","dual_generator.sv","dual_driver_a.sv","dual_driver_b.sv","dual_refmodel.sv","dual_scoreboard.sv","dual_env.sv","dual_test.sv","top.sv","./rtl/top_.sv","./rtl/hamming_en_decode.sv","./rtl/hamming.sv","./rtl/hamming_decoding.sv","./rtl/multi_bank.sv","./rtl/dual_ram.sv","./rtl/demux.sv","./rtl/mux_out.sv"];
+processSrcNamesData(g_data);

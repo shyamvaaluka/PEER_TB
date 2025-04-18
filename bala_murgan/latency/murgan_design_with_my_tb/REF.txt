@@ -1,0 +1,8110 @@
+============================================================
+
+At time: 15ns, RD packet Received from PORT_A MONITOR
+we    = 0
+en    = 1
+din   = 12
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+douta in refrence model of port-a read:x at time: 15
+============================================================
+
+At time: 15ns, PORT A Read reference data sent to SB
+we    = 0
+en    = 1
+din   = 12
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 25ns, RD packet Received from PORT_A MONITOR
+we    = 0
+en    = 1
+din   =  1
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+douta in refrence model of port-a read:x at time: 25
+============================================================
+
+At time: 25ns, PORT A Read reference data sent to SB
+we    = 0
+en    = 1
+din   =  1
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 50ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 10
+addr  =  2
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:x at time: 50
+============================================================
+
+At time: 50ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 10
+addr  =  2
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 70ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  7
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:x at time: 70
+============================================================
+
+At time: 70ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  7
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 90ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 15
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:x at time: 90
+============================================================
+
+At time: 90ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 15
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 135ns, RD packet Received from PORT_A MONITOR
+we    = 0
+en    = 1
+din   =  3
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+douta in refrence model of port-a read:x at time: 135
+============================================================
+
+At time: 135ns, PORT A Read reference data sent to SB
+we    = 0
+en    = 1
+din   =  3
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 165ns, RD packet Received from PORT_A MONITOR
+we    = 0
+en    = 1
+din   =  1
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+douta in refrence model of port-a read:x at time: 165
+============================================================
+
+At time: 165ns, PORT A Read reference data sent to SB
+we    = 0
+en    = 1
+din   =  1
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 210ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  3
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:x at time: 210
+============================================================
+
+At time: 210ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  3
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 216ns, RD packet Received from PORT_A MONITOR
+we    = 1
+en    = 1
+din   = 14
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+memory write by port-a:'{x, x, x, x, x, x, 14, x, x, x, x, x, x, x, x, x} at time :216
+============================================================
+
+At time: 216ns, PORT A WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 14
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 230ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 10
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:x at time: 230
+============================================================
+
+At time: 230ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 10
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 250ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  2
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:x at time: 250
+============================================================
+
+At time: 250ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  2
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 330ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 10
+addr  =  8
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:x at time: 330
+============================================================
+
+At time: 330ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 10
+addr  =  8
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 390ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  1
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:14 at time: 390
+============================================================
+
+At time: 390ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  1
+addr  =  9
+douta =  x
+doutb = 14
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 411ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 15
+addr  =  2
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 411ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 15
+addr  =  2
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 450ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  5
+addr  =  2
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:15 at time: 450
+============================================================
+
+At time: 450ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  5
+addr  =  2
+douta =  x
+doutb = 15
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 490ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  6
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:x at time: 490
+============================================================
+
+At time: 490ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  6
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 570ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  1
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:x at time: 570
+============================================================
+
+At time: 570ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  1
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 591ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 15
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 591ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 15
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 605ns, RD packet Received from PORT_A MONITOR
+we    = 0
+en    = 1
+din   = 11
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+douta in refrence model of port-a read:x at time: 605
+============================================================
+
+At time: 605ns, PORT A Read reference data sent to SB
+we    = 0
+en    = 1
+din   = 11
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 635ns, RD packet Received from PORT_A MONITOR
+we    = 0
+en    = 1
+din   =  9
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+douta in refrence model of port-a read:x at time: 635
+============================================================
+
+At time: 635ns, PORT A Read reference data sent to SB
+we    = 0
+en    = 1
+din   =  9
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 645ns, RD packet Received from PORT_A MONITOR
+we    = 0
+en    = 1
+din   =  4
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+douta in refrence model of port-a read:x at time: 645
+============================================================
+
+At time: 645ns, PORT A Read reference data sent to SB
+we    = 0
+en    = 1
+din   =  4
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 655ns, RD packet Received from PORT_A MONITOR
+we    = 0
+en    = 1
+din   =  1
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+douta in refrence model of port-a read:x at time: 655
+============================================================
+
+At time: 655ns, PORT A Read reference data sent to SB
+we    = 0
+en    = 1
+din   =  1
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 685ns, RD packet Received from PORT_A MONITOR
+we    = 0
+en    = 1
+din   = 13
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+douta in refrence model of port-a read:14 at time: 685
+============================================================
+
+At time: 685ns, PORT A Read reference data sent to SB
+we    = 0
+en    = 1
+din   = 13
+addr  =  9
+douta = 14
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 710ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  8
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:x at time: 710
+============================================================
+
+At time: 710ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  8
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 716ns, RD packet Received from PORT_A MONITOR
+we    = 1
+en    = 1
+din   =  3
+addr  =  2
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+memory write by port-a:'{x, x, x, 15, x, x, 14, x, x, x, x, x, x, 3, x, x} at time :716
+============================================================
+
+At time: 716ns, PORT A WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  3
+addr  =  2
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 871ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  3
+addr  =  8
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 871ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  3
+addr  =  8
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 950ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  5
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:x at time: 950
+============================================================
+
+At time: 950ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  5
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 951ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  1
+addr  =  4
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 951ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  1
+addr  =  4
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 1010ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 12
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:x at time: 1010
+============================================================
+
+At time: 1010ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 12
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1110ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  5
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:x at time: 1110
+============================================================
+
+At time: 1110ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  5
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1190ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 15
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:x at time: 1190
+============================================================
+
+At time: 1190ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 15
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1191ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 13
+addr  =  1
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 1191ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 13
+addr  =  1
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 1210ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  1
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:x at time: 1210
+============================================================
+
+At time: 1210ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  1
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1236ns, RD packet Received from PORT_A MONITOR
+we    = 1
+en    = 1
+din   =  3
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+memory write by port-a:'{x, 3, x, 15, x, x, 14, 3, x, x, x, 1, x, 3, 13, x} at time :1236
+============================================================
+
+At time: 1236ns, PORT A WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  3
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 1246ns, RD packet Received from PORT_A MONITOR
+we    = 1
+en    = 1
+din   = 14
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+memory write by port-a:'{x, 3, x, 15, x, x, 14, 3, x, x, x, 1, 14, 3, 13, x} at time :1246
+============================================================
+
+At time: 1246ns, PORT A WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 14
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 1350ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  6
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:x at time: 1350
+============================================================
+
+At time: 1350ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  6
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1370ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  9
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:x at time: 1370
+============================================================
+
+At time: 1370ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  9
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1390ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  8
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:x at time: 1390
+============================================================
+
+At time: 1390ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  8
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1391ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 12
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 1391ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 12
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 1430ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  9
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:x at time: 1430
+============================================================
+
+At time: 1430ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  9
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1431ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  7
+addr  =  1
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 1431ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  7
+addr  =  1
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 1570ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 14
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:x at time: 1570
+============================================================
+
+At time: 1570ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 14
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1611ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 11
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 1611ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 11
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 1630ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  5
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:x at time: 1630
+============================================================
+
+At time: 1630ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  5
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1671ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 15
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 1671ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 15
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 1710ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 11
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:x at time: 1710
+============================================================
+
+At time: 1710ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 11
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1731ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 10
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 1731ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 10
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 1791ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  7
+addr  =  4
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 1791ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  7
+addr  =  4
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 1810ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  1
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:x at time: 1810
+============================================================
+
+At time: 1810ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  1
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1811ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  0
+addr  =  8
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 1811ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  0
+addr  =  8
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 1871ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  9
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 1871ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  9
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 1911ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  4
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 1911ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  4
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 1930ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  1
+addr  = 10
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:x at time: 1930
+============================================================
+
+At time: 1930ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  1
+addr  = 10
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1950ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  5
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:14 at time: 1950
+============================================================
+
+At time: 1950ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  5
+addr  =  9
+douta =  x
+doutb = 14
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1971ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 15
+addr  =  2
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 1971ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 15
+addr  =  2
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 2011ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  0
+addr  =  1
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 2011ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  0
+addr  =  1
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 2025ns, RD packet Received from PORT_A MONITOR
+we    = 0
+en    = 1
+din   =  9
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+douta in refrence model of port-a read:x at time: 2025
+============================================================
+
+At time: 2025ns, PORT A Read reference data sent to SB
+we    = 0
+en    = 1
+din   =  9
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2045ns, RD packet Received from PORT_A MONITOR
+we    = 0
+en    = 1
+din   =  9
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+douta in refrence model of port-a read:3 at time: 2045
+============================================================
+
+At time: 2045ns, PORT A Read reference data sent to SB
+we    = 0
+en    = 1
+din   =  9
+addr  = 14
+douta =  3
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2111ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  8
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 2111ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  8
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 2211ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  5
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 2211ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  5
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 2271ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  1
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 2271ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  1
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 2290ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  1
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:11 at time: 2290
+============================================================
+
+At time: 2290ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  1
+addr  =  3
+douta =  x
+doutb = 11
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2310ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 12
+addr  =  1
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:0 at time: 2310
+============================================================
+
+At time: 2310ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 12
+addr  =  1
+douta =  x
+doutb =  0
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2371ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 13
+addr  = 10
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 2371ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 13
+addr  = 10
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 2490ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 12
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:5 at time: 2490
+============================================================
+
+At time: 2490ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 12
+addr  =  6
+douta =  x
+doutb =  5
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2531ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  0
+addr  =  8
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 2531ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  0
+addr  =  8
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 2550ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  1
+addr  =  2
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:15 at time: 2550
+============================================================
+
+At time: 2550ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  1
+addr  =  2
+douta =  x
+doutb = 15
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2570ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  2
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:14 at time: 2570
+============================================================
+
+At time: 2570ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  2
+addr  =  9
+douta =  x
+doutb = 14
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2571ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  5
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 2571ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  5
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 2591ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 11
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 2591ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 11
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 2730ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 12
+addr  = 10
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:13 at time: 2730
+============================================================
+
+At time: 2730ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 12
+addr  = 10
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2731ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 13
+addr  =  1
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 2731ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 13
+addr  =  1
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 2750ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  6
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:8 at time: 2750
+============================================================
+
+At time: 2750ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  6
+addr  = 15
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2790ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 10
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:11 at time: 2790
+============================================================
+
+At time: 2790ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 10
+addr  =  9
+douta =  x
+doutb = 11
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2810ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  7
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:8 at time: 2810
+============================================================
+
+At time: 2810ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  7
+addr  = 15
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2831ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 10
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 2831ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 10
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 2870ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  1
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:10 at time: 2870
+============================================================
+
+At time: 2870ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  1
+addr  =  7
+douta =  x
+doutb = 10
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2930ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 12
+addr  =  2
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:15 at time: 2930
+============================================================
+
+At time: 2930ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 12
+addr  =  2
+douta =  x
+doutb = 15
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2951ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 14
+addr  = 10
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 2951ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 14
+addr  = 10
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 3071ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  9
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 3071ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  9
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 3076ns, RD packet Received from PORT_A MONITOR
+we    = 1
+en    = 1
+din   =  7
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+memory write by port-a:'{8, 3, 1, 9, 10, 14, 11, 0, 10, 7, x, 7, 11, 15, 13, 9} at time :3076
+============================================================
+
+At time: 3076ns, PORT A WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  7
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 3151ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  3
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 3151ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  3
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 3171ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 13
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 3171ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 13
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 3210ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  0
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:9 at time: 3210
+============================================================
+
+At time: 3210ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  0
+addr  =  0
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3211ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  8
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 3211ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  8
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 3230ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 15
+addr  =  2
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:15 at time: 3230
+============================================================
+
+At time: 3230ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 15
+addr  =  2
+douta =  x
+doutb = 15
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3231ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  5
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 3231ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  5
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 3250ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 10
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:10 at time: 3250
+============================================================
+
+At time: 3250ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 10
+addr  = 11
+douta =  x
+doutb = 10
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3290ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 14
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:9 at time: 3290
+============================================================
+
+At time: 3290ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 14
+addr  =  0
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3370ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 14
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:11 at time: 3370
+============================================================
+
+At time: 3370ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 14
+addr  =  9
+douta =  x
+doutb = 11
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3391ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  4
+addr  =  2
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 3391ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  4
+addr  =  2
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 3410ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  3
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:7 at time: 3410
+============================================================
+
+At time: 3410ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  3
+addr  =  6
+douta =  x
+doutb =  7
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3611ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 13
+addr  =  8
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 3611ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 13
+addr  =  8
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 3671ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  2
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 3671ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  2
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 3751ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 10
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 3751ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 10
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 3771ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 15
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 3771ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 15
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 3811ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  3
+addr  = 10
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 3811ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  3
+addr  = 10
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 3871ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  4
+addr  =  4
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 3871ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  4
+addr  =  4
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 3930ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  8
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:15 at time: 3930
+============================================================
+
+At time: 3930ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  8
+addr  =  9
+douta =  x
+doutb = 15
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3970ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 12
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:5 at time: 3970
+============================================================
+
+At time: 3970ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 12
+addr  =  7
+douta =  x
+doutb =  5
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4110ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  0
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:9 at time: 4110
+============================================================
+
+At time: 4110ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  0
+addr  = 12
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4111ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  2
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 4111ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  2
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 4130ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 10
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:9 at time: 4130
+============================================================
+
+At time: 4130ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 10
+addr  =  0
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4171ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  9
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 4171ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  9
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 4211ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  1
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 4211ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  1
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 4230ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  4
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:9 at time: 4230
+============================================================
+
+At time: 4230ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  4
+addr  =  0
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4250ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 14
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:8 at time: 4250
+============================================================
+
+At time: 4250ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 14
+addr  =  5
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4271ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  1
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 4271ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  1
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 4290ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 15
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:7 at time: 4290
+============================================================
+
+At time: 4290ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 15
+addr  =  6
+douta =  x
+doutb =  7
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4355ns, RD packet Received from PORT_A MONITOR
+we    = 0
+en    = 1
+din   = 10
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+douta in refrence model of port-a read:8 at time: 4355
+============================================================
+
+At time: 4355ns, PORT A Read reference data sent to SB
+we    = 0
+en    = 1
+din   = 10
+addr  = 15
+douta =  8
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4391ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  5
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 4391ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  5
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 4431ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 13
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 4431ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 13
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 4436ns, RD packet Received from PORT_A MONITOR
+we    = 1
+en    = 1
+din   =  7
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+memory write by port-a:'{8, 10, 1, 1, 13, 3, 15, 13, 5, 7, 8, 4, 7, 4, 13, 9} at time :4436
+============================================================
+
+At time: 4436ns, PORT A WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  7
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 4456ns, RD packet Received from PORT_A MONITOR
+we    = 1
+en    = 1
+din   =  9
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+memory write by port-a:'{8, 9, 1, 1, 13, 3, 15, 13, 5, 7, 8, 4, 7, 4, 13, 9} at time :4456
+============================================================
+
+At time: 4456ns, PORT A WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  9
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 4496ns, RD packet Received from PORT_A MONITOR
+we    = 1
+en    = 1
+din   = 15
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+memory write by port-a:'{8, 15, 1, 1, 13, 3, 15, 13, 5, 7, 8, 4, 7, 4, 13, 9} at time :4496
+============================================================
+
+At time: 4496ns, PORT A WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 15
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 4526ns, RD packet Received from PORT_A MONITOR
+we    = 1
+en    = 1
+din   =  9
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+memory write by port-a:'{8, 15, 1, 1, 13, 3, 15, 13, 5, 9, 8, 4, 7, 4, 13, 9} at time :4526
+============================================================
+
+At time: 4526ns, PORT A WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  9
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 4631ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  3
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 4631ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  3
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 4651ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 13
+addr  =  4
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 4651ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 13
+addr  =  4
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 4685ns, RD packet Received from PORT_A MONITOR
+we    = 0
+en    = 1
+din   = 11
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+douta in refrence model of port-a read:9 at time: 4685
+============================================================
+
+At time: 4685ns, PORT A Read reference data sent to SB
+we    = 0
+en    = 1
+din   = 11
+addr  =  0
+douta =  9
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4731ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 14
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 4731ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 14
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 4766ns, RD packet Received from PORT_A MONITOR
+we    = 1
+en    = 1
+din   =  4
+addr  =  4
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+memory write by port-a:'{8, 3, 1, 1, 13, 3, 14, 13, 5, 9, 8, 4, 7, 4, 13, 9} at time :4766
+============================================================
+
+At time: 4766ns, PORT A WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  4
+addr  =  4
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 4870ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  4
+addr  = 10
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:3 at time: 4870
+============================================================
+
+At time: 4870ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  4
+addr  = 10
+douta =  x
+doutb =  3
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4915ns, RD packet Received from PORT_A MONITOR
+we    = 0
+en    = 1
+din   = 15
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+douta in refrence model of port-a read:9 at time: 4915
+============================================================
+
+At time: 4915ns, PORT A Read reference data sent to SB
+we    = 0
+en    = 1
+din   = 15
+addr  =  6
+douta =  9
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4935ns, RD packet Received from PORT_A MONITOR
+we    = 0
+en    = 1
+din   = 13
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+douta in refrence model of port-a read:8 at time: 4935
+============================================================
+
+At time: 4935ns, PORT A Read reference data sent to SB
+we    = 0
+en    = 1
+din   = 13
+addr  =  5
+douta =  8
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4970ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  3
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:9 at time: 4970
+============================================================
+
+At time: 4970ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  3
+addr  =  6
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4971ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  6
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 4971ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  6
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 4990ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  8
+addr  = 10
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:3 at time: 4990
+============================================================
+
+At time: 4990ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  8
+addr  = 10
+douta =  x
+doutb =  3
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5030ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  5
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:14 at time: 5030
+============================================================
+
+At time: 5030ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  5
+addr  =  9
+douta =  x
+doutb = 14
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5050ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  2
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:13 at time: 5050
+============================================================
+
+At time: 5050ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  2
+addr  = 11
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5170ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  1
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:6 at time: 5170
+============================================================
+
+At time: 5170ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  1
+addr  =  5
+douta =  x
+doutb =  6
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5191ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 11
+addr  =  8
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 5191ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 11
+addr  =  8
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 5210ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  7
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:14 at time: 5210
+============================================================
+
+At time: 5210ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  7
+addr  =  9
+douta =  x
+doutb = 14
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5250ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  8
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:6 at time: 5250
+============================================================
+
+At time: 5250ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  8
+addr  =  5
+douta =  x
+doutb =  6
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5305ns, RD packet Received from PORT_A MONITOR
+we    = 0
+en    = 1
+din   =  0
+addr  =  2
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+douta in refrence model of port-a read:4 at time: 5305
+============================================================
+
+At time: 5305ns, PORT A Read reference data sent to SB
+we    = 0
+en    = 1
+din   =  0
+addr  =  2
+douta =  4
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5311ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  6
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 5311ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  6
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 5350ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  5
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:3 at time: 5350
+============================================================
+
+At time: 5350ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  5
+addr  = 14
+douta =  x
+doutb =  3
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5351ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  5
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 5351ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  5
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 5391ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  9
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 5391ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  9
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 5406ns, RD packet Received from PORT_A MONITOR
+we    = 1
+en    = 1
+din   = 13
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+memory write by port-a:'{8, 3, 1, 1, 13, 3, 14, 11, 5, 9, 9, 4, 7, 4, 13, 13} at time :5406
+============================================================
+
+At time: 5406ns, PORT A WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 13
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 5491ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 10
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 5491ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 10
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 5550ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 14
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:1 at time: 5550
+============================================================
+
+At time: 5550ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 14
+addr  = 13
+douta =  x
+doutb =  1
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5570ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 12
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:10 at time: 5570
+============================================================
+
+At time: 5570ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 12
+addr  = 12
+douta =  x
+doutb = 10
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5610ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 11
+addr  = 10
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:3 at time: 5610
+============================================================
+
+At time: 5610ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 11
+addr  = 10
+douta =  x
+doutb =  3
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5631ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  5
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 5631ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  5
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 5711ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  6
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 5711ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  6
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 5750ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  1
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:3 at time: 5750
+============================================================
+
+At time: 5750ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  1
+addr  = 14
+douta =  x
+doutb =  3
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5791ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  7
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 5791ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  7
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 5850ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  3
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:9 at time: 5850
+============================================================
+
+At time: 5850ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  3
+addr  =  6
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5851ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  2
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 5851ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  2
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 5890ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 12
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:6 at time: 5890
+============================================================
+
+At time: 5890ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 12
+addr  =  7
+douta =  x
+doutb =  6
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5891ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  9
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 5891ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  9
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 5931ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 11
+addr  =  1
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 5931ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 11
+addr  =  1
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 5970ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  5
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:9 at time: 5970
+============================================================
+
+At time: 5970ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  5
+addr  =  6
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5985ns, RD packet Received from PORT_A MONITOR
+we    = 0
+en    = 1
+din   =  3
+addr  =  4
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+douta in refrence model of port-a read:4 at time: 5985
+============================================================
+
+At time: 5985ns, PORT A Read reference data sent to SB
+we    = 0
+en    = 1
+din   =  3
+addr  =  4
+douta =  4
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5991ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  8
+addr  =  4
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 5991ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  8
+addr  =  4
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 6085ns, RD packet Received from PORT_A MONITOR
+we    = 0
+en    = 1
+din   =  1
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+douta in refrence model of port-a read:14 at time: 6085
+============================================================
+
+At time: 6085ns, PORT A Read reference data sent to SB
+we    = 0
+en    = 1
+din   =  1
+addr  =  9
+douta = 14
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6105ns, RD packet Received from PORT_A MONITOR
+we    = 0
+en    = 1
+din   =  0
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+douta in refrence model of port-a read:7 at time: 6105
+============================================================
+
+At time: 6105ns, PORT A Read reference data sent to SB
+we    = 0
+en    = 1
+din   =  0
+addr  =  0
+douta =  7
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6191ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 10
+addr  =  8
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 6191ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 10
+addr  =  8
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 6226ns, RD packet Received from PORT_A MONITOR
+we    = 1
+en    = 1
+din   =  0
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+memory write by port-a:'{0, 3, 1, 10, 13, 3, 14, 10, 6, 9, 2, 8, 7, 4, 11, 7} at time :6226
+============================================================
+
+At time: 6226ns, PORT A WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  0
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 6236ns, RD packet Received from PORT_A MONITOR
+we    = 1
+en    = 1
+din   = 12
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+memory write by port-a:'{12, 3, 1, 10, 13, 3, 14, 10, 6, 9, 2, 8, 7, 4, 11, 7} at time :6236
+============================================================
+
+At time: 6236ns, PORT A WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 12
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 6256ns, RD packet Received from PORT_A MONITOR
+we    = 1
+en    = 1
+din   =  1
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+memory write by port-a:'{12, 3, 1, 10, 13, 3, 14, 10, 6, 9, 2, 8, 1, 4, 11, 7} at time :6256
+============================================================
+
+At time: 6256ns, PORT A WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  1
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 6266ns, RD packet Received from PORT_A MONITOR
+we    = 1
+en    = 1
+din   =  9
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+memory write by port-a:'{12, 3, 1, 9, 13, 3, 14, 10, 6, 9, 2, 8, 1, 4, 11, 7} at time :6266
+============================================================
+
+At time: 6266ns, PORT A WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  9
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 6305ns, RD packet Received from PORT_A MONITOR
+we    = 0
+en    = 1
+din   =  7
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+douta in refrence model of port-a read:1 at time: 6305
+============================================================
+
+At time: 6305ns, PORT A Read reference data sent to SB
+we    = 0
+en    = 1
+din   =  7
+addr  =  3
+douta =  1
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6351ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 10
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 6351ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 10
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 6410ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  2
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:2 at time: 6410
+============================================================
+
+At time: 6410ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  2
+addr  =  5
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6411ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  4
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 6411ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  4
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 6426ns, RD packet Received from PORT_A MONITOR
+we    = 1
+en    = 1
+din   =  3
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+memory write by port-a:'{12, 3, 1, 10, 13, 3, 3, 10, 6, 9, 2, 8, 1, 4, 11, 4} at time :6426
+============================================================
+
+At time: 6426ns, PORT A WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  3
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 6430ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  1
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:2 at time: 6430
+============================================================
+
+At time: 6430ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  1
+addr  =  5
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6465ns, RD packet Received from PORT_A MONITOR
+we    = 0
+en    = 1
+din   = 15
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+douta in refrence model of port-a read:1 at time: 6465
+============================================================
+
+At time: 6465ns, PORT A Read reference data sent to SB
+we    = 0
+en    = 1
+din   = 15
+addr  =  3
+douta =  1
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6485ns, RD packet Received from PORT_A MONITOR
+we    = 0
+en    = 1
+din   = 12
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+douta in refrence model of port-a read:2 at time: 6485
+============================================================
+
+At time: 6485ns, PORT A Read reference data sent to SB
+we    = 0
+en    = 1
+din   = 12
+addr  =  5
+douta =  2
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6636ns, RD packet Received from PORT_A MONITOR
+we    = 1
+en    = 1
+din   =  1
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+memory write by port-a:'{12, 3, 1, 10, 13, 3, 3, 10, 6, 1, 2, 8, 1, 4, 11, 4} at time :6636
+============================================================
+
+At time: 6636ns, PORT A WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  1
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 6711ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  2
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 6711ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  2
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 6731ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  6
+addr  =  4
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 6731ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  6
+addr  =  4
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 6771ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  8
+addr  =  8
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 6771ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  8
+addr  =  8
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 6791ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 12
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 6791ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 12
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 6810ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 15
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:3 at time: 6810
+============================================================
+
+At time: 6810ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 15
+addr  =  9
+douta =  x
+doutb =  3
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6811ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  0
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 6811ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  0
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 6851ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  6
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 6851ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  6
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 6890ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  7
+addr  =  8
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:8 at time: 6890
+============================================================
+
+At time: 6890ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  7
+addr  =  8
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7010ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 10
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:4 at time: 7010
+============================================================
+
+At time: 7010ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 10
+addr  =  0
+douta =  x
+doutb =  4
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7031ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  2
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7031ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  2
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7151ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  4
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7151ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  4
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7190ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 13
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:2 at time: 7190
+============================================================
+
+At time: 7190ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 13
+addr  =  7
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7191ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  8
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7191ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  8
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7210ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  4
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:4 at time: 7210
+============================================================
+
+At time: 7210ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  4
+addr  = 15
+douta =  x
+doutb =  4
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7251ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  6
+addr  =  4
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7251ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  6
+addr  =  4
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7291ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 10
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7291ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 10
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7330ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 12
+addr  =  4
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:6 at time: 7330
+============================================================
+
+At time: 7330ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 12
+addr  =  4
+douta =  x
+doutb =  6
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7371ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  5
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7371ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  5
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7391ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  9
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7391ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  9
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7470ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 15
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:9 at time: 7470
+============================================================
+
+At time: 7470ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 15
+addr  = 14
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7471ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 14
+addr  =  1
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7471ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 14
+addr  =  1
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7551ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  0
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7551ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  0
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7631ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  1
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7631ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  1
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7650ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  3
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:2 at time: 7650
+============================================================
+
+At time: 7650ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  3
+addr  =  7
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7651ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 10
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7651ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 10
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7671ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  7
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7671ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  7
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7731ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 12
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7731ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 12
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7751ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  2
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7751ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  2
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7775ns, RD packet Received from PORT_A MONITOR
+we    = 0
+en    = 1
+din   =  2
+addr  =  8
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+douta in refrence model of port-a read:8 at time: 7775
+============================================================
+
+At time: 7775ns, PORT A Read reference data sent to SB
+we    = 0
+en    = 1
+din   =  2
+addr  =  8
+douta =  8
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7795ns, RD packet Received from PORT_A MONITOR
+we    = 0
+en    = 1
+din   = 11
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+douta in refrence model of port-a read:7 at time: 7795
+============================================================
+
+At time: 7795ns, PORT A Read reference data sent to SB
+we    = 0
+en    = 1
+din   = 11
+addr  = 15
+douta =  7
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7811ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 11
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7811ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 11
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7851ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  8
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7851ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  8
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7890ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 13
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:12 at time: 7890
+============================================================
+
+At time: 7890ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 13
+addr  = 11
+douta =  x
+doutb = 12
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7896ns, RD packet Received from PORT_A MONITOR
+we    = 1
+en    = 1
+din   = 12
+addr  =  1
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+memory write by port-a:'{7, 1, 5, 12, 12, 3, 0, 8, 2, 11, 8, 6, 0, 4, 12, 4} at time :7896
+============================================================
+
+At time: 7896ns, PORT A WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 12
+addr  =  1
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7906ns, RD packet Received from PORT_A MONITOR
+we    = 1
+en    = 1
+din   = 14
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+memory write by port-a:'{7, 1, 5, 12, 12, 3, 0, 8, 2, 14, 8, 6, 0, 4, 12, 4} at time :7906
+============================================================
+
+At time: 7906ns, PORT A WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 14
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7916ns, RD packet Received from PORT_A MONITOR
+we    = 1
+en    = 1
+din   =  3
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+memory write by port-a:'{7, 1, 5, 12, 12, 3, 0, 8, 3, 14, 8, 6, 0, 4, 12, 4} at time :7916
+============================================================
+
+At time: 7916ns, PORT A WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  3
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7936ns, RD packet Received from PORT_A MONITOR
+we    = 1
+en    = 1
+din   = 13
+addr  = 10
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+memory write by port-a:'{7, 1, 5, 12, 12, 13, 0, 8, 3, 14, 8, 6, 0, 4, 12, 4} at time :7936
+============================================================
+
+At time: 7936ns, PORT A WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 13
+addr  = 10
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7945ns, RD packet Received from PORT_A MONITOR
+we    = 0
+en    = 1
+din   =  7
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+douta in refrence model of port-a read:0 at time: 7945
+============================================================
+
+At time: 7945ns, PORT A Read reference data sent to SB
+we    = 0
+en    = 1
+din   =  7
+addr  =  9
+douta =  0
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7956ns, RD packet Received from PORT_A MONITOR
+we    = 1
+en    = 1
+din   = 10
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+memory write by port-a:'{7, 1, 5, 12, 12, 13, 0, 8, 3, 14, 8, 6, 10, 4, 12, 4} at time :7956
+============================================================
+
+At time: 7956ns, PORT A WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 10
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7965ns, RD packet Received from PORT_A MONITOR
+we    = 0
+en    = 1
+din   =  8
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+douta in refrence model of port-a read:12 at time: 7965
+============================================================
+
+At time: 7965ns, PORT A Read reference data sent to SB
+we    = 0
+en    = 1
+din   =  8
+addr  = 11
+douta = 12
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7975ns, RD packet Received from PORT_A MONITOR
+we    = 0
+en    = 1
+din   =  5
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+douta in refrence model of port-a read:4 at time: 7975
+============================================================
+
+At time: 7975ns, PORT A Read reference data sent to SB
+we    = 0
+en    = 1
+din   =  5
+addr  =  0
+douta =  4
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8010ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 15
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:12 at time: 8010
+============================================================
+
+At time: 8010ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 15
+addr  = 12
+douta =  x
+doutb = 12
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8031ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  2
+addr  =  8
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 8031ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  2
+addr  =  8
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 8046ns, RD packet Received from PORT_A MONITOR
+we    = 1
+en    = 1
+din   =  4
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+memory write by port-a:'{7, 1, 5, 12, 12, 13, 0, 2, 3, 4, 8, 6, 10, 4, 12, 4} at time :8046
+============================================================
+
+At time: 8046ns, PORT A WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  4
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 8136ns, RD packet Received from PORT_A MONITOR
+we    = 1
+en    = 1
+din   = 13
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+memory write by port-a:'{7, 13, 5, 12, 12, 13, 0, 2, 3, 4, 8, 6, 10, 4, 12, 4} at time :8136
+============================================================
+
+At time: 8136ns, PORT A WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 13
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 8146ns, RD packet Received from PORT_A MONITOR
+we    = 1
+en    = 1
+din   =  6
+addr  =  1
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+memory write by port-a:'{7, 13, 5, 12, 12, 13, 0, 2, 3, 4, 8, 6, 10, 4, 6, 4} at time :8146
+============================================================
+
+At time: 8146ns, PORT A WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  6
+addr  =  1
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 8151ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  9
+addr  =  4
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 8151ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  9
+addr  =  4
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 8230ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  3
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:12 at time: 8230
+============================================================
+
+At time: 8230ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  3
+addr  = 11
+douta =  x
+doutb = 12
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8250ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  4
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:3 at time: 8250
+============================================================
+
+At time: 8250ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  4
+addr  =  7
+douta =  x
+doutb =  3
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8296ns, RD packet Received from PORT_A MONITOR
+we    = 1
+en    = 1
+din   =  1
+addr  =  1
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+memory write by port-a:'{7, 13, 5, 12, 12, 13, 0, 2, 3, 4, 8, 9, 10, 4, 1, 4} at time :8296
+============================================================
+
+At time: 8296ns, PORT A WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  1
+addr  =  1
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 8310ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 14
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:7 at time: 8310
+============================================================
+
+At time: 8310ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 14
+addr  = 15
+douta =  x
+doutb =  7
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8330ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  2
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:12 at time: 8330
+============================================================
+
+At time: 8330ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  2
+addr  = 12
+douta =  x
+doutb = 12
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8410ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 15
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:0 at time: 8410
+============================================================
+
+At time: 8410ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 15
+addr  =  9
+douta =  x
+doutb =  0
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8511ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  9
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 8511ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  9
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 8551ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  3
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 8551ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  3
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 8570ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  8
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:12 at time: 8570
+============================================================
+
+At time: 8570ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  8
+addr  = 11
+douta =  x
+doutb = 12
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8571ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  1
+addr  =  1
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 8571ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  1
+addr  =  1
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 8651ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 12
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 8651ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 12
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 8716ns, RD packet Received from PORT_A MONITOR
+we    = 1
+en    = 1
+din   =  4
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+memory write by port-a:'{7, 13, 5, 12, 12, 13, 0, 2, 4, 4, 8, 9, 10, 4, 1, 4} at time :8716
+============================================================
+
+At time: 8716ns, PORT A WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  4
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 8726ns, RD packet Received from PORT_A MONITOR
+we    = 1
+en    = 1
+din   =  5
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+memory write by port-a:'{7, 13, 5, 12, 12, 13, 5, 2, 4, 4, 8, 9, 10, 4, 1, 4} at time :8726
+============================================================
+
+At time: 8726ns, PORT A WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  5
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 8730ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  3
+addr  =  8
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:2 at time: 8730
+============================================================
+
+At time: 8730ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  3
+addr  =  8
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8731ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 10
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 8731ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 10
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 8790ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 15
+addr  =  8
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:2 at time: 8790
+============================================================
+
+At time: 8790ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 15
+addr  =  8
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8810ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  4
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:12 at time: 8810
+============================================================
+
+At time: 8810ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  4
+addr  = 12
+douta =  x
+doutb = 12
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8830ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  9
+addr  =  1
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:1 at time: 8830
+============================================================
+
+At time: 8830ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  9
+addr  =  1
+douta =  x
+doutb =  1
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8871ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  0
+addr  =  1
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 8871ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  0
+addr  =  1
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 8991ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  1
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 8991ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  1
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 9010ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  0
+addr  = 10
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:13 at time: 9010
+============================================================
+
+At time: 9010ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  0
+addr  = 10
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9026ns, RD packet Received from PORT_A MONITOR
+we    = 1
+en    = 1
+din   =  7
+addr  =  2
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+memory write by port-a:'{7, 13, 5, 12, 10, 13, 5, 2, 1, 4, 8, 9, 10, 7, 0, 4} at time :9026
+============================================================
+
+At time: 9026ns, PORT A WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  7
+addr  =  2
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 9031ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  0
+addr  =  2
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 9031ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  0
+addr  =  2
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 9036ns, RD packet Received from PORT_A MONITOR
+we    = 1
+en    = 1
+din   = 13
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+memory write by port-a:'{7, 13, 5, 12, 10, 13, 5, 2, 1, 4, 8, 9, 10, 0, 0, 4} at time :9036
+============================================================
+
+At time: 9036ns, PORT A WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 13
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 9046ns, RD packet Received from PORT_A MONITOR
+we    = 1
+en    = 1
+din   =  4
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+memory write by port-a:'{7, 13, 5, 12, 10, 13, 5, 2, 4, 4, 8, 9, 10, 0, 0, 4} at time :9046
+============================================================
+
+At time: 9046ns, PORT A WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  4
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 9056ns, RD packet Received from PORT_A MONITOR
+we    = 1
+en    = 1
+din   =  2
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+memory write by port-a:'{7, 13, 5, 12, 2, 13, 5, 2, 4, 4, 8, 9, 10, 0, 0, 4} at time :9056
+============================================================
+
+At time: 9056ns, PORT A WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  2
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 9070ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 12
+addr  =  8
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:2 at time: 9070
+============================================================
+
+At time: 9070ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 12
+addr  =  8
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9150ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  9
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:10 at time: 9150
+============================================================
+
+At time: 9150ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  9
+addr  =  3
+douta =  x
+doutb = 10
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9190ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  0
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:5 at time: 9190
+============================================================
+
+At time: 9190ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  0
+addr  =  9
+douta =  x
+doutb =  5
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9251ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  8
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 9251ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  8
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 9270ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  2
+addr  =  8
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:2 at time: 9270
+============================================================
+
+At time: 9270ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  2
+addr  =  8
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9290ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 10
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:8 at time: 9290
+============================================================
+
+At time: 9290ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 10
+addr  =  5
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9310ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  3
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:4 at time: 9310
+============================================================
+
+At time: 9310ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  3
+addr  =  0
+douta =  x
+doutb =  4
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9350ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  4
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:13 at time: 9350
+============================================================
+
+At time: 9350ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  4
+addr  = 14
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9351ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  9
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 9351ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  9
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 9390ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  0
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:8 at time: 9390
+============================================================
+
+At time: 9390ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  0
+addr  =  5
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9410ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  5
+addr  =  8
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:2 at time: 9410
+============================================================
+
+At time: 9410ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  5
+addr  =  8
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9490ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  8
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:8 at time: 9490
+============================================================
+
+At time: 9490ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  8
+addr  = 13
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9510ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 10
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:4 at time: 9510
+============================================================
+
+At time: 9510ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 10
+addr  =  6
+douta =  x
+doutb =  4
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9551ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  8
+addr  =  4
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 9551ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  8
+addr  =  4
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 9570ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 13
+addr  = 10
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:13 at time: 9570
+============================================================
+
+At time: 9570ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 13
+addr  = 10
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9590ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 15
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:10 at time: 9590
+============================================================
+
+At time: 9590ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 15
+addr  =  3
+douta =  x
+doutb = 10
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9651ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  5
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 9651ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  5
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 9751ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 11
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 9751ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 11
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 9770ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 11
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:4 at time: 9770
+============================================================
+
+At time: 9770ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 11
+addr  =  7
+douta =  x
+doutb =  4
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9930ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  6
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:10 at time: 9930
+============================================================
+
+At time: 9930ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  6
+addr  =  3
+douta =  x
+doutb = 10
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9951ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  5
+addr  =  2
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 9951ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  5
+addr  =  2
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 9971ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  0
+addr  =  2
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 9971ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  0
+addr  =  2
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 9996ns, RD packet Received from PORT_A MONITOR
+we    = 1
+en    = 1
+din   =  8
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+memory write by port-a:'{7, 13, 8, 12, 11, 13, 8, 2, 4, 4, 8, 8, 10, 0, 0, 4} at time :9996
+============================================================
+
+At time: 9996ns, PORT A WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  8
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10091ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  2
+addr  =  4
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10091ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  2
+addr  =  4
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10191ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 13
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10191ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 13
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10231ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 12
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10231ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 12
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10271ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 15
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10271ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 15
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10311ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  0
+addr  =  8
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10311ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  0
+addr  =  8
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10330ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  5
+addr  =  1
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:0 at time: 10330
+============================================================
+
+At time: 10330ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  5
+addr  =  1
+douta =  x
+doutb =  0
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 10371ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  5
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10371ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  5
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10391ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 10
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10391ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 10
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10410ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  7
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:12 at time: 10410
+============================================================
+
+At time: 10410ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  7
+addr  = 11
+douta =  x
+doutb = 12
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 10491ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  6
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10491ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  6
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10551ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  5
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10551ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  5
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10570ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 11
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:8 at time: 10570
+============================================================
+
+At time: 10570ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 11
+addr  = 13
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 10590ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  8
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:10 at time: 10590
+============================================================
+
+At time: 10590ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  8
+addr  =  3
+douta =  x
+doutb = 10
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 10591ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  8
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10591ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  8
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10631ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 12
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10631ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 12
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10731ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  9
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10731ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  9
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10771ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 15
+addr  = 10
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10771ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 15
+addr  = 10
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10790ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 11
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:13 at time: 10790
+============================================================
+
+At time: 10790ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 11
+addr  = 14
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 10811ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  0
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10811ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  0
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10831ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  6
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10831ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  6
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10871ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  5
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10871ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  5
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10891ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  2
+addr  =  8
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10891ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  2
+addr  =  8
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10925ns, RD packet Received from PORT_A MONITOR
+we    = 0
+en    = 1
+din   =  9
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+douta in refrence model of port-a read:6 at time: 10925
+============================================================
+
+At time: 10925ns, PORT A Read reference data sent to SB
+we    = 0
+en    = 1
+din   =  9
+addr  =  0
+douta =  6
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 10956ns, RD packet Received from PORT_A MONITOR
+we    = 1
+en    = 1
+din   = 13
+addr  =  2
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+memory write by port-a:'{7, 13, 8, 15, 12, 15, 5, 2, 13, 9, 8, 2, 0, 13, 0, 6} at time :10956
+============================================================
+
+At time: 10956ns, PORT A WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 13
+addr  =  2
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10966ns, RD packet Received from PORT_A MONITOR
+we    = 1
+en    = 1
+din   = 10
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+memory write by port-a:'{7, 13, 8, 15, 10, 15, 5, 2, 13, 9, 8, 2, 0, 13, 0, 6} at time :10966
+============================================================
+
+At time: 10966ns, PORT A WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 10
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10970ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 15
+addr  = 10
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:15 at time: 10970
+============================================================
+
+At time: 10970ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 15
+addr  = 10
+douta =  x
+doutb = 15
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 10971ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  7
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10971ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  7
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 11070ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  9
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:8 at time: 11070
+============================================================
+
+At time: 11070ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  9
+addr  = 13
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 11090ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  1
+addr  =  1
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:0 at time: 11090
+============================================================
+
+At time: 11090ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  1
+addr  =  1
+douta =  x
+doutb =  0
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 11105ns, RD packet Received from PORT_A MONITOR
+we    = 0
+en    = 1
+din   = 14
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+douta in refrence model of port-a read:8 at time: 11105
+============================================================
+
+At time: 11105ns, PORT A Read reference data sent to SB
+we    = 0
+en    = 1
+din   = 14
+addr  = 13
+douta =  8
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 11151ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 14
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 11151ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 14
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 11251ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 13
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 11251ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 13
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 11311ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  8
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 11311ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  8
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 11350ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   = 14
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:13 at time: 11350
+============================================================
+
+At time: 11350ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   = 14
+addr  = 14
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 11370ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  8
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:13 at time: 11370
+============================================================
+
+At time: 11370ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  8
+addr  =  0
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 11450ns, RD packet Received from PORT_B MONITOR
+we    = 0
+en    = 1
+din   =  1
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+doutb in refrence model of port-b read:14 at time: 11450
+============================================================
+
+At time: 11450ns, PORT B READ reference data sent to SB
+we    = 0
+en    = 1
+din   =  1
+addr  =  3
+douta =  x
+doutb = 14
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 11451ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   = 15
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 11451ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   = 15
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 11531ns, RD packet Received from PORT_B MONITOR
+we    = 1
+en    = 1
+din   =  4
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 11531ns, PORT B WRITE reference data sent to SB
+we    = 1
+en    = 1
+din   =  4
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = WRITE
+============================================================
+

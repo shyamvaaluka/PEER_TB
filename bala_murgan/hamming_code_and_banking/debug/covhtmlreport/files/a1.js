@@ -1,0 +1,2 @@
+var g_data = {"75":{"pr":"/dual_package","ty":2,"dui":2,"dun":"work.dual_package","asserts":[{"n":["generator/randd/#ublk#12817845#11/immed__13"],"h":[0,950,0,0,950,0,0]}],"ad":1}}
+processAssertionsData(g_data);

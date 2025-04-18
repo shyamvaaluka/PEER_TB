@@ -1,0 +1,2 @@
+var g_data = {"2":["work.dual_package",94.58,1],"4":["work.dual_tbb",100.00,1],"1":["work.inf",76.14,1],"6":["work.latency",83.58,1],"5":["work.latency_top",67.16,1],"7":["work.modified_dual_mem",92.68,1]};
+processDuLinks(g_data);

@@ -1,0 +1,58 @@
+interface dual_iff(input bit clka,clkb);
+	parameter DATA_A=16;
+	parameter DATA_B=DATA_A;
+	parameter ADDR_A=$clog2(MEM_DEPTH);
+	parameter ADDR_B=$clog2(MEM_DEPTH);
+	parameter MEM_DEPTH=256;
+	parameter MEM_WIDTH=DATA_A+DATA_B;
+
+	logic wea,web,ena,enb;
+	logic [DATA_A-1:0] dina;
+	logic [DATA_B-1:0] dinb;
+
+	logic [ADDR_A-1:0]addra;
+	logic [ADDR_B-1:0]addrb;
+	logic [DATA_A-1:0]douta;
+	logic [DATA_B-1:0]doutb;
+	
+//	typedef virtual dual_iff d_if;	
+	clocking drv_porta @(posedge clka);
+	default input posedge output negedge;
+		output wea;
+		output ena;
+		output dina;
+		output addra;
+	endclocking
+
+	clocking mon_porta @(posedge clka);
+	default input posedge output negedge;
+		input wea;
+		input ena;
+		input dina;
+		input addra;
+		input douta;
+	endclocking
+
+	clocking drv_portb @(posedge clkb);
+	default input#1 output#1;
+		output web;
+		output enb;
+		output dinb;
+		output addrb;
+	endclocking
+
+	clocking mon_portb @(posedge clkb);
+	default input#1 output#1;
+		input web;
+		input enb;
+		input dinb;
+		input addrb;
+		input doutb;
+	endclocking
+
+	modport DRV_PA(clocking drv_porta);
+	modport MON_PA(clocking mon_porta);
+	modport DRV_PB(clocking drv_portb);
+	modport MON_PB(clocking mon_portb);
+
+endinterface

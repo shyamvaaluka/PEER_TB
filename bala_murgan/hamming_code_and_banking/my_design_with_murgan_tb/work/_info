@@ -1,0 +1,609 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/shyam/DUAL_PORT_SV_TB-2/peer_tb/bala_murgan/hamming_code_and_banking/my_design_with_murgan_tb
+T_opt
+!s11d dual_package /home/shyam/DUAL_PORT_SV_TB-2/peer_tb/bala_murgan/hamming_code_and_banking/my_design_with_murgan_tb/work 1 inf 1 /home/shyam/DUAL_PORT_SV_TB-2/peer_tb/bala_murgan/hamming_code_and_banking/my_design_with_murgan_tb/work 
+!s110 1742475664
+V8BWZS9J8LDRhTFSLk9jEa3
+04 8 4 work dual_tbb fast 0
+=1-000ae431a4f1-67dc1190-8ee0-8b08
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2021.2_1;73
+vassertions
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1742475663
+!i10b 1
+!s100 >I;j0202>W7KmjI0D8o?U0
+I@Be_loa7z6<L0dS4?DOcG1
+S1
+R1
+w1741063740
+8assertions.sv
+Fassertions.sv
+!i122 65
+L0 1 15
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.2_1;73
+r1
+!s85 0
+31
+Z6 !s108 1742475663.000000
+Z7 !s107 test.sv|environment.sv|score_board.sv|monitor.sv|reference_model.sv|driver.sv|generator.sv|transaction.sv|top_modules.sv|assertions.sv|interface.sv|packages.sv|./rtl/sel_latency.sv|./rtl/modified_dual_mem.sv|./rtl/latency_ram_top.sv|./rtl/latency_module.sv|./rtl/hamming_top.sv|./rtl/hamming_dec.sv|./rtl/hamming.sv|./rtl/error_injector.sv|./rtl/demultiplexer_data.v|./rtl/controller_interface.v|./rtl/MEMORY_CONTROL_TOP.sv|./rtl/Demultiplexer1_address.v|./rtl/Decoder_enable_lines.v|./rtl/Controlling_Memory.v|./rtl/4x1MUX.v|
+Z8 !s90 -F=/home/shyam/DUAL_PORT_SV_TB-2/latency_banking_hamming_code/vlog.opt|-F=|-sv|-cover|bcst|-f|run.f|packages.sv|interface.sv|assertions.sv|top_modules.sv|
+!i113 0
+Z9 !s102 -cover bcst
+Z10 o-sv -cover bcst -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 tCoverage 32 CvgOpt 0
+vcontroller_interface
+R2
+R3
+!i10b 1
+!s100 h=6f^CM]QO=Q[KbcfdXTa1
+IF=U;W0Khb]QeNz]Q6U;461
+S1
+R1
+w1742300832
+8./rtl/controller_interface.v
+F./rtl/controller_interface.v
+!i122 65
+L0 17 145
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+vDecoder_enable_lines
+R2
+R3
+!i10b 1
+!s100 NVWmT2=cfPz=k=AHioR9U0
+IG>:DFFdUK2?OADXmZ;e>83
+S1
+R1
+w1742387536
+8./rtl/Decoder_enable_lines.v
+F./rtl/Decoder_enable_lines.v
+!i122 65
+L0 13 30
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+n@decoder_enable_lines
+vDemultiplexer1_address
+R2
+R3
+!i10b 1
+!s100 1RFS7X6]JdDfT`SdmVJHO0
+IGk8mN=8A0XKoIR;`ENa;<0
+S1
+R1
+w1742388164
+8./rtl/Demultiplexer1_address.v
+F./rtl/Demultiplexer1_address.v
+!i122 65
+L0 15 33
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+n@demultiplexer1_address
+vdemultiplexer_data
+R2
+R3
+!i10b 1
+!s100 z70FYY=MZ2bP0aUbCTUlC1
+I;ilzjU>k8^b8i1>SlN7Fi0
+S1
+R1
+w1742388165
+8./rtl/demultiplexer_data.v
+F./rtl/demultiplexer_data.v
+!i122 65
+L0 14 36
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+Xdual_package
+!s115 inf
+R2
+R3
+!i10b 1
+!s100 S@4lTMK9P<I3V3m_]1W_62
+IH>R6V:@^[5Qn2f41T[>WD2
+S1
+R1
+w1742475488
+8packages.sv
+Fpackages.sv
+Ftransaction.sv
+Fgenerator.sv
+Fdriver.sv
+Freference_model.sv
+Fmonitor.sv
+Fscore_board.sv
+Fenvironment.sv
+Ftest.sv
+!i122 65
+Z12 L0 4 0
+VH>R6V:@^[5Qn2f41T[>WD2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+vdual_tbb
+R2
+R2
+Z13 DXx4 work 12 dual_package 0 22 H>R6V:@^[5Qn2f41T[>WD2
+Z14 DXx4 work 19 top_modules_sv_unit 0 22 j8zSKAC1:XhIVNGV^R?@b2
+R3
+R4
+r1
+!s85 0
+!i10b 1
+!s100 XH60J7]dU:n:1B;J`0i`61
+IG4G<FjjmUSK@aN:QI?YBX1
+Z15 !s105 top_modules_sv_unit
+S1
+R1
+w1741259655
+Z16 8top_modules.sv
+Z17 Ftop_modules.sv
+!i122 65
+L0 8 37
+R5
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+verr_inj
+R2
+R3
+!i10b 1
+!s100 A2HS68Gk:]1FeQ^F>=h763
+I75?CzBEfTJ7?@fB9;8FD62
+S1
+R1
+w1742465445
+8./rtl/error_injector.sv
+F./rtl/error_injector.sv
+!i122 65
+L0 16 35
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+vham_dec
+R2
+R3
+!i10b 1
+!s100 Vmb1GXfYa^o3_zDIV:i?i1
+Ig3Jkn1e57]k0Ql;^WPm:j2
+S1
+R1
+w1742466527
+8./rtl/hamming_dec.sv
+F./rtl/hamming_dec.sv
+!i122 65
+L0 17 227
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+vham_enc
+R2
+R3
+!i10b 1
+!s100 @c<YiOG0^5B9dV<SSP^]F2
+I7e<816]nC[HkGCB6IM4;b2
+S1
+R1
+w1742466305
+8./rtl/hamming.sv
+F./rtl/hamming.sv
+!i122 65
+L0 17 129
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+vhamming_encoder_top
+R2
+R3
+!i10b 1
+!s100 _CNML:f4S>d_D;2`UfGWl3
+IR53oW:HIA2Yf:GXm41Lh@0
+S1
+R1
+w1742460651
+8./rtl/hamming_top.sv
+F./rtl/hamming_top.sv
+!i122 65
+L0 17 32
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+Yinf
+R2
+R2
+R13
+R14
+R3
+R4
+r1
+!s85 0
+!i10b 1
+!s100 S0EQMEn9[3j`a@PbRV5^?3
+IzhLo>NPPiHl^CUZSCj3><2
+R15
+S1
+R1
+Z18 w1741270643
+Z19 8interface.sv
+Z20 Finterface.sv
+!i122 65
+L0 5 0
+R5
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+Xinterface_sv_unit
+R2
+R13
+R3
+V<@VgCFC;HGTXUO4=YzDnZ0
+r1
+!s85 0
+!i10b 1
+!s100 013M;d:eZ=K0hQTC60Lbk1
+I<@VgCFC;HGTXUO4=YzDnZ0
+!i103 1
+S1
+R1
+R18
+R19
+R20
+!i122 65
+L0 3 0
+R5
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+vlatency
+R2
+R3
+!i10b 1
+!s100 @d85nn@UZC73;C;b8nc9i0
+IEeEk1R<2l6J:>8VIU1Q>i1
+S1
+R1
+w1742308236
+8./rtl/latency_module.sv
+F./rtl/latency_module.sv
+!i122 65
+L0 22 373
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+vlatency_top
+R2
+R3
+!i10b 1
+!s100 66b8g7;KI7iAHODiVJN:V1
+ID=X_8eUL:33PQHBhNma>>3
+S1
+R1
+w1742362933
+8./rtl/latency_ram_top.sv
+F./rtl/latency_ram_top.sv
+!i122 65
+L0 18 84
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+vMemory_Control_Unit
+R2
+R3
+!i10b 1
+!s100 U3b47_icMg^H>=BKQTH690
+INLjHZW?ekBS;XYG?3W]Hi0
+S1
+R1
+w1742296175
+8./rtl/Controlling_Memory.v
+F./rtl/Controlling_Memory.v
+!i122 65
+L0 22 164
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+n@memory_@control_@unit
+vMEMORY_TOP
+R2
+R3
+!i10b 1
+!s100 n5z8ZjiVX`DZSBm<PdE1o1
+Ig@:bI[cE4Jo3g9D07Jih]0
+S1
+R1
+w1742366804
+8./rtl/MEMORY_CONTROL_TOP.sv
+F./rtl/MEMORY_CONTROL_TOP.sv
+!i122 65
+L0 26 133
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+n@m@e@m@o@r@y_@t@o@p
+vmodified_dual_mem
+R2
+R3
+!i10b 1
+!s100 `HC?8]z6h@P_d9:Ne`N^i0
+IPdicibHh]dZYzc?n[n`no3
+S1
+R1
+w1742363449
+8./rtl/modified_dual_mem.sv
+F./rtl/modified_dual_mem.sv
+!i122 65
+L0 20 68
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+vMUX_4x1
+R2
+R3
+!i10b 1
+!s100 R22oH7TFG>:X9iPi`F>??1
+IG7`O5Q_>?<V[;@2:e5c>T0
+S1
+R1
+w1742387298
+8./rtl/4x1MUX.v
+F./rtl/4x1MUX.v
+!i122 65
+L0 15 29
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+n@m@u@x_4x1
+vsel_latency
+R2
+R3
+!i10b 1
+!s100 YjZN=LboiO8EhkJF<alaD3
+Ig3RM@3A1DR95ILaDaz9gf2
+S1
+R1
+w1742365166
+8./rtl/sel_latency.sv
+F./rtl/sel_latency.sv
+!i122 65
+L0 17 86
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+Xtop_modules_sv_unit
+R2
+R2
+R13
+R3
+Vj8zSKAC1:XhIVNGV^R?@b2
+r1
+!s85 0
+!i10b 1
+!s100 d=l0kljlZ3K^5BO^>Vmee2
+Ij8zSKAC1:XhIVNGV^R?@b2
+!i103 1
+S1
+R1
+R18
+R16
+R17
+R20
+!i122 65
+R12
+R5
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11

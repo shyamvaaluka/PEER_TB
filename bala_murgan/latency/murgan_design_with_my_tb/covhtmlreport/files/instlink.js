@@ -1,0 +1,2 @@
+var g_data = {"11":[10,"write_dataA",1],"12":[10,"read_dataA",1],"13":[10,"write_dataB",1],"14":[10,"read_dataB",1],"15":[10,"w_enableA",1],"16":[10,"w_enableB",1],"17":[10,"addressA",1],"18":[10,"addressB",1],"19":[10,"enableA",1],"20":[10,"enableB",1],"10":[9,"DUT",1],"21":[9,"in0",1],"9":[-1,"top",1],"24":[-1,"pkg",1]};
+processInstLinks(g_data);

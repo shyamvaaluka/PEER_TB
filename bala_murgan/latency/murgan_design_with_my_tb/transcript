@@ -1,0 +1,676 @@
+# do run.tcl
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# Start time: 12:46:09 on Mar 21,2025
+# vlog -sv -cover bcst package2.sv trans_pkg.sv package.sv top.sv 
+# -- Compiling package pkg_2
+# -- Compiling package trans_pkg
+# -- Compiling package pkg
+# -- Importing package pkg_2
+# -- Importing package trans_pkg
+# -- Compiling package top_sv_unit
+# -- Importing package pkg
+# -- Compiling module dual_port_ram
+# -- Compiling module latency
+# -- Compiling interface dual_iff
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:46:09 on Mar 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -gui -coverage -assertdebug -voptargs="+acc" -onfinish stop work.top "+TEST0" 
+# Start time: 12:46:09 on Mar 21,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# //  Questa Sim-64
+# //  Version 2021.2_1 linux_x86_64 May 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.dual_iff(fast)
+# Loading work.trans_pkg(fast)
+# Loading work.pkg_2(fast)
+# Loading work.pkg(fast)
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.dual_port_ram(fast)
+# Loading work.latency(fast)
+# Loading work.latency(fast__1)
+# Loading work.latency(fast__2)
+# Loading work.latency(fast__3)
+# Loading work.latency(fast__4)
+# Loading work.latency(fast__5)
+# Loading work.dual_iff(fast__2)
+# ** UI-Msg: (vish-4014) No objects found matching '/top/DUT/clka'.
+# Executing ONERROR command at macro ./wave_latency_sv_tb.do line 3
+# ** UI-Msg: (vish-4014) No objects found matching '/top/DUT/clkb'.
+# Executing ONERROR command at macro ./wave_latency_sv_tb.do line 9
+# ** UI-Msg: (vish-4014) No objects found matching '/top/DUT/D1/mem'.
+# Executing ONERROR command at macro ./wave_latency_sv_tb.do line 15
+# wave activecursor not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# ** Warning: (vsim-3881) dual_monitor_a.sv(53): Sign-and-Width conversion applied in bin 'MIN1' for Coverpoint 'DATA_IN_A'. Value '20' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3882) dual_monitor_a.sv(53): Out of bounds value range in bin 'MIN1' for Coverpoint 'DATA_IN_A' converted to nearest valid bounded range of [10:15].
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_a.sv(54): Sign-and-Width conversion applied in bin 'MID' for Coverpoint 'DATA_IN_A'. Value '21' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_a.sv(54): Sign-and-Width conversion applied in bin 'MID' for Coverpoint 'DATA_IN_A'. Value '50' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-8475) The invalid value range [21 : 50] is found in bin 'MID' of Coverpoint 'DATA_IN_A'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#69 File: dual_monitor_a.sv Line: 54
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'MID' in Coverpoint 'DATA_IN_A' of Covergroup instance '\/pkg::dual_monitor_a::write_port_a ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_a.sv(55): Sign-and-Width conversion applied in bin 'MID1' for Coverpoint 'DATA_IN_A'. Value '51' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_a.sv(55): Sign-and-Width conversion applied in bin 'MID1' for Coverpoint 'DATA_IN_A'. Value '100' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-8475) The invalid value range [51 : 100] is found in bin 'MID1' of Coverpoint 'DATA_IN_A'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#69 File: dual_monitor_a.sv Line: 55
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'MID1' in Coverpoint 'DATA_IN_A' of Covergroup instance '\/pkg::dual_monitor_a::write_port_a ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_a.sv(56): Sign-and-Width conversion applied in bin 'HIGH' for Coverpoint 'DATA_IN_A'. Value '101' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_a.sv(56): Sign-and-Width conversion applied in bin 'HIGH' for Coverpoint 'DATA_IN_A'. Value '200' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-8475) The invalid value range [101 : 200] is found in bin 'HIGH' of Coverpoint 'DATA_IN_A'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#69 File: dual_monitor_a.sv Line: 56
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'HIGH' in Coverpoint 'DATA_IN_A' of Covergroup instance '\/pkg::dual_monitor_a::write_port_a ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_a.sv(57): Sign-and-Width conversion applied in bin 'HIGH1' for Coverpoint 'DATA_IN_A'. Value '201' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_a.sv(57): Sign-and-Width conversion applied in bin 'HIGH1' for Coverpoint 'DATA_IN_A'. Value '255' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-8475) The invalid value range [201 : 255] is found in bin 'HIGH1' of Coverpoint 'DATA_IN_A'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#69 File: dual_monitor_a.sv Line: 57
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'HIGH1' in Coverpoint 'DATA_IN_A' of Covergroup instance '\/pkg::dual_monitor_a::write_port_a ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_a.sv(77): Sign-and-Width conversion applied in bin 'MIN1' for Coverpoint 'DATA_IN_A'. Value '20' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3882) dual_monitor_a.sv(77): Out of bounds value range in bin 'MIN1' for Coverpoint 'DATA_IN_A' converted to nearest valid bounded range of [10:15].
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_a.sv(78): Sign-and-Width conversion applied in bin 'MID' for Coverpoint 'DATA_IN_A'. Value '21' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_a.sv(78): Sign-and-Width conversion applied in bin 'MID' for Coverpoint 'DATA_IN_A'. Value '50' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-8475) The invalid value range [21 : 50] is found in bin 'MID' of Coverpoint 'DATA_IN_A'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#69 File: dual_monitor_a.sv Line: 78
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'MID' in Coverpoint 'DATA_IN_A' of Covergroup instance '\/pkg::dual_monitor_a::read_port_a ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_a.sv(79): Sign-and-Width conversion applied in bin 'MID1' for Coverpoint 'DATA_IN_A'. Value '51' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_a.sv(79): Sign-and-Width conversion applied in bin 'MID1' for Coverpoint 'DATA_IN_A'. Value '100' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-8475) The invalid value range [51 : 100] is found in bin 'MID1' of Coverpoint 'DATA_IN_A'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#69 File: dual_monitor_a.sv Line: 79
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'MID1' in Coverpoint 'DATA_IN_A' of Covergroup instance '\/pkg::dual_monitor_a::read_port_a ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_a.sv(80): Sign-and-Width conversion applied in bin 'HIGH' for Coverpoint 'DATA_IN_A'. Value '101' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_a.sv(80): Sign-and-Width conversion applied in bin 'HIGH' for Coverpoint 'DATA_IN_A'. Value '200' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-8475) The invalid value range [101 : 200] is found in bin 'HIGH' of Coverpoint 'DATA_IN_A'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#69 File: dual_monitor_a.sv Line: 80
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'HIGH' in Coverpoint 'DATA_IN_A' of Covergroup instance '\/pkg::dual_monitor_a::read_port_a ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_a.sv(81): Sign-and-Width conversion applied in bin 'HIGH1' for Coverpoint 'DATA_IN_A'. Value '201' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_a.sv(81): Sign-and-Width conversion applied in bin 'HIGH1' for Coverpoint 'DATA_IN_A'. Value '255' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-8475) The invalid value range [201 : 255] is found in bin 'HIGH1' of Coverpoint 'DATA_IN_A'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#69 File: dual_monitor_a.sv Line: 81
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'HIGH1' in Coverpoint 'DATA_IN_A' of Covergroup instance '\/pkg::dual_monitor_a::read_port_a ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_b.sv(54): Sign-and-Width conversion applied in bin 'MIN1' for Coverpoint 'DATA_IN_B'. Value '20' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3882) dual_monitor_b.sv(54): Out of bounds value range in bin 'MIN1' for Coverpoint 'DATA_IN_B' converted to nearest valid bounded range of [10:15].
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_b.sv(55): Sign-and-Width conversion applied in bin 'MID' for Coverpoint 'DATA_IN_B'. Value '21' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_b.sv(55): Sign-and-Width conversion applied in bin 'MID' for Coverpoint 'DATA_IN_B'. Value '50' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-8475) The invalid value range [21 : 50] is found in bin 'MID' of Coverpoint 'DATA_IN_B'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#69 File: dual_monitor_b.sv Line: 55
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'MID' in Coverpoint 'DATA_IN_B' of Covergroup instance '\/pkg::dual_monitor_b::write_port_b ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_b.sv(56): Sign-and-Width conversion applied in bin 'MID1' for Coverpoint 'DATA_IN_B'. Value '51' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_b.sv(56): Sign-and-Width conversion applied in bin 'MID1' for Coverpoint 'DATA_IN_B'. Value '100' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-8475) The invalid value range [51 : 100] is found in bin 'MID1' of Coverpoint 'DATA_IN_B'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#69 File: dual_monitor_b.sv Line: 56
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'MID1' in Coverpoint 'DATA_IN_B' of Covergroup instance '\/pkg::dual_monitor_b::write_port_b ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_b.sv(57): Sign-and-Width conversion applied in bin 'HIGH' for Coverpoint 'DATA_IN_B'. Value '101' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_b.sv(57): Sign-and-Width conversion applied in bin 'HIGH' for Coverpoint 'DATA_IN_B'. Value '200' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-8475) The invalid value range [101 : 200] is found in bin 'HIGH' of Coverpoint 'DATA_IN_B'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#69 File: dual_monitor_b.sv Line: 57
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'HIGH' in Coverpoint 'DATA_IN_B' of Covergroup instance '\/pkg::dual_monitor_b::write_port_b ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_b.sv(58): Sign-and-Width conversion applied in bin 'HIGH1' for Coverpoint 'DATA_IN_B'. Value '201' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_b.sv(58): Sign-and-Width conversion applied in bin 'HIGH1' for Coverpoint 'DATA_IN_B'. Value '255' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-8475) The invalid value range [201 : 255] is found in bin 'HIGH1' of Coverpoint 'DATA_IN_B'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#69 File: dual_monitor_b.sv Line: 58
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'HIGH1' in Coverpoint 'DATA_IN_B' of Covergroup instance '\/pkg::dual_monitor_b::write_port_b ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_b.sv(78): Sign-and-Width conversion applied in bin 'MIN1' for Coverpoint 'DATA_IN_B'. Value '20' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3882) dual_monitor_b.sv(78): Out of bounds value range in bin 'MIN1' for Coverpoint 'DATA_IN_B' converted to nearest valid bounded range of [10:15].
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_b.sv(79): Sign-and-Width conversion applied in bin 'MID' for Coverpoint 'DATA_IN_B'. Value '21' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_b.sv(79): Sign-and-Width conversion applied in bin 'MID' for Coverpoint 'DATA_IN_B'. Value '50' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-8475) The invalid value range [21 : 50] is found in bin 'MID' of Coverpoint 'DATA_IN_B'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#69 File: dual_monitor_b.sv Line: 79
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'MID' in Coverpoint 'DATA_IN_B' of Covergroup instance '\/pkg::dual_monitor_b::read_port_b ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_b.sv(80): Sign-and-Width conversion applied in bin 'MID1' for Coverpoint 'DATA_IN_B'. Value '51' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_b.sv(80): Sign-and-Width conversion applied in bin 'MID1' for Coverpoint 'DATA_IN_B'. Value '100' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-8475) The invalid value range [51 : 100] is found in bin 'MID1' of Coverpoint 'DATA_IN_B'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#69 File: dual_monitor_b.sv Line: 80
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'MID1' in Coverpoint 'DATA_IN_B' of Covergroup instance '\/pkg::dual_monitor_b::read_port_b ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_b.sv(81): Sign-and-Width conversion applied in bin 'HIGH' for Coverpoint 'DATA_IN_B'. Value '101' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_b.sv(81): Sign-and-Width conversion applied in bin 'HIGH' for Coverpoint 'DATA_IN_B'. Value '200' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-8475) The invalid value range [101 : 200] is found in bin 'HIGH' of Coverpoint 'DATA_IN_B'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#69 File: dual_monitor_b.sv Line: 81
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'HIGH' in Coverpoint 'DATA_IN_B' of Covergroup instance '\/pkg::dual_monitor_b::read_port_b ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_b.sv(82): Sign-and-Width conversion applied in bin 'HIGH1' for Coverpoint 'DATA_IN_B'. Value '201' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-3881) dual_monitor_b.sv(82): Sign-and-Width conversion applied in bin 'HIGH1' for Coverpoint 'DATA_IN_B'. Value '255' changed to '15 (maximum)' value.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ** Warning: (vsim-8475) The invalid value range [201 : 255] is found in bin 'HIGH1' of Coverpoint 'DATA_IN_B'. It will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /top/#INITIAL#69 File: dual_monitor_b.sv Line: 82
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid values, the values list associated with scalar bin 'HIGH1' in Coverpoint 'DATA_IN_B' of Covergroup instance '\/pkg::dual_monitor_b::read_port_b ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /top
+# ===========================PORT_A===================================
+# Passed: output of reference model: x and output of monitor: x at time 65
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: x and output of monitor: x at time 75
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: x and output of monitor: x at time 185
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: x and output of monitor: x at time 210
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: x and output of monitor: x at time 215
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: x and output of monitor: x at time 230
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: x and output of monitor: x at time 250
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: x and output of monitor: x at time 370
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: x and output of monitor: x at time 390
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: x and output of monitor: x at time 410
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: x and output of monitor: x at time 490
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 14 and output of monitor: 14 at time 550
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 15 and output of monitor: 15 at time 610
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: x and output of monitor: x at time 650
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: x and output of monitor: x at time 655
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: x and output of monitor: x at time 685
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: x and output of monitor: x at time 695
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: x and output of monitor: x at time 705
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: x and output of monitor: x at time 730
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 14 and output of monitor: 14 at time 735
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: x and output of monitor: x at time 870
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: x and output of monitor: x at time 1110
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: x and output of monitor: x at time 1170
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: x and output of monitor: x at time 1270
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: x and output of monitor: x at time 1350
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: x and output of monitor: x at time 1370
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: x and output of monitor: x at time 1510
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: x and output of monitor: x at time 1530
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: x and output of monitor: x at time 1550
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: x and output of monitor: x at time 1590
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: x and output of monitor: x at time 1730
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: x and output of monitor: x at time 1790
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: x and output of monitor: x at time 1870
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: x and output of monitor: x at time 1970
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: x and output of monitor: x at time 2075
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: x and output of monitor: x at time 2090
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 3 and output of monitor: 3 at time 2095
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 14 and output of monitor: 14 at time 2110
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 11 and output of monitor: 11 at time 2450
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 0 and output of monitor: 0 at time 2470
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 5 and output of monitor: 5 at time 2650
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 15 and output of monitor: 15 at time 2710
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 14 and output of monitor: 14 at time 2730
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 13 and output of monitor: 13 at time 2890
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 8 and output of monitor: 8 at time 2910
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 11 and output of monitor: 11 at time 2950
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 8 and output of monitor: 8 at time 2970
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 10 and output of monitor: 10 at time 3030
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 15 and output of monitor: 15 at time 3090
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 9 and output of monitor: 9 at time 3370
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 15 and output of monitor: 15 at time 3390
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 10 and output of monitor: 10 at time 3410
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 9 and output of monitor: 9 at time 3450
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 11 and output of monitor: 11 at time 3530
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 7 and output of monitor: 7 at time 3570
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 15 and output of monitor: 15 at time 4090
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 5 and output of monitor: 5 at time 4130
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 9 and output of monitor: 9 at time 4270
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 9 and output of monitor: 9 at time 4290
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 9 and output of monitor: 9 at time 4390
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 8 and output of monitor: 8 at time 4405
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 8 and output of monitor: 8 at time 4410
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 7 and output of monitor: 7 at time 4450
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 9 and output of monitor: 9 at time 4735
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 9 and output of monitor: 9 at time 4965
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 8 and output of monitor: 8 at time 4985
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 3 and output of monitor: 3 at time 5030
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 9 and output of monitor: 9 at time 5130
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 3 and output of monitor: 3 at time 5150
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 14 and output of monitor: 14 at time 5190
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 13 and output of monitor: 13 at time 5210
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 6 and output of monitor: 6 at time 5330
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 4 and output of monitor: 4 at time 5355
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 14 and output of monitor: 14 at time 5370
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 6 and output of monitor: 6 at time 5410
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 3 and output of monitor: 3 at time 5510
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 1 and output of monitor: 1 at time 5710
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 10 and output of monitor: 10 at time 5730
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 3 and output of monitor: 3 at time 5770
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 3 and output of monitor: 3 at time 5910
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 9 and output of monitor: 9 at time 6010
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 4 and output of monitor: 4 at time 6035
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 6 and output of monitor: 6 at time 6050
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 9 and output of monitor: 9 at time 6130
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 14 and output of monitor: 14 at time 6135
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 7 and output of monitor: 7 at time 6155
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 1 and output of monitor: 1 at time 6355
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 1 and output of monitor: 1 at time 6515
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 2 and output of monitor: 2 at time 6535
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 2 and output of monitor: 2 at time 6570
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 2 and output of monitor: 2 at time 6590
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 3 and output of monitor: 3 at time 6970
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 8 and output of monitor: 8 at time 7050
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 4 and output of monitor: 4 at time 7170
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 2 and output of monitor: 2 at time 7350
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 4 and output of monitor: 4 at time 7370
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 6 and output of monitor: 6 at time 7490
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 9 and output of monitor: 9 at time 7630
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 2 and output of monitor: 2 at time 7810
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 8 and output of monitor: 8 at time 7825
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 7 and output of monitor: 7 at time 7845
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 0 and output of monitor: 0 at time 7995
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 12 and output of monitor: 12 at time 8015
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 4 and output of monitor: 4 at time 8025
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 12 and output of monitor: 12 at time 8050
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 12 and output of monitor: 12 at time 8170
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 12 and output of monitor: 12 at time 8390
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 3 and output of monitor: 3 at time 8410
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 7 and output of monitor: 7 at time 8470
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 12 and output of monitor: 12 at time 8490
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 0 and output of monitor: 0 at time 8570
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 12 and output of monitor: 12 at time 8730
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 2 and output of monitor: 2 at time 8890
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 2 and output of monitor: 2 at time 8950
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 12 and output of monitor: 12 at time 8970
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 1 and output of monitor: 1 at time 8990
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 13 and output of monitor: 13 at time 9170
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 2 and output of monitor: 2 at time 9230
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 10 and output of monitor: 10 at time 9310
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 5 and output of monitor: 5 at time 9350
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 2 and output of monitor: 2 at time 9430
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 8 and output of monitor: 8 at time 9450
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 4 and output of monitor: 4 at time 9470
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 13 and output of monitor: 13 at time 9510
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 8 and output of monitor: 8 at time 9550
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 2 and output of monitor: 2 at time 9570
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 8 and output of monitor: 8 at time 9650
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 4 and output of monitor: 4 at time 9670
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 13 and output of monitor: 13 at time 9730
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 10 and output of monitor: 10 at time 9750
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 4 and output of monitor: 4 at time 9930
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 10 and output of monitor: 10 at time 10090
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 0 and output of monitor: 0 at time 10490
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 12 and output of monitor: 12 at time 10570
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 8 and output of monitor: 8 at time 10730
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 10 and output of monitor: 10 at time 10750
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 13 and output of monitor: 13 at time 10950
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 6 and output of monitor: 6 at time 10975
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 15 and output of monitor: 15 at time 11130
+# 
+# ===========================PORT_A===================================
+# Passed: output of reference model: 8 and output of monitor: 8 at time 11155
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 8 and output of monitor: 8 at time 11230
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 0 and output of monitor: 0 at time 11250
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 13 and output of monitor: 13 at time 11510
+# 
+# ===========================PORT_B===================================
+# Passed: output of reference model: 13 and output of monitor: 13 at time 11530
+# 
+# COVERED 100% COVERAGE
+# write_coverage_a :100.000000
+# read_coverage_a  :100.000000
+# write_coverage_b :100.000000
+# read_coverage_b  :100.000000
+# 
+# 
+# PASS COUNT PORT-A:29
+# FAIL COUNT PORT-A:0
+# PASS COUNT PORT-B:115
+# FAIL COUNT PORT-B:0
+# 
+# 
+# write_coverage :100.000000
+# read_coverage  :100.000000
+# ** Note: $finish    : dual_env.sv(143)
+#    Time: 11590 ns  Iteration: 4  Instance: /top
+# Break in Task pkg/dual_env::run at dual_env.sv line 143
+# Stopped at dual_env.sv line 143
+# QuestaSim-64 vcover 2021.2_1 Coverage Utility 2021.05 May 15 2021
+# Start time: 12:46:12 on Mar 21,2025
+# vcover report -html -output covhtmlreport -details -assert -directive -cvg -code bcefst -threshL 50 -threshH 90 cov.ucdb 
+# 
+# End time: 12:46:14 on Mar 21,2025, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# 11387
+# End time: 12:46:14 on Mar 21,2025, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 72

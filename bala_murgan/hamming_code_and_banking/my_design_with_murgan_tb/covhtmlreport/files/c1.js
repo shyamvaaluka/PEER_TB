@@ -1,0 +1,2 @@
+var g_data = {"52":{"cvpc":[{"h":["#coverpoint__0#",4,1,53],"cov":[5,5,100.00],"opts":{"goal":"100"}},{"h":["#coverpoint__1#",4,1,54],"cov":[3,3,100.00],"opts":{"goal":"100"}},{"h":["#t6.i_din__2#",4,1,55],"cov":[64,64,100.00],"opts":{"goal":"100"}},{"h":["#t6.i_addr__3#",4,1,56],"cov":[64,64,100.00],"opts":{"goal":"100"}},{"h":["crossing",8,1,57],"cov":[4096,4096,100.00],"opts":{"goal":"100"},"cvps":["#t6.i_din__2#","#t6.i_addr__3#"]}],"cvg":["/dual_package/monitor/ram_gr",1],"cvgdata":[136,136,4096,4096]}};
+processCoverpointsData(g_data);

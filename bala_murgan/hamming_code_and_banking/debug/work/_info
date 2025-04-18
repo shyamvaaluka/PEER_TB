@@ -1,0 +1,487 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+!s11f vlog 2021.2_1 2021.05, May 15 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/shyam/DUAL_PORT_SV_TB-2/peer_tb/bala_murgan/hamming_code_and_banking/debug
+T_opt
+Z2 !s11d dual_package /home/shyam/DUAL_PORT_SV_TB-2/peer_tb/bala_murgan/hamming_code_and_banking/debug/work 1 inf 1 /home/shyam/DUAL_PORT_SV_TB-2/peer_tb/bala_murgan/hamming_code_and_banking/debug/work 
+!s110 1741248688
+Vl>2FK1i3m;WlVGQMQD3gh3
+Z3 04 8 4 work dual_tbb fast 0
+=1-000ae431a4f1-67c958b0-8844c-2946
+Z4 !s124 OEM100
+Z5 o-quiet -auto_acc_if_foreign -work work +acc
+Z6 tCvgOpt 0
+n@_opt
+Z7 OL;O;2021.2_1;73
+R1
+T_opt1
+R2
+!s110 1741246180
+V7M5iWz6WYT_oe9C9ll7]o3
+R3
+=1-000ae431a4f1-67c94ee4-1f7b6-21ad
+R4
+R5
+R6
+n@_opt1
+R7
+R1
+vassertions
+Z8 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z9 !s110 1741269594
+!i10b 1
+!s100 >I;j0202>W7KmjI0D8o?U0
+INkE4oK[VHWiRHX_fTaU2S3
+S1
+R1
+Z10 w1741063740
+8assertions.sv
+Fassertions.sv
+!i122 12
+L0 1 15
+Z11 VDg1SIo80bB@j0V0VzS_@n1
+Z12 OL;L;2021.2_1;73
+r1
+!s85 0
+31
+Z13 !s108 1741269594.000000
+!s107 test.sv|environment.sv|score_board.sv|monitor.sv|reference_model.sv|driver.sv|generator.sv|transaction.sv|top_modules.sv|assertions.sv|interface.sv|packages.sv|./rtl/top_.sv|./rtl/mux_out.sv|./rtl/multi_bank.sv|./rtl/hamming_en_decode.sv|./rtl/hamming_decoding.sv|./rtl/hamming.sv|./rtl/dual_ram.sv|./rtl/demux.sv|./rtl/decoder.sv|
+Z14 !s90 -reportprogress|300|-sv|-cover|bcst|-f|run.f|packages.sv|interface.sv|assertions.sv|top_modules.sv|
+!i113 0
+Z15 !s102 -cover bcst
+Z16 o-sv -cover bcst -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+vdecoder
+R8
+R9
+!i10b 1
+!s100 ?kUPCMeC6E;ELQ4VkB_Fa0
+IfanA_kY`RLj9DmKb7oH3>0
+S1
+R1
+R10
+8./rtl/decoder.sv
+F./rtl/decoder.sv
+!i122 12
+L0 1 17
+R11
+R12
+r1
+!s85 0
+31
+R13
+Z17 !s107 test.sv|environment.sv|score_board.sv|monitor.sv|reference_model.sv|driver.sv|generator.sv|transaction.sv|top_modules.sv|assertions.sv|interface.sv|packages.sv|./rtl/top_.sv|./rtl/mux_out.sv|./rtl/multi_bank.sv|./rtl/hamming_en_decode.sv|./rtl/hamming_decoding.sv|./rtl/hamming.sv|./rtl/dual_ram.sv|./rtl/demux.sv|./rtl/decoder.sv|
+R14
+!i113 0
+R15
+R16
+R6
+vdemux
+R8
+R9
+!i10b 1
+!s100 k5EO^A<C0<Zm@d<;`<SMD3
+IE9;Gl5fkHlHfiZl;dg7UV1
+S1
+R1
+R10
+8./rtl/demux.sv
+F./rtl/demux.sv
+!i122 12
+L0 3 16
+R11
+R12
+r1
+!s85 0
+31
+R13
+R17
+R14
+!i113 0
+R15
+R16
+R6
+Xdual_package
+!s115 inf
+R8
+R9
+!i10b 1
+!s100 cb;IFZmGfMPYCdRl:o[<C1
+IQRgAL_1Od]fmDP5bhaHYh2
+S1
+R1
+w1741248336
+8packages.sv
+Fpackages.sv
+Ftransaction.sv
+Fgenerator.sv
+Fdriver.sv
+Freference_model.sv
+Fmonitor.sv
+Fscore_board.sv
+Fenvironment.sv
+Ftest.sv
+!i122 12
+Z18 L0 4 0
+VQRgAL_1Od]fmDP5bhaHYh2
+R12
+r1
+!s85 0
+31
+R13
+R17
+R14
+!i113 0
+R15
+R16
+R6
+vdual_port_ram
+R8
+R9
+!i10b 1
+!s100 KTGXV2X0Cn[]F4knbWK`@1
+IgN=T7Vz]6PJ_I1FAW<hi31
+S1
+R1
+R10
+Z19 8./rtl/dual_ram.sv
+Z20 F./rtl/dual_ram.sv
+!i122 12
+L0 25 99
+R11
+R12
+r1
+!s85 0
+31
+R13
+R17
+R14
+!i113 0
+R15
+R16
+R6
+vdual_tbb
+R8
+R8
+Z21 DXx4 work 12 dual_package 0 22 QRgAL_1Od]fmDP5bhaHYh2
+Z22 DXx4 work 19 top_modules_sv_unit 0 22 CY?W?dN1Ik;_e`?HZAGlb0
+R9
+R11
+r1
+!s85 0
+!i10b 1
+!s100 Lm4`>>fAjEZ0Vjl^YQAz<1
+I72Db7`2eKD749B`KI>4i[2
+Z23 !s105 top_modules_sv_unit
+S1
+R1
+Z24 w1741248211
+Z25 8top_modules.sv
+Z26 Ftop_modules.sv
+!i122 12
+Z27 L0 8 36
+R12
+31
+R13
+R17
+R14
+!i113 0
+R15
+R16
+R6
+vhamming
+R8
+R9
+!i10b 1
+!s100 eSNinL321<QiN^79SLTh=1
+IbN;UdL6Ch3T`zfULilE0T3
+S1
+R1
+R10
+8./rtl/hamming.sv
+F./rtl/hamming.sv
+!i122 12
+L0 9 48
+R11
+R12
+r1
+!s85 0
+31
+R13
+R17
+R14
+!i113 0
+R15
+R16
+R6
+vhamming_decod
+R8
+R9
+!i10b 1
+!s100 QE?1]M;LP6]eVD3c?252m3
+IH623NPJehdC;nWKa;`aI20
+S1
+R1
+R10
+8./rtl/hamming_decoding.sv
+F./rtl/hamming_decoding.sv
+!i122 12
+L0 9 57
+R11
+R12
+r1
+!s85 0
+31
+R13
+R17
+R14
+!i113 0
+R15
+R16
+R6
+vhamming_en_decode
+R8
+R9
+!i10b 1
+!s100 `m0O4^kPYTbAXFAkPO@1^0
+If]NQ`86n^T]Fz<WlMY]<02
+S1
+R1
+R10
+8./rtl/hamming_en_decode.sv
+F./rtl/hamming_en_decode.sv
+!i122 12
+L0 6 25
+R11
+R12
+r1
+!s85 0
+31
+R13
+R17
+R14
+!i113 0
+R15
+R16
+R6
+Yinf
+R8
+R8
+R21
+R22
+R9
+R11
+r1
+!s85 0
+!i10b 1
+!s100 bkKVcm=[iA`f4^^OzRSVG2
+Ifc>Uo8KVLhBB@H[QJ1DfM3
+R23
+S1
+R1
+R10
+Z28 8interface.sv
+Z29 Finterface.sv
+!i122 12
+L0 5 0
+R12
+31
+R13
+R17
+R14
+!i113 0
+R15
+R16
+R6
+Xinterface_sv_unit
+R8
+R21
+R9
+V0]9ka[_?E4WZ3T5z3Y9@z3
+r1
+!s85 0
+!i10b 1
+!s100 013M;d:eZ=K0hQTC60Lbk1
+I0]9ka[_?E4WZ3T5z3Y9@z3
+!i103 1
+S1
+R1
+R10
+R28
+R29
+!i122 12
+L0 3 0
+R12
+31
+R13
+R17
+R14
+!i113 0
+R15
+R16
+R6
+vlatency
+R8
+R9
+!i10b 1
+!s100 LdXL4l5[gj^Y?NQ2m>TJa3
+I8iLb>`MB8]4k<3Cb<VUnn0
+S1
+R1
+R10
+R19
+R20
+!i122 12
+L0 127 24
+R11
+R12
+r1
+!s85 0
+31
+R13
+R17
+R14
+!i113 0
+R15
+R16
+R6
+vlatencys
+R8
+R9
+!i10b 1
+!s100 `VR^TRPngXOJh8iD?kziC3
+IXghNcQD`Y9B]I?>F3_FP<3
+S1
+R1
+R10
+Z30 8./rtl/mux_out.sv
+Z31 F./rtl/mux_out.sv
+!i122 12
+L0 30 14
+R11
+R12
+r1
+!s85 0
+31
+R13
+R17
+R14
+!i113 0
+R15
+R16
+R6
+vmultibank_controller
+R8
+R9
+!i10b 1
+!s100 Q76;6RO3R=L:K6aKeS4YW3
+IGMIdh5zC2:9k0lzeQe?Ia2
+S1
+R1
+w1741159489
+8./rtl/multi_bank.sv
+F./rtl/multi_bank.sv
+!i122 12
+R27
+R11
+R12
+r1
+!s85 0
+31
+R13
+R17
+R14
+!i113 0
+R15
+R16
+R6
+vmux_out
+R8
+R9
+!i10b 1
+!s100 ;VM;9bc4cobDGnH^O;GOY0
+IjOMU]JiXe=^gNn<cY:Qeh0
+S1
+R1
+R10
+R30
+R31
+!i122 12
+L0 7 22
+R11
+R12
+r1
+!s85 0
+31
+R13
+R17
+R14
+!i113 0
+R15
+R16
+R6
+vtop_module
+R8
+R9
+!i10b 1
+!s100 1JA_kVI0G2alRBYSPl]L_1
+IhPPZ4K@Tdm42FkMe`;92m1
+S1
+R1
+w1741248210
+8./rtl/top_.sv
+F./rtl/top_.sv
+!i122 12
+L0 29 55
+R11
+R12
+r1
+!s85 0
+31
+R13
+R17
+R14
+!i113 0
+R15
+R16
+R6
+Xtop_modules_sv_unit
+R8
+R8
+R21
+R9
+VCY?W?dN1Ik;_e`?HZAGlb0
+r1
+!s85 0
+!i10b 1
+!s100 [J3nf67fS5f:Tm891j`Y91
+ICY?W?dN1Ik;_e`?HZAGlb0
+!i103 1
+S1
+R1
+R24
+R25
+R26
+R29
+!i122 12
+R18
+R12
+31
+R13
+R17
+R14
+!i113 0
+R15
+R16
+R6

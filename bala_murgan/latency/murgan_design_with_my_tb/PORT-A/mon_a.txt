@@ -1,0 +1,1209 @@
+============================================================
+
+At time: 15ns, Sending Read to REF model from monitor A
+we    = 0
+en    = 1
+din   = 12
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 25ns, Sending Read to REF model from monitor A
+we    = 0
+en    = 1
+din   =  1
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 65ns, Sending RD Data collected from DUT to SB
+we    = 0
+en    = 1
+din   = 12
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 75ns, Sending RD Data collected from DUT to SB
+we    = 0
+en    = 1
+din   =  1
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 135ns, Sending Read to REF model from monitor A
+we    = 0
+en    = 1
+din   =  3
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 165ns, Sending Read to REF model from monitor A
+we    = 0
+en    = 1
+din   =  1
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 185ns, Sending RD Data collected from DUT to SB
+we    = 0
+en    = 1
+din   =  3
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 215ns, Sending RD Data collected from DUT to SB
+we    = 0
+en    = 1
+din   =  1
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 216ns, Sending WR to REF model from monitor A
+we    = 1
+en    = 1
+din   = 14
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 605ns, Sending Read to REF model from monitor A
+we    = 0
+en    = 1
+din   = 11
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 635ns, Sending Read to REF model from monitor A
+we    = 0
+en    = 1
+din   =  9
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 645ns, Sending Read to REF model from monitor A
+we    = 0
+en    = 1
+din   =  4
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 655ns, Sending RD Data collected from DUT to SB
+we    = 0
+en    = 1
+din   = 11
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 655ns, Sending Read to REF model from monitor A
+we    = 0
+en    = 1
+din   =  1
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 685ns, Sending RD Data collected from DUT to SB
+we    = 0
+en    = 1
+din   =  9
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 685ns, Sending Read to REF model from monitor A
+we    = 0
+en    = 1
+din   = 13
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 695ns, Sending RD Data collected from DUT to SB
+we    = 0
+en    = 1
+din   =  4
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 705ns, Sending RD Data collected from DUT to SB
+we    = 0
+en    = 1
+din   =  1
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 716ns, Sending WR to REF model from monitor A
+we    = 1
+en    = 1
+din   =  3
+addr  =  2
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 735ns, Sending RD Data collected from DUT to SB
+we    = 0
+en    = 1
+din   = 13
+addr  =  9
+douta = 14
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1236ns, Sending WR to REF model from monitor A
+we    = 1
+en    = 1
+din   =  3
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 1246ns, Sending WR to REF model from monitor A
+we    = 1
+en    = 1
+din   = 14
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 2025ns, Sending Read to REF model from monitor A
+we    = 0
+en    = 1
+din   =  9
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2045ns, Sending Read to REF model from monitor A
+we    = 0
+en    = 1
+din   =  9
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2075ns, Sending RD Data collected from DUT to SB
+we    = 0
+en    = 1
+din   =  9
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2095ns, Sending RD Data collected from DUT to SB
+we    = 0
+en    = 1
+din   =  9
+addr  = 14
+douta =  3
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3076ns, Sending WR to REF model from monitor A
+we    = 1
+en    = 1
+din   =  7
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 4355ns, Sending Read to REF model from monitor A
+we    = 0
+en    = 1
+din   = 10
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4405ns, Sending RD Data collected from DUT to SB
+we    = 0
+en    = 1
+din   = 10
+addr  = 15
+douta =  8
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4436ns, Sending WR to REF model from monitor A
+we    = 1
+en    = 1
+din   =  7
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 4456ns, Sending WR to REF model from monitor A
+we    = 1
+en    = 1
+din   =  9
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 4496ns, Sending WR to REF model from monitor A
+we    = 1
+en    = 1
+din   = 15
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 4526ns, Sending WR to REF model from monitor A
+we    = 1
+en    = 1
+din   =  9
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 4685ns, Sending Read to REF model from monitor A
+we    = 0
+en    = 1
+din   = 11
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4735ns, Sending RD Data collected from DUT to SB
+we    = 0
+en    = 1
+din   = 11
+addr  =  0
+douta =  9
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4766ns, Sending WR to REF model from monitor A
+we    = 1
+en    = 1
+din   =  4
+addr  =  4
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 4915ns, Sending Read to REF model from monitor A
+we    = 0
+en    = 1
+din   = 15
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4935ns, Sending Read to REF model from monitor A
+we    = 0
+en    = 1
+din   = 13
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4965ns, Sending RD Data collected from DUT to SB
+we    = 0
+en    = 1
+din   = 15
+addr  =  6
+douta =  9
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4985ns, Sending RD Data collected from DUT to SB
+we    = 0
+en    = 1
+din   = 13
+addr  =  5
+douta =  8
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5305ns, Sending Read to REF model from monitor A
+we    = 0
+en    = 1
+din   =  0
+addr  =  2
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5355ns, Sending RD Data collected from DUT to SB
+we    = 0
+en    = 1
+din   =  0
+addr  =  2
+douta =  4
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5406ns, Sending WR to REF model from monitor A
+we    = 1
+en    = 1
+din   = 13
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 5985ns, Sending Read to REF model from monitor A
+we    = 0
+en    = 1
+din   =  3
+addr  =  4
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6035ns, Sending RD Data collected from DUT to SB
+we    = 0
+en    = 1
+din   =  3
+addr  =  4
+douta =  4
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6085ns, Sending Read to REF model from monitor A
+we    = 0
+en    = 1
+din   =  1
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6105ns, Sending Read to REF model from monitor A
+we    = 0
+en    = 1
+din   =  0
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6135ns, Sending RD Data collected from DUT to SB
+we    = 0
+en    = 1
+din   =  1
+addr  =  9
+douta = 14
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6155ns, Sending RD Data collected from DUT to SB
+we    = 0
+en    = 1
+din   =  0
+addr  =  0
+douta =  7
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6226ns, Sending WR to REF model from monitor A
+we    = 1
+en    = 1
+din   =  0
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 6236ns, Sending WR to REF model from monitor A
+we    = 1
+en    = 1
+din   = 12
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 6256ns, Sending WR to REF model from monitor A
+we    = 1
+en    = 1
+din   =  1
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 6266ns, Sending WR to REF model from monitor A
+we    = 1
+en    = 1
+din   =  9
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 6305ns, Sending Read to REF model from monitor A
+we    = 0
+en    = 1
+din   =  7
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6355ns, Sending RD Data collected from DUT to SB
+we    = 0
+en    = 1
+din   =  7
+addr  =  3
+douta =  1
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6426ns, Sending WR to REF model from monitor A
+we    = 1
+en    = 1
+din   =  3
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 6465ns, Sending Read to REF model from monitor A
+we    = 0
+en    = 1
+din   = 15
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6485ns, Sending Read to REF model from monitor A
+we    = 0
+en    = 1
+din   = 12
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6515ns, Sending RD Data collected from DUT to SB
+we    = 0
+en    = 1
+din   = 15
+addr  =  3
+douta =  1
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6535ns, Sending RD Data collected from DUT to SB
+we    = 0
+en    = 1
+din   = 12
+addr  =  5
+douta =  2
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6636ns, Sending WR to REF model from monitor A
+we    = 1
+en    = 1
+din   =  1
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7775ns, Sending Read to REF model from monitor A
+we    = 0
+en    = 1
+din   =  2
+addr  =  8
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7795ns, Sending Read to REF model from monitor A
+we    = 0
+en    = 1
+din   = 11
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7825ns, Sending RD Data collected from DUT to SB
+we    = 0
+en    = 1
+din   =  2
+addr  =  8
+douta =  8
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7845ns, Sending RD Data collected from DUT to SB
+we    = 0
+en    = 1
+din   = 11
+addr  = 15
+douta =  7
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7896ns, Sending WR to REF model from monitor A
+we    = 1
+en    = 1
+din   = 12
+addr  =  1
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7906ns, Sending WR to REF model from monitor A
+we    = 1
+en    = 1
+din   = 14
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7916ns, Sending WR to REF model from monitor A
+we    = 1
+en    = 1
+din   =  3
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7936ns, Sending WR to REF model from monitor A
+we    = 1
+en    = 1
+din   = 13
+addr  = 10
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7945ns, Sending Read to REF model from monitor A
+we    = 0
+en    = 1
+din   =  7
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7956ns, Sending WR to REF model from monitor A
+we    = 1
+en    = 1
+din   = 10
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 7965ns, Sending Read to REF model from monitor A
+we    = 0
+en    = 1
+din   =  8
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7975ns, Sending Read to REF model from monitor A
+we    = 0
+en    = 1
+din   =  5
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7995ns, Sending RD Data collected from DUT to SB
+we    = 0
+en    = 1
+din   =  7
+addr  =  9
+douta =  0
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8015ns, Sending RD Data collected from DUT to SB
+we    = 0
+en    = 1
+din   =  8
+addr  = 11
+douta = 12
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8025ns, Sending RD Data collected from DUT to SB
+we    = 0
+en    = 1
+din   =  5
+addr  =  0
+douta =  4
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8046ns, Sending WR to REF model from monitor A
+we    = 1
+en    = 1
+din   =  4
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 8136ns, Sending WR to REF model from monitor A
+we    = 1
+en    = 1
+din   = 13
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 8146ns, Sending WR to REF model from monitor A
+we    = 1
+en    = 1
+din   =  6
+addr  =  1
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 8296ns, Sending WR to REF model from monitor A
+we    = 1
+en    = 1
+din   =  1
+addr  =  1
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 8716ns, Sending WR to REF model from monitor A
+we    = 1
+en    = 1
+din   =  4
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 8726ns, Sending WR to REF model from monitor A
+we    = 1
+en    = 1
+din   =  5
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 9026ns, Sending WR to REF model from monitor A
+we    = 1
+en    = 1
+din   =  7
+addr  =  2
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 9036ns, Sending WR to REF model from monitor A
+we    = 1
+en    = 1
+din   = 13
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 9046ns, Sending WR to REF model from monitor A
+we    = 1
+en    = 1
+din   =  4
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 9056ns, Sending WR to REF model from monitor A
+we    = 1
+en    = 1
+din   =  2
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 9996ns, Sending WR to REF model from monitor A
+we    = 1
+en    = 1
+din   =  8
+addr  =  9
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10925ns, Sending Read to REF model from monitor A
+we    = 0
+en    = 1
+din   =  9
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 10956ns, Sending WR to REF model from monitor A
+we    = 1
+en    = 1
+din   = 13
+addr  =  2
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10966ns, Sending WR to REF model from monitor A
+we    = 1
+en    = 1
+din   = 10
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = WRITE
+============================================================
+
+============================================================
+
+At time: 10975ns, Sending RD Data collected from DUT to SB
+we    = 0
+en    = 1
+din   =  9
+addr  =  0
+douta =  6
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 11105ns, Sending Read to REF model from monitor A
+we    = 0
+en    = 1
+din   = 14
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 11155ns, Sending RD Data collected from DUT to SB
+we    = 0
+en    = 1
+din   = 14
+addr  = 13
+douta =  8
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+

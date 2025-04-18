@@ -1,0 +1,7501 @@
+============================================================
+
+At time: 15ns, Packet Received from PORTA Reference Model
+we    = 0
+en    = 1
+din   = 12
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 50ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 10
+addr  =  2
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 65ns, Packet Received from PORTA MONITOR
+we    = 0
+en    = 1
+din   = 12
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 65ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 12
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 65ns, Actual Data
+we    = 0
+en    = 1
+din   = 12
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 65ns, Packet Received from PORTA Reference Model
+we    = 0
+en    = 1
+din   =  1
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 75ns, Packet Received from PORTA MONITOR
+we    = 0
+en    = 1
+din   =  1
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 75ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  1
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 75ns, Actual Data
+we    = 0
+en    = 1
+din   =  1
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 135ns, Packet Received from PORTA Reference Model
+we    = 0
+en    = 1
+din   =  3
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 185ns, Packet Received from PORTA MONITOR
+we    = 0
+en    = 1
+din   =  3
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 185ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  3
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 185ns, Actual Data
+we    = 0
+en    = 1
+din   =  3
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 185ns, Packet Received from PORTA Reference Model
+we    = 0
+en    = 1
+din   =  1
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 210ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 10
+addr  =  2
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 210ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 10
+addr  =  2
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 210ns, Actual Data
+we    = 0
+en    = 1
+din   = 10
+addr  =  2
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 210ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  7
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 215ns, Packet Received from PORTA MONITOR
+we    = 0
+en    = 1
+din   =  1
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 215ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  1
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 215ns, Actual Data
+we    = 0
+en    = 1
+din   =  1
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 230ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  7
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 230ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  7
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 230ns, Actual Data
+we    = 0
+en    = 1
+din   =  7
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 230ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 15
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 250ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 15
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 250ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 15
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 250ns, Actual Data
+we    = 0
+en    = 1
+din   = 15
+addr  = 12
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 250ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  3
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 370ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  3
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 370ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  3
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 370ns, Actual Data
+we    = 0
+en    = 1
+din   =  3
+addr  =  5
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 370ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 10
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 390ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 10
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 390ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 10
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 390ns, Actual Data
+we    = 0
+en    = 1
+din   = 10
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 390ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  2
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 410ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  2
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 410ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  2
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 410ns, Actual Data
+we    = 0
+en    = 1
+din   =  2
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 410ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 10
+addr  =  8
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 490ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 10
+addr  =  8
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 490ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 10
+addr  =  8
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 490ns, Actual Data
+we    = 0
+en    = 1
+din   = 10
+addr  =  8
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 490ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  1
+addr  =  9
+douta =  x
+doutb = 14
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 550ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  1
+addr  =  9
+douta =  x
+doutb = 14
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 550ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  1
+addr  =  9
+douta =  x
+doutb = 14
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 550ns, Actual Data
+we    = 0
+en    = 1
+din   =  1
+addr  =  9
+douta =  x
+doutb = 14
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 550ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  5
+addr  =  2
+douta =  x
+doutb = 15
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 605ns, Packet Received from PORTA Reference Model
+we    = 0
+en    = 1
+din   = 11
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 610ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  5
+addr  =  2
+douta =  x
+doutb = 15
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 610ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  5
+addr  =  2
+douta =  x
+doutb = 15
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 610ns, Actual Data
+we    = 0
+en    = 1
+din   =  5
+addr  =  2
+douta =  x
+doutb = 15
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 610ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  6
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 650ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  6
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 650ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  6
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 650ns, Actual Data
+we    = 0
+en    = 1
+din   =  6
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 650ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  1
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 655ns, Packet Received from PORTA MONITOR
+we    = 0
+en    = 1
+din   = 11
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 655ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 11
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 655ns, Actual Data
+we    = 0
+en    = 1
+din   = 11
+addr  = 14
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 655ns, Packet Received from PORTA Reference Model
+we    = 0
+en    = 1
+din   =  9
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 685ns, Packet Received from PORTA MONITOR
+we    = 0
+en    = 1
+din   =  9
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 685ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  9
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 685ns, Actual Data
+we    = 0
+en    = 1
+din   =  9
+addr  =  7
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 685ns, Packet Received from PORTA Reference Model
+we    = 0
+en    = 1
+din   =  4
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 695ns, Packet Received from PORTA MONITOR
+we    = 0
+en    = 1
+din   =  4
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 695ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  4
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 695ns, Actual Data
+we    = 0
+en    = 1
+din   =  4
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 695ns, Packet Received from PORTA Reference Model
+we    = 0
+en    = 1
+din   =  1
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 705ns, Packet Received from PORTA MONITOR
+we    = 0
+en    = 1
+din   =  1
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 705ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  1
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 705ns, Actual Data
+we    = 0
+en    = 1
+din   =  1
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 705ns, Packet Received from PORTA Reference Model
+we    = 0
+en    = 1
+din   = 13
+addr  =  9
+douta = 14
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 730ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  1
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 730ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  1
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 730ns, Actual Data
+we    = 0
+en    = 1
+din   =  1
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 730ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  8
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 735ns, Packet Received from PORTA MONITOR
+we    = 0
+en    = 1
+din   = 13
+addr  =  9
+douta = 14
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 735ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 13
+addr  =  9
+douta = 14
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 735ns, Actual Data
+we    = 0
+en    = 1
+din   = 13
+addr  =  9
+douta = 14
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 870ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  8
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 870ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  8
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 870ns, Actual Data
+we    = 0
+en    = 1
+din   =  8
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 950ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  5
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1110ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  5
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1110ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  5
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1110ns, Actual Data
+we    = 0
+en    = 1
+din   =  5
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1110ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 12
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1170ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 12
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1170ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 12
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1170ns, Actual Data
+we    = 0
+en    = 1
+din   = 12
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1170ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  5
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1270ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  5
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1270ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  5
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1270ns, Actual Data
+we    = 0
+en    = 1
+din   =  5
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1270ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 15
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1350ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 15
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1350ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 15
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1350ns, Actual Data
+we    = 0
+en    = 1
+din   = 15
+addr  =  3
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1350ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  1
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1370ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  1
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1370ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  1
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1370ns, Actual Data
+we    = 0
+en    = 1
+din   =  1
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1370ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  6
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1510ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  6
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1510ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  6
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1510ns, Actual Data
+we    = 0
+en    = 1
+din   =  6
+addr  = 11
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1510ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  9
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1530ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  9
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1530ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  9
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1530ns, Actual Data
+we    = 0
+en    = 1
+din   =  9
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1530ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  8
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1550ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  8
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1550ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  8
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1550ns, Actual Data
+we    = 0
+en    = 1
+din   =  8
+addr  =  0
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1550ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  9
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1590ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  9
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1590ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  9
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1590ns, Actual Data
+we    = 0
+en    = 1
+din   =  9
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1590ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 14
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1730ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 14
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1730ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 14
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1730ns, Actual Data
+we    = 0
+en    = 1
+din   = 14
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1730ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  5
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1790ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  5
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1790ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  5
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1790ns, Actual Data
+we    = 0
+en    = 1
+din   =  5
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1790ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 11
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1870ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 11
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1870ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 11
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1870ns, Actual Data
+we    = 0
+en    = 1
+din   = 11
+addr  = 15
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1870ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  1
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1970ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  1
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1970ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  1
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1970ns, Actual Data
+we    = 0
+en    = 1
+din   =  1
+addr  = 13
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 1970ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  1
+addr  = 10
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2025ns, Packet Received from PORTA Reference Model
+we    = 0
+en    = 1
+din   =  9
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2075ns, Packet Received from PORTA MONITOR
+we    = 0
+en    = 1
+din   =  9
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2075ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  9
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2075ns, Actual Data
+we    = 0
+en    = 1
+din   =  9
+addr  =  6
+douta =  x
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2075ns, Packet Received from PORTA Reference Model
+we    = 0
+en    = 1
+din   =  9
+addr  = 14
+douta =  3
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2090ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  1
+addr  = 10
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2090ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  1
+addr  = 10
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2090ns, Actual Data
+we    = 0
+en    = 1
+din   =  1
+addr  = 10
+douta =  x
+doutb =  x
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2090ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  5
+addr  =  9
+douta =  x
+doutb = 14
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2095ns, Packet Received from PORTA MONITOR
+we    = 0
+en    = 1
+din   =  9
+addr  = 14
+douta =  3
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2095ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  9
+addr  = 14
+douta =  3
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2095ns, Actual Data
+we    = 0
+en    = 1
+din   =  9
+addr  = 14
+douta =  3
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2110ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  5
+addr  =  9
+douta =  x
+doutb = 14
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2110ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  5
+addr  =  9
+douta =  x
+doutb = 14
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2110ns, Actual Data
+we    = 0
+en    = 1
+din   =  5
+addr  =  9
+douta =  x
+doutb = 14
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2290ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  1
+addr  =  3
+douta =  x
+doutb = 11
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2450ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  1
+addr  =  3
+douta =  x
+doutb = 11
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2450ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  1
+addr  =  3
+douta =  x
+doutb = 11
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2450ns, Actual Data
+we    = 0
+en    = 1
+din   =  1
+addr  =  3
+douta =  x
+doutb = 11
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2450ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 12
+addr  =  1
+douta =  x
+doutb =  0
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2470ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 12
+addr  =  1
+douta =  x
+doutb =  0
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2470ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 12
+addr  =  1
+douta =  x
+doutb =  0
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2470ns, Actual Data
+we    = 0
+en    = 1
+din   = 12
+addr  =  1
+douta =  x
+doutb =  0
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2490ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 12
+addr  =  6
+douta =  x
+doutb =  5
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2650ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 12
+addr  =  6
+douta =  x
+doutb =  5
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2650ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 12
+addr  =  6
+douta =  x
+doutb =  5
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2650ns, Actual Data
+we    = 0
+en    = 1
+din   = 12
+addr  =  6
+douta =  x
+doutb =  5
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2650ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  1
+addr  =  2
+douta =  x
+doutb = 15
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2710ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  1
+addr  =  2
+douta =  x
+doutb = 15
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2710ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  1
+addr  =  2
+douta =  x
+doutb = 15
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2710ns, Actual Data
+we    = 0
+en    = 1
+din   =  1
+addr  =  2
+douta =  x
+doutb = 15
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2710ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  2
+addr  =  9
+douta =  x
+doutb = 14
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2730ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  2
+addr  =  9
+douta =  x
+doutb = 14
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2730ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  2
+addr  =  9
+douta =  x
+doutb = 14
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2730ns, Actual Data
+we    = 0
+en    = 1
+din   =  2
+addr  =  9
+douta =  x
+doutb = 14
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2730ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 12
+addr  = 10
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2890ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 12
+addr  = 10
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2890ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 12
+addr  = 10
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2890ns, Actual Data
+we    = 0
+en    = 1
+din   = 12
+addr  = 10
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2890ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  6
+addr  = 15
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2910ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  6
+addr  = 15
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2910ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  6
+addr  = 15
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2910ns, Actual Data
+we    = 0
+en    = 1
+din   =  6
+addr  = 15
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2910ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 10
+addr  =  9
+douta =  x
+doutb = 11
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2950ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 10
+addr  =  9
+douta =  x
+doutb = 11
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2950ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 10
+addr  =  9
+douta =  x
+doutb = 11
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2950ns, Actual Data
+we    = 0
+en    = 1
+din   = 10
+addr  =  9
+douta =  x
+doutb = 11
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2950ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  7
+addr  = 15
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2970ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  7
+addr  = 15
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2970ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  7
+addr  = 15
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2970ns, Actual Data
+we    = 0
+en    = 1
+din   =  7
+addr  = 15
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 2970ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  1
+addr  =  7
+douta =  x
+doutb = 10
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3030ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  1
+addr  =  7
+douta =  x
+doutb = 10
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3030ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  1
+addr  =  7
+douta =  x
+doutb = 10
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3030ns, Actual Data
+we    = 0
+en    = 1
+din   =  1
+addr  =  7
+douta =  x
+doutb = 10
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3030ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 12
+addr  =  2
+douta =  x
+doutb = 15
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3090ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 12
+addr  =  2
+douta =  x
+doutb = 15
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3090ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 12
+addr  =  2
+douta =  x
+doutb = 15
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3090ns, Actual Data
+we    = 0
+en    = 1
+din   = 12
+addr  =  2
+douta =  x
+doutb = 15
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3210ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  0
+addr  =  0
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3370ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  0
+addr  =  0
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3370ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  0
+addr  =  0
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3370ns, Actual Data
+we    = 0
+en    = 1
+din   =  0
+addr  =  0
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3370ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 15
+addr  =  2
+douta =  x
+doutb = 15
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3390ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 15
+addr  =  2
+douta =  x
+doutb = 15
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3390ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 15
+addr  =  2
+douta =  x
+doutb = 15
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3390ns, Actual Data
+we    = 0
+en    = 1
+din   = 15
+addr  =  2
+douta =  x
+doutb = 15
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3390ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 10
+addr  = 11
+douta =  x
+doutb = 10
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3410ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 10
+addr  = 11
+douta =  x
+doutb = 10
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3410ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 10
+addr  = 11
+douta =  x
+doutb = 10
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3410ns, Actual Data
+we    = 0
+en    = 1
+din   = 10
+addr  = 11
+douta =  x
+doutb = 10
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3410ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 14
+addr  =  0
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3450ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 14
+addr  =  0
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3450ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 14
+addr  =  0
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3450ns, Actual Data
+we    = 0
+en    = 1
+din   = 14
+addr  =  0
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3450ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 14
+addr  =  9
+douta =  x
+doutb = 11
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3530ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 14
+addr  =  9
+douta =  x
+doutb = 11
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3530ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 14
+addr  =  9
+douta =  x
+doutb = 11
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3530ns, Actual Data
+we    = 0
+en    = 1
+din   = 14
+addr  =  9
+douta =  x
+doutb = 11
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3530ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  3
+addr  =  6
+douta =  x
+doutb =  7
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3570ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  3
+addr  =  6
+douta =  x
+doutb =  7
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3570ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  3
+addr  =  6
+douta =  x
+doutb =  7
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3570ns, Actual Data
+we    = 0
+en    = 1
+din   =  3
+addr  =  6
+douta =  x
+doutb =  7
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 3930ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  8
+addr  =  9
+douta =  x
+doutb = 15
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4090ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  8
+addr  =  9
+douta =  x
+doutb = 15
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4090ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  8
+addr  =  9
+douta =  x
+doutb = 15
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4090ns, Actual Data
+we    = 0
+en    = 1
+din   =  8
+addr  =  9
+douta =  x
+doutb = 15
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4090ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 12
+addr  =  7
+douta =  x
+doutb =  5
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4130ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 12
+addr  =  7
+douta =  x
+doutb =  5
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4130ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 12
+addr  =  7
+douta =  x
+doutb =  5
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4130ns, Actual Data
+we    = 0
+en    = 1
+din   = 12
+addr  =  7
+douta =  x
+doutb =  5
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4130ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  0
+addr  = 12
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4270ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  0
+addr  = 12
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4270ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  0
+addr  = 12
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4270ns, Actual Data
+we    = 0
+en    = 1
+din   =  0
+addr  = 12
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4270ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 10
+addr  =  0
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4290ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 10
+addr  =  0
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4290ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 10
+addr  =  0
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4290ns, Actual Data
+we    = 0
+en    = 1
+din   = 10
+addr  =  0
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4290ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  4
+addr  =  0
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4355ns, Packet Received from PORTA Reference Model
+we    = 0
+en    = 1
+din   = 10
+addr  = 15
+douta =  8
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4390ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  4
+addr  =  0
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4390ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  4
+addr  =  0
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4390ns, Actual Data
+we    = 0
+en    = 1
+din   =  4
+addr  =  0
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4390ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 14
+addr  =  5
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4405ns, Packet Received from PORTA MONITOR
+we    = 0
+en    = 1
+din   = 10
+addr  = 15
+douta =  8
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4405ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 10
+addr  = 15
+douta =  8
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4405ns, Actual Data
+we    = 0
+en    = 1
+din   = 10
+addr  = 15
+douta =  8
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4410ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 14
+addr  =  5
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4410ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 14
+addr  =  5
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4410ns, Actual Data
+we    = 0
+en    = 1
+din   = 14
+addr  =  5
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4410ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 15
+addr  =  6
+douta =  x
+doutb =  7
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4450ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 15
+addr  =  6
+douta =  x
+doutb =  7
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4450ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 15
+addr  =  6
+douta =  x
+doutb =  7
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4450ns, Actual Data
+we    = 0
+en    = 1
+din   = 15
+addr  =  6
+douta =  x
+doutb =  7
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4685ns, Packet Received from PORTA Reference Model
+we    = 0
+en    = 1
+din   = 11
+addr  =  0
+douta =  9
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4735ns, Packet Received from PORTA MONITOR
+we    = 0
+en    = 1
+din   = 11
+addr  =  0
+douta =  9
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4735ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 11
+addr  =  0
+douta =  9
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4735ns, Actual Data
+we    = 0
+en    = 1
+din   = 11
+addr  =  0
+douta =  9
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4870ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  4
+addr  = 10
+douta =  x
+doutb =  3
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4915ns, Packet Received from PORTA Reference Model
+we    = 0
+en    = 1
+din   = 15
+addr  =  6
+douta =  9
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4965ns, Packet Received from PORTA MONITOR
+we    = 0
+en    = 1
+din   = 15
+addr  =  6
+douta =  9
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4965ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 15
+addr  =  6
+douta =  9
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4965ns, Actual Data
+we    = 0
+en    = 1
+din   = 15
+addr  =  6
+douta =  9
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4965ns, Packet Received from PORTA Reference Model
+we    = 0
+en    = 1
+din   = 13
+addr  =  5
+douta =  8
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4985ns, Packet Received from PORTA MONITOR
+we    = 0
+en    = 1
+din   = 13
+addr  =  5
+douta =  8
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4985ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 13
+addr  =  5
+douta =  8
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 4985ns, Actual Data
+we    = 0
+en    = 1
+din   = 13
+addr  =  5
+douta =  8
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5030ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  4
+addr  = 10
+douta =  x
+doutb =  3
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5030ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  4
+addr  = 10
+douta =  x
+doutb =  3
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5030ns, Actual Data
+we    = 0
+en    = 1
+din   =  4
+addr  = 10
+douta =  x
+doutb =  3
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5030ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  3
+addr  =  6
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5130ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  3
+addr  =  6
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5130ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  3
+addr  =  6
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5130ns, Actual Data
+we    = 0
+en    = 1
+din   =  3
+addr  =  6
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5130ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  8
+addr  = 10
+douta =  x
+doutb =  3
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5150ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  8
+addr  = 10
+douta =  x
+doutb =  3
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5150ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  8
+addr  = 10
+douta =  x
+doutb =  3
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5150ns, Actual Data
+we    = 0
+en    = 1
+din   =  8
+addr  = 10
+douta =  x
+doutb =  3
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5150ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  5
+addr  =  9
+douta =  x
+doutb = 14
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5190ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  5
+addr  =  9
+douta =  x
+doutb = 14
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5190ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  5
+addr  =  9
+douta =  x
+doutb = 14
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5190ns, Actual Data
+we    = 0
+en    = 1
+din   =  5
+addr  =  9
+douta =  x
+doutb = 14
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5190ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  2
+addr  = 11
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5210ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  2
+addr  = 11
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5210ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  2
+addr  = 11
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5210ns, Actual Data
+we    = 0
+en    = 1
+din   =  2
+addr  = 11
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5210ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  1
+addr  =  5
+douta =  x
+doutb =  6
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5305ns, Packet Received from PORTA Reference Model
+we    = 0
+en    = 1
+din   =  0
+addr  =  2
+douta =  4
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5330ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  1
+addr  =  5
+douta =  x
+doutb =  6
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5330ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  1
+addr  =  5
+douta =  x
+doutb =  6
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5330ns, Actual Data
+we    = 0
+en    = 1
+din   =  1
+addr  =  5
+douta =  x
+doutb =  6
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5330ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  7
+addr  =  9
+douta =  x
+doutb = 14
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5355ns, Packet Received from PORTA MONITOR
+we    = 0
+en    = 1
+din   =  0
+addr  =  2
+douta =  4
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5355ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  0
+addr  =  2
+douta =  4
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5355ns, Actual Data
+we    = 0
+en    = 1
+din   =  0
+addr  =  2
+douta =  4
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5370ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  7
+addr  =  9
+douta =  x
+doutb = 14
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5370ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  7
+addr  =  9
+douta =  x
+doutb = 14
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5370ns, Actual Data
+we    = 0
+en    = 1
+din   =  7
+addr  =  9
+douta =  x
+doutb = 14
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5370ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  8
+addr  =  5
+douta =  x
+doutb =  6
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5410ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  8
+addr  =  5
+douta =  x
+doutb =  6
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5410ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  8
+addr  =  5
+douta =  x
+doutb =  6
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5410ns, Actual Data
+we    = 0
+en    = 1
+din   =  8
+addr  =  5
+douta =  x
+doutb =  6
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5410ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  5
+addr  = 14
+douta =  x
+doutb =  3
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5510ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  5
+addr  = 14
+douta =  x
+doutb =  3
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5510ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  5
+addr  = 14
+douta =  x
+doutb =  3
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5510ns, Actual Data
+we    = 0
+en    = 1
+din   =  5
+addr  = 14
+douta =  x
+doutb =  3
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5550ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 14
+addr  = 13
+douta =  x
+doutb =  1
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5710ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 14
+addr  = 13
+douta =  x
+doutb =  1
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5710ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 14
+addr  = 13
+douta =  x
+doutb =  1
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5710ns, Actual Data
+we    = 0
+en    = 1
+din   = 14
+addr  = 13
+douta =  x
+doutb =  1
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5710ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 12
+addr  = 12
+douta =  x
+doutb = 10
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5730ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 12
+addr  = 12
+douta =  x
+doutb = 10
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5730ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 12
+addr  = 12
+douta =  x
+doutb = 10
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5730ns, Actual Data
+we    = 0
+en    = 1
+din   = 12
+addr  = 12
+douta =  x
+doutb = 10
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5730ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 11
+addr  = 10
+douta =  x
+doutb =  3
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5770ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 11
+addr  = 10
+douta =  x
+doutb =  3
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5770ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 11
+addr  = 10
+douta =  x
+doutb =  3
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5770ns, Actual Data
+we    = 0
+en    = 1
+din   = 11
+addr  = 10
+douta =  x
+doutb =  3
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5770ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  1
+addr  = 14
+douta =  x
+doutb =  3
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5910ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  1
+addr  = 14
+douta =  x
+doutb =  3
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5910ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  1
+addr  = 14
+douta =  x
+doutb =  3
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5910ns, Actual Data
+we    = 0
+en    = 1
+din   =  1
+addr  = 14
+douta =  x
+doutb =  3
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5910ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  3
+addr  =  6
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 5985ns, Packet Received from PORTA Reference Model
+we    = 0
+en    = 1
+din   =  3
+addr  =  4
+douta =  4
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6010ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  3
+addr  =  6
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6010ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  3
+addr  =  6
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6010ns, Actual Data
+we    = 0
+en    = 1
+din   =  3
+addr  =  6
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6010ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 12
+addr  =  7
+douta =  x
+doutb =  6
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6035ns, Packet Received from PORTA MONITOR
+we    = 0
+en    = 1
+din   =  3
+addr  =  4
+douta =  4
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6035ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  3
+addr  =  4
+douta =  4
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6035ns, Actual Data
+we    = 0
+en    = 1
+din   =  3
+addr  =  4
+douta =  4
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6050ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 12
+addr  =  7
+douta =  x
+doutb =  6
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6050ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 12
+addr  =  7
+douta =  x
+doutb =  6
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6050ns, Actual Data
+we    = 0
+en    = 1
+din   = 12
+addr  =  7
+douta =  x
+doutb =  6
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6050ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  5
+addr  =  6
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6085ns, Packet Received from PORTA Reference Model
+we    = 0
+en    = 1
+din   =  1
+addr  =  9
+douta = 14
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6130ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  5
+addr  =  6
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6130ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  5
+addr  =  6
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6130ns, Actual Data
+we    = 0
+en    = 1
+din   =  5
+addr  =  6
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6135ns, Packet Received from PORTA MONITOR
+we    = 0
+en    = 1
+din   =  1
+addr  =  9
+douta = 14
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6135ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  1
+addr  =  9
+douta = 14
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6135ns, Actual Data
+we    = 0
+en    = 1
+din   =  1
+addr  =  9
+douta = 14
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6135ns, Packet Received from PORTA Reference Model
+we    = 0
+en    = 1
+din   =  0
+addr  =  0
+douta =  7
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6155ns, Packet Received from PORTA MONITOR
+we    = 0
+en    = 1
+din   =  0
+addr  =  0
+douta =  7
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6155ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  0
+addr  =  0
+douta =  7
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6155ns, Actual Data
+we    = 0
+en    = 1
+din   =  0
+addr  =  0
+douta =  7
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6305ns, Packet Received from PORTA Reference Model
+we    = 0
+en    = 1
+din   =  7
+addr  =  3
+douta =  1
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6355ns, Packet Received from PORTA MONITOR
+we    = 0
+en    = 1
+din   =  7
+addr  =  3
+douta =  1
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6355ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  7
+addr  =  3
+douta =  1
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6355ns, Actual Data
+we    = 0
+en    = 1
+din   =  7
+addr  =  3
+douta =  1
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6410ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  2
+addr  =  5
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6465ns, Packet Received from PORTA Reference Model
+we    = 0
+en    = 1
+din   = 15
+addr  =  3
+douta =  1
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6515ns, Packet Received from PORTA MONITOR
+we    = 0
+en    = 1
+din   = 15
+addr  =  3
+douta =  1
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6515ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 15
+addr  =  3
+douta =  1
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6515ns, Actual Data
+we    = 0
+en    = 1
+din   = 15
+addr  =  3
+douta =  1
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6515ns, Packet Received from PORTA Reference Model
+we    = 0
+en    = 1
+din   = 12
+addr  =  5
+douta =  2
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6535ns, Packet Received from PORTA MONITOR
+we    = 0
+en    = 1
+din   = 12
+addr  =  5
+douta =  2
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6535ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 12
+addr  =  5
+douta =  2
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6535ns, Actual Data
+we    = 0
+en    = 1
+din   = 12
+addr  =  5
+douta =  2
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6570ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  2
+addr  =  5
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6570ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  2
+addr  =  5
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6570ns, Actual Data
+we    = 0
+en    = 1
+din   =  2
+addr  =  5
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6570ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  1
+addr  =  5
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6590ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  1
+addr  =  5
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6590ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  1
+addr  =  5
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6590ns, Actual Data
+we    = 0
+en    = 1
+din   =  1
+addr  =  5
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6810ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 15
+addr  =  9
+douta =  x
+doutb =  3
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6970ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 15
+addr  =  9
+douta =  x
+doutb =  3
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6970ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 15
+addr  =  9
+douta =  x
+doutb =  3
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6970ns, Actual Data
+we    = 0
+en    = 1
+din   = 15
+addr  =  9
+douta =  x
+doutb =  3
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 6970ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  7
+addr  =  8
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7050ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  7
+addr  =  8
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7050ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  7
+addr  =  8
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7050ns, Actual Data
+we    = 0
+en    = 1
+din   =  7
+addr  =  8
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7050ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 10
+addr  =  0
+douta =  x
+doutb =  4
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7170ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 10
+addr  =  0
+douta =  x
+doutb =  4
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7170ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 10
+addr  =  0
+douta =  x
+doutb =  4
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7170ns, Actual Data
+we    = 0
+en    = 1
+din   = 10
+addr  =  0
+douta =  x
+doutb =  4
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7190ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 13
+addr  =  7
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7350ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 13
+addr  =  7
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7350ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 13
+addr  =  7
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7350ns, Actual Data
+we    = 0
+en    = 1
+din   = 13
+addr  =  7
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7350ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  4
+addr  = 15
+douta =  x
+doutb =  4
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7370ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  4
+addr  = 15
+douta =  x
+doutb =  4
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7370ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  4
+addr  = 15
+douta =  x
+doutb =  4
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7370ns, Actual Data
+we    = 0
+en    = 1
+din   =  4
+addr  = 15
+douta =  x
+doutb =  4
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7370ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 12
+addr  =  4
+douta =  x
+doutb =  6
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7490ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 12
+addr  =  4
+douta =  x
+doutb =  6
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7490ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 12
+addr  =  4
+douta =  x
+doutb =  6
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7490ns, Actual Data
+we    = 0
+en    = 1
+din   = 12
+addr  =  4
+douta =  x
+doutb =  6
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7490ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 15
+addr  = 14
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7630ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 15
+addr  = 14
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7630ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 15
+addr  = 14
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7630ns, Actual Data
+we    = 0
+en    = 1
+din   = 15
+addr  = 14
+douta =  x
+doutb =  9
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7650ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  3
+addr  =  7
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7775ns, Packet Received from PORTA Reference Model
+we    = 0
+en    = 1
+din   =  2
+addr  =  8
+douta =  8
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7810ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  3
+addr  =  7
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7810ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  3
+addr  =  7
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7810ns, Actual Data
+we    = 0
+en    = 1
+din   =  3
+addr  =  7
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7825ns, Packet Received from PORTA MONITOR
+we    = 0
+en    = 1
+din   =  2
+addr  =  8
+douta =  8
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7825ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  2
+addr  =  8
+douta =  8
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7825ns, Actual Data
+we    = 0
+en    = 1
+din   =  2
+addr  =  8
+douta =  8
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7825ns, Packet Received from PORTA Reference Model
+we    = 0
+en    = 1
+din   = 11
+addr  = 15
+douta =  7
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7845ns, Packet Received from PORTA MONITOR
+we    = 0
+en    = 1
+din   = 11
+addr  = 15
+douta =  7
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7845ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 11
+addr  = 15
+douta =  7
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7845ns, Actual Data
+we    = 0
+en    = 1
+din   = 11
+addr  = 15
+douta =  7
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7890ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 13
+addr  = 11
+douta =  x
+doutb = 12
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7945ns, Packet Received from PORTA Reference Model
+we    = 0
+en    = 1
+din   =  7
+addr  =  9
+douta =  0
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7995ns, Packet Received from PORTA MONITOR
+we    = 0
+en    = 1
+din   =  7
+addr  =  9
+douta =  0
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7995ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  7
+addr  =  9
+douta =  0
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7995ns, Actual Data
+we    = 0
+en    = 1
+din   =  7
+addr  =  9
+douta =  0
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 7995ns, Packet Received from PORTA Reference Model
+we    = 0
+en    = 1
+din   =  8
+addr  = 11
+douta = 12
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8015ns, Packet Received from PORTA MONITOR
+we    = 0
+en    = 1
+din   =  8
+addr  = 11
+douta = 12
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8015ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  8
+addr  = 11
+douta = 12
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8015ns, Actual Data
+we    = 0
+en    = 1
+din   =  8
+addr  = 11
+douta = 12
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8015ns, Packet Received from PORTA Reference Model
+we    = 0
+en    = 1
+din   =  5
+addr  =  0
+douta =  4
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8025ns, Packet Received from PORTA MONITOR
+we    = 0
+en    = 1
+din   =  5
+addr  =  0
+douta =  4
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8025ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  5
+addr  =  0
+douta =  4
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8025ns, Actual Data
+we    = 0
+en    = 1
+din   =  5
+addr  =  0
+douta =  4
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8050ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 13
+addr  = 11
+douta =  x
+doutb = 12
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8050ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 13
+addr  = 11
+douta =  x
+doutb = 12
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8050ns, Actual Data
+we    = 0
+en    = 1
+din   = 13
+addr  = 11
+douta =  x
+doutb = 12
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8050ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 15
+addr  = 12
+douta =  x
+doutb = 12
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8170ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 15
+addr  = 12
+douta =  x
+doutb = 12
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8170ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 15
+addr  = 12
+douta =  x
+doutb = 12
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8170ns, Actual Data
+we    = 0
+en    = 1
+din   = 15
+addr  = 12
+douta =  x
+doutb = 12
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8230ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  3
+addr  = 11
+douta =  x
+doutb = 12
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8390ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  3
+addr  = 11
+douta =  x
+doutb = 12
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8390ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  3
+addr  = 11
+douta =  x
+doutb = 12
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8390ns, Actual Data
+we    = 0
+en    = 1
+din   =  3
+addr  = 11
+douta =  x
+doutb = 12
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8390ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  4
+addr  =  7
+douta =  x
+doutb =  3
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8410ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  4
+addr  =  7
+douta =  x
+doutb =  3
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8410ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  4
+addr  =  7
+douta =  x
+doutb =  3
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8410ns, Actual Data
+we    = 0
+en    = 1
+din   =  4
+addr  =  7
+douta =  x
+doutb =  3
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8410ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 14
+addr  = 15
+douta =  x
+doutb =  7
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8470ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 14
+addr  = 15
+douta =  x
+doutb =  7
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8470ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 14
+addr  = 15
+douta =  x
+doutb =  7
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8470ns, Actual Data
+we    = 0
+en    = 1
+din   = 14
+addr  = 15
+douta =  x
+doutb =  7
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8470ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  2
+addr  = 12
+douta =  x
+doutb = 12
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8490ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  2
+addr  = 12
+douta =  x
+doutb = 12
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8490ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  2
+addr  = 12
+douta =  x
+doutb = 12
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8490ns, Actual Data
+we    = 0
+en    = 1
+din   =  2
+addr  = 12
+douta =  x
+doutb = 12
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8490ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 15
+addr  =  9
+douta =  x
+doutb =  0
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8570ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 15
+addr  =  9
+douta =  x
+doutb =  0
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8570ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 15
+addr  =  9
+douta =  x
+doutb =  0
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8570ns, Actual Data
+we    = 0
+en    = 1
+din   = 15
+addr  =  9
+douta =  x
+doutb =  0
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8570ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  8
+addr  = 11
+douta =  x
+doutb = 12
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8730ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  8
+addr  = 11
+douta =  x
+doutb = 12
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8730ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  8
+addr  = 11
+douta =  x
+doutb = 12
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8730ns, Actual Data
+we    = 0
+en    = 1
+din   =  8
+addr  = 11
+douta =  x
+doutb = 12
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8730ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  3
+addr  =  8
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8890ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  3
+addr  =  8
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8890ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  3
+addr  =  8
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8890ns, Actual Data
+we    = 0
+en    = 1
+din   =  3
+addr  =  8
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8890ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 15
+addr  =  8
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8950ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 15
+addr  =  8
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8950ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 15
+addr  =  8
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8950ns, Actual Data
+we    = 0
+en    = 1
+din   = 15
+addr  =  8
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8950ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  4
+addr  = 12
+douta =  x
+doutb = 12
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8970ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  4
+addr  = 12
+douta =  x
+doutb = 12
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8970ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  4
+addr  = 12
+douta =  x
+doutb = 12
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8970ns, Actual Data
+we    = 0
+en    = 1
+din   =  4
+addr  = 12
+douta =  x
+doutb = 12
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8970ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  9
+addr  =  1
+douta =  x
+doutb =  1
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8990ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  9
+addr  =  1
+douta =  x
+doutb =  1
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8990ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  9
+addr  =  1
+douta =  x
+doutb =  1
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 8990ns, Actual Data
+we    = 0
+en    = 1
+din   =  9
+addr  =  1
+douta =  x
+doutb =  1
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9010ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  0
+addr  = 10
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9170ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  0
+addr  = 10
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9170ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  0
+addr  = 10
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9170ns, Actual Data
+we    = 0
+en    = 1
+din   =  0
+addr  = 10
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9170ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 12
+addr  =  8
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9230ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 12
+addr  =  8
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9230ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 12
+addr  =  8
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9230ns, Actual Data
+we    = 0
+en    = 1
+din   = 12
+addr  =  8
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9230ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  9
+addr  =  3
+douta =  x
+doutb = 10
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9310ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  9
+addr  =  3
+douta =  x
+doutb = 10
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9310ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  9
+addr  =  3
+douta =  x
+doutb = 10
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9310ns, Actual Data
+we    = 0
+en    = 1
+din   =  9
+addr  =  3
+douta =  x
+doutb = 10
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9310ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  0
+addr  =  9
+douta =  x
+doutb =  5
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9350ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  0
+addr  =  9
+douta =  x
+doutb =  5
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9350ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  0
+addr  =  9
+douta =  x
+doutb =  5
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9350ns, Actual Data
+we    = 0
+en    = 1
+din   =  0
+addr  =  9
+douta =  x
+doutb =  5
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9350ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  2
+addr  =  8
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9430ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  2
+addr  =  8
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9430ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  2
+addr  =  8
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9430ns, Actual Data
+we    = 0
+en    = 1
+din   =  2
+addr  =  8
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9430ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 10
+addr  =  5
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9450ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 10
+addr  =  5
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9450ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 10
+addr  =  5
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9450ns, Actual Data
+we    = 0
+en    = 1
+din   = 10
+addr  =  5
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9450ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  3
+addr  =  0
+douta =  x
+doutb =  4
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9470ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  3
+addr  =  0
+douta =  x
+doutb =  4
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9470ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  3
+addr  =  0
+douta =  x
+doutb =  4
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9470ns, Actual Data
+we    = 0
+en    = 1
+din   =  3
+addr  =  0
+douta =  x
+doutb =  4
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9470ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  4
+addr  = 14
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9510ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  4
+addr  = 14
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9510ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  4
+addr  = 14
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9510ns, Actual Data
+we    = 0
+en    = 1
+din   =  4
+addr  = 14
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9510ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  0
+addr  =  5
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9550ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  0
+addr  =  5
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9550ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  0
+addr  =  5
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9550ns, Actual Data
+we    = 0
+en    = 1
+din   =  0
+addr  =  5
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9550ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  5
+addr  =  8
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9570ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  5
+addr  =  8
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9570ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  5
+addr  =  8
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9570ns, Actual Data
+we    = 0
+en    = 1
+din   =  5
+addr  =  8
+douta =  x
+doutb =  2
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9570ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  8
+addr  = 13
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9650ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  8
+addr  = 13
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9650ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  8
+addr  = 13
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9650ns, Actual Data
+we    = 0
+en    = 1
+din   =  8
+addr  = 13
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9650ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 10
+addr  =  6
+douta =  x
+doutb =  4
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9670ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 10
+addr  =  6
+douta =  x
+doutb =  4
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9670ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 10
+addr  =  6
+douta =  x
+doutb =  4
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9670ns, Actual Data
+we    = 0
+en    = 1
+din   = 10
+addr  =  6
+douta =  x
+doutb =  4
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9670ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 13
+addr  = 10
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9730ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 13
+addr  = 10
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9730ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 13
+addr  = 10
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9730ns, Actual Data
+we    = 0
+en    = 1
+din   = 13
+addr  = 10
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9730ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 15
+addr  =  3
+douta =  x
+doutb = 10
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9750ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 15
+addr  =  3
+douta =  x
+doutb = 10
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9750ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 15
+addr  =  3
+douta =  x
+doutb = 10
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9750ns, Actual Data
+we    = 0
+en    = 1
+din   = 15
+addr  =  3
+douta =  x
+doutb = 10
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9770ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 11
+addr  =  7
+douta =  x
+doutb =  4
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9930ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 11
+addr  =  7
+douta =  x
+doutb =  4
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9930ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 11
+addr  =  7
+douta =  x
+doutb =  4
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9930ns, Actual Data
+we    = 0
+en    = 1
+din   = 11
+addr  =  7
+douta =  x
+doutb =  4
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 9930ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  6
+addr  =  3
+douta =  x
+doutb = 10
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 10090ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  6
+addr  =  3
+douta =  x
+doutb = 10
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 10090ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  6
+addr  =  3
+douta =  x
+doutb = 10
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 10090ns, Actual Data
+we    = 0
+en    = 1
+din   =  6
+addr  =  3
+douta =  x
+doutb = 10
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 10330ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  5
+addr  =  1
+douta =  x
+doutb =  0
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 10490ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  5
+addr  =  1
+douta =  x
+doutb =  0
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 10490ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  5
+addr  =  1
+douta =  x
+doutb =  0
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 10490ns, Actual Data
+we    = 0
+en    = 1
+din   =  5
+addr  =  1
+douta =  x
+doutb =  0
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 10490ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  7
+addr  = 11
+douta =  x
+doutb = 12
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 10570ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  7
+addr  = 11
+douta =  x
+doutb = 12
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 10570ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  7
+addr  = 11
+douta =  x
+doutb = 12
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 10570ns, Actual Data
+we    = 0
+en    = 1
+din   =  7
+addr  = 11
+douta =  x
+doutb = 12
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 10570ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 11
+addr  = 13
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 10730ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 11
+addr  = 13
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 10730ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 11
+addr  = 13
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 10730ns, Actual Data
+we    = 0
+en    = 1
+din   = 11
+addr  = 13
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 10730ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  8
+addr  =  3
+douta =  x
+doutb = 10
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 10750ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  8
+addr  =  3
+douta =  x
+doutb = 10
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 10750ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  8
+addr  =  3
+douta =  x
+doutb = 10
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 10750ns, Actual Data
+we    = 0
+en    = 1
+din   =  8
+addr  =  3
+douta =  x
+doutb = 10
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 10790ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 11
+addr  = 14
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 10925ns, Packet Received from PORTA Reference Model
+we    = 0
+en    = 1
+din   =  9
+addr  =  0
+douta =  6
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 10950ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 11
+addr  = 14
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 10950ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 11
+addr  = 14
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 10950ns, Actual Data
+we    = 0
+en    = 1
+din   = 11
+addr  = 14
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 10970ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 15
+addr  = 10
+douta =  x
+doutb = 15
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 10975ns, Packet Received from PORTA MONITOR
+we    = 0
+en    = 1
+din   =  9
+addr  =  0
+douta =  6
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 10975ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  9
+addr  =  0
+douta =  6
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 10975ns, Actual Data
+we    = 0
+en    = 1
+din   =  9
+addr  =  0
+douta =  6
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 11105ns, Packet Received from PORTA Reference Model
+we    = 0
+en    = 1
+din   = 14
+addr  = 13
+douta =  8
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 11130ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 15
+addr  = 10
+douta =  x
+doutb = 15
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 11130ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 15
+addr  = 10
+douta =  x
+doutb = 15
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 11130ns, Actual Data
+we    = 0
+en    = 1
+din   = 15
+addr  = 10
+douta =  x
+doutb = 15
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 11130ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  9
+addr  = 13
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 11155ns, Packet Received from PORTA MONITOR
+we    = 0
+en    = 1
+din   = 14
+addr  = 13
+douta =  8
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 11155ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 14
+addr  = 13
+douta =  8
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 11155ns, Actual Data
+we    = 0
+en    = 1
+din   = 14
+addr  = 13
+douta =  8
+doutb =  x
+port  = PORT_A
+op    = READ
+============================================================
+
+============================================================
+
+At time: 11230ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  9
+addr  = 13
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 11230ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  9
+addr  = 13
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 11230ns, Actual Data
+we    = 0
+en    = 1
+din   =  9
+addr  = 13
+douta =  x
+doutb =  8
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 11230ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  1
+addr  =  1
+douta =  x
+doutb =  0
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 11250ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  1
+addr  =  1
+douta =  x
+doutb =  0
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 11250ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  1
+addr  =  1
+douta =  x
+doutb =  0
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 11250ns, Actual Data
+we    = 0
+en    = 1
+din   =  1
+addr  =  1
+douta =  x
+doutb =  0
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 11350ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   = 14
+addr  = 14
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 11510ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   = 14
+addr  = 14
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 11510ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   = 14
+addr  = 14
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 11510ns, Actual Data
+we    = 0
+en    = 1
+din   = 14
+addr  = 14
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 11510ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  8
+addr  =  0
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 11530ns, Packet recieved from PORTB monitor
+we    = 0
+en    = 1
+din   =  8
+addr  =  0
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 11530ns, Comparison Successful - Expected Data
+we    = 0
+en    = 1
+din   =  8
+addr  =  0
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 11530ns, Actual Data
+we    = 0
+en    = 1
+din   =  8
+addr  =  0
+douta =  x
+doutb = 13
+port  = PORT_B
+op    = READ
+============================================================
+
+============================================================
+
+At time: 11530ns, Packet recieved from PORTB reference Model
+we    = 0
+en    = 1
+din   =  1
+addr  =  3
+douta =  x
+doutb = 14
+port  = PORT_B
+op    = READ
+============================================================
+

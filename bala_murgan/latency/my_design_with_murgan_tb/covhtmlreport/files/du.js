@@ -1,0 +1,2 @@
+var g_data = {"data":[{"n":"work.dual_package","id":2,"zf":1,"tc":94.58,"s":95.65,"b":94.44,"fc":90.90,"g":91.91,"a":100.00},{"n":"work.dual_tbb","id":4,"zf":1,"tc":100.00,"s":100.00,"t":100.00},{"n":"work.inf","id":1,"zf":1,"tc":76.14,"s":100.00,"t":52.29},{"n":"work.latency","id":6,"zf":1,"tc":83.58,"s":100.00,"t":67.16},{"n":"work.latency_top","id":5,"zf":1,"tc":67.16,"t":67.16},{"n":"work.modified_dual_mem","id":7,"zf":1,"tc":92.68,"s":100.00,"b":100.00,"fc":100.00,"t":70.73}]};
+processDuData(g_data);

@@ -1,0 +1,519 @@
+# Current time Wed Jan 29 11:14:09 2025
+# Program = vsim
+# Id = "2021.2_1"
+# Version = "2021.05"
+# Date = "May 15 2021"
+# Platform = "linux_x86_64"
+# Signature = dfcd0de65e8129bcb66fdbdef15ad702
+# 0    0x00000000038133a2: '<unknown (@0x38133a2)>'
+# 1    0x0000000000916dd2: '<unknown (@0x916dd2)>'
+# 2    0x00000000009f4788: '<unknown (@0x9f4788)>'
+# 3    0x00000000009f85a2: '<unknown (@0x9f85a2)>'
+# 4    0x0000000000eda414: '<unknown (@0xeda414)>'
+# 5    0x0000000000ed3f8d: '<unknown (@0xed3f8d)>'
+# 6    0x00000000038ee98d: '<unknown (@0x38ee98d)>'
+# 7    0x00000000038f2de6: '<unknown (@0x38f2de6)>'
+# 8    0x00000000038f44d1: '<unknown (@0x38f44d1)>'
+# 9    0x00000000038f4836: '<unknown (@0x38f4836)>'
+# 10   0x0000000001145ab9: '<unknown (@0x1145ab9)>'
+# 11   0x000000000399473f: '<unknown (@0x399473f)>'
+# 12   0x00000000039e82b7: '<unknown (@0x39e82b7)>'
+# 13   0x00000000039ab1a7: '<unknown (@0x39ab1a7)>'
+# 14   0x00000000039ab489: '<unknown (@0x39ab489)>'
+# 15   0x0000000003790c2d: '<unknown (@0x3790c2d)>'
+# 16   0x0000000000bcf05c: '<unknown (@0xbcf05c)>'
+# End of Stack Trace
+
+
+# Current time Wed Jan 29 11:21:03 2025
+# Program = vsim
+# Id = "2021.2_1"
+# Version = "2021.05"
+# Date = "May 15 2021"
+# Platform = "linux_x86_64"
+# Signature = dfcd0de65e8129bcb66fdbdef15ad702
+# 0    0x00000000038133a2: '<unknown (@0x38133a2)>'
+# 1    0x0000000000916dd2: '<unknown (@0x916dd2)>'
+# 2    0x00000000009f4788: '<unknown (@0x9f4788)>'
+# 3    0x00000000009f85a2: '<unknown (@0x9f85a2)>'
+# 4    0x0000000000eda414: '<unknown (@0xeda414)>'
+# 5    0x0000000000ed3f8d: '<unknown (@0xed3f8d)>'
+# 6    0x00000000038ee98d: '<unknown (@0x38ee98d)>'
+# 7    0x00000000038f2de6: '<unknown (@0x38f2de6)>'
+# 8    0x00000000038f44d1: '<unknown (@0x38f44d1)>'
+# 9    0x00000000038f4836: '<unknown (@0x38f4836)>'
+# 10   0x0000000001145ab9: '<unknown (@0x1145ab9)>'
+# 11   0x000000000399473f: '<unknown (@0x399473f)>'
+# 12   0x00000000039e82b7: '<unknown (@0x39e82b7)>'
+# 13   0x00000000039ab1a7: '<unknown (@0x39ab1a7)>'
+# 14   0x00000000039ab489: '<unknown (@0x39ab489)>'
+# 15   0x0000000003790c2d: '<unknown (@0x3790c2d)>'
+# 16   0x0000000000bcf05c: '<unknown (@0xbcf05c)>'
+# End of Stack Trace
+
+
+# Current time Wed Jan 29 11:23:04 2025
+# Program = vsim
+# Id = "2021.2_1"
+# Version = "2021.05"
+# Date = "May 15 2021"
+# Platform = "linux_x86_64"
+# Signature = dfcd0de65e8129bcb66fdbdef15ad702
+# 0    0x00000000038133a2: '<unknown (@0x38133a2)>'
+# 1    0x0000000000916dd2: '<unknown (@0x916dd2)>'
+# 2    0x00000000009f4788: '<unknown (@0x9f4788)>'
+# 3    0x00000000009f85a2: '<unknown (@0x9f85a2)>'
+# 4    0x0000000000eda414: '<unknown (@0xeda414)>'
+# 5    0x0000000000ed3f8d: '<unknown (@0xed3f8d)>'
+# 6    0x00000000038ee98d: '<unknown (@0x38ee98d)>'
+# 7    0x00000000038f2de6: '<unknown (@0x38f2de6)>'
+# 8    0x00000000038f44d1: '<unknown (@0x38f44d1)>'
+# 9    0x00000000038f4836: '<unknown (@0x38f4836)>'
+# 10   0x0000000001145ab9: '<unknown (@0x1145ab9)>'
+# 11   0x000000000399473f: '<unknown (@0x399473f)>'
+# 12   0x00000000039e82b7: '<unknown (@0x39e82b7)>'
+# 13   0x00000000039ab1a7: '<unknown (@0x39ab1a7)>'
+# 14   0x00000000039ab489: '<unknown (@0x39ab489)>'
+# 15   0x0000000003790c2d: '<unknown (@0x3790c2d)>'
+# 16   0x0000000000bcf05c: '<unknown (@0xbcf05c)>'
+# End of Stack Trace
+
+
+# Current time Mon Feb  3 11:32:33 2025
+# Program = vsim
+# Id = "2021.2_1"
+# Version = "2021.05"
+# Date = "May 15 2021"
+# Platform = "linux_x86_64"
+# Signature = dfcd0de65e8129bcb66fdbdef15ad702
+# 0    0x00007fefe4353b82: 'dual_xtn.sv:28'
+# 1    0x00007fefe433a73f: 'dual_scoreboard.sv:31'
+# 2    0x00007fefe433a8ac: 'dual_scoreboard.sv:24'
+# 3    0x00007fefe4338f08: 'dual_env.sv:93'
+# 4    0x00007fefe433972c: 'dual_env.sv:78'
+# 5    0x00007fefe4355132: 'top.sv:45'
+# 6    0x000000000345ecda: '<unknown (@0x345ecda)>'
+# 7    0x00000000006a863c: '<unknown (@0x6a863c)>'
+# 8    0x00000000004c6dfb: '<unknown (@0x4c6dfb)>'
+# 9    0x00000000006e8203: '<unknown (@0x6e8203)>'
+# 10   0x0000000000c03175: '<unknown (@0xc03175)>'
+# 11   0x0000000000c08033: '<unknown (@0xc08033)>'
+# 12   0x0000000000c09d8e: '<unknown (@0xc09d8e)>'
+# 13   0x0000000000ed3f8d: '<unknown (@0xed3f8d)>'
+# 14   0x00000000038ee98d: '<unknown (@0x38ee98d)>'
+# 15   0x00000000038f2de6: '<unknown (@0x38f2de6)>'
+# 16   0x00000000038f44d1: '<unknown (@0x38f44d1)>'
+# 17   0x00000000038f4836: '<unknown (@0x38f4836)>'
+# 18   0x0000000001145ab9: '<unknown (@0x1145ab9)>'
+# 19   0x000000000399473f: '<unknown (@0x399473f)>'
+# 20   0x00000000039e82b7: '<unknown (@0x39e82b7)>'
+# 21   0x00000000039ab1a7: '<unknown (@0x39ab1a7)>'
+# 22   0x00000000039ab489: '<unknown (@0x39ab489)>'
+# 23   0x0000000003790c2d: '<unknown (@0x3790c2d)>'
+# 24   0x0000000000bcf05c: '<unknown (@0xbcf05c)>'
+# End of Stack Trace
+
+
+# Current time Mon Feb  3 11:33:09 2025
+# Program = vsim
+# Id = "2021.2_1"
+# Version = "2021.05"
+# Date = "May 15 2021"
+# Platform = "linux_x86_64"
+# Signature = dfcd0de65e8129bcb66fdbdef15ad702
+# 0    0x00007fefe4353ca2: 'dual_xtn.sv:28'
+# 1    0x00007fefe433a855: 'dual_scoreboard.sv:32'
+# 2    0x00007fefe433a9cc: 'dual_scoreboard.sv:24'
+# 3    0x00007fefe4338f08: 'dual_env.sv:93'
+# 4    0x00007fefe433972c: 'dual_env.sv:78'
+# 5    0x00007fefe4355252: 'top.sv:45'
+# 6    0x000000000345ecda: '<unknown (@0x345ecda)>'
+# 7    0x00000000006a863c: '<unknown (@0x6a863c)>'
+# 8    0x00000000004c6dfb: '<unknown (@0x4c6dfb)>'
+# 9    0x00000000006e8203: '<unknown (@0x6e8203)>'
+# 10   0x0000000000c03175: '<unknown (@0xc03175)>'
+# 11   0x0000000000c08033: '<unknown (@0xc08033)>'
+# 12   0x0000000000c09d8e: '<unknown (@0xc09d8e)>'
+# 13   0x0000000000ed3f8d: '<unknown (@0xed3f8d)>'
+# 14   0x00000000038ee98d: '<unknown (@0x38ee98d)>'
+# 15   0x00000000038f2de6: '<unknown (@0x38f2de6)>'
+# 16   0x00000000038f44d1: '<unknown (@0x38f44d1)>'
+# 17   0x00000000038f4836: '<unknown (@0x38f4836)>'
+# 18   0x0000000001145ab9: '<unknown (@0x1145ab9)>'
+# 19   0x000000000399473f: '<unknown (@0x399473f)>'
+# 20   0x00000000039e82b7: '<unknown (@0x39e82b7)>'
+# 21   0x00000000039ab1a7: '<unknown (@0x39ab1a7)>'
+# 22   0x00000000039ab489: '<unknown (@0x39ab489)>'
+# 23   0x0000000003790c2d: '<unknown (@0x3790c2d)>'
+# 24   0x0000000000bcf05c: '<unknown (@0xbcf05c)>'
+# End of Stack Trace
+
+
+# Current time Mon Feb  3 15:21:43 2025
+# Program = vsim
+# Id = "2021.2_1"
+# Version = "2021.05"
+# Date = "May 15 2021"
+# Platform = "linux_x86_64"
+# Signature = dfcd0de65e8129bcb66fdbdef15ad702
+# 0    0x00007fefe433bae2: 'dual_monitor_a.sv:26'
+# 1    0x00007fefe43379d8: 'dual_env.sv:88'
+# 2    0x00007fefe4337cfc: 'dual_env.sv:78'
+# 3    0x00007fefe434d012: 'top.sv:45'
+# 4    0x000000000345ecda: '<unknown (@0x345ecda)>'
+# 5    0x00000000004c6e84: '<unknown (@0x4c6e84)>'
+# 6    0x00000000006e8203: '<unknown (@0x6e8203)>'
+# 7    0x0000000000c03175: '<unknown (@0xc03175)>'
+# 8    0x0000000000c08033: '<unknown (@0xc08033)>'
+# 9    0x0000000000c09d8e: '<unknown (@0xc09d8e)>'
+# 10   0x0000000000ed3f8d: '<unknown (@0xed3f8d)>'
+# 11   0x00000000038ee98d: '<unknown (@0x38ee98d)>'
+# 12   0x00000000038f2de6: '<unknown (@0x38f2de6)>'
+# 13   0x00000000038f44d1: '<unknown (@0x38f44d1)>'
+# 14   0x00000000038f4836: '<unknown (@0x38f4836)>'
+# 15   0x0000000001145ab9: '<unknown (@0x1145ab9)>'
+# 16   0x000000000399473f: '<unknown (@0x399473f)>'
+# 17   0x00000000039e82b7: '<unknown (@0x39e82b7)>'
+# 18   0x00000000039ab1a7: '<unknown (@0x39ab1a7)>'
+# 19   0x00000000039ab489: '<unknown (@0x39ab489)>'
+# 20   0x0000000003790c2d: '<unknown (@0x3790c2d)>'
+# 21   0x0000000000bcf05c: '<unknown (@0xbcf05c)>'
+# End of Stack Trace
+
+
+# Current time Mon Feb  3 19:23:28 2025
+# Program = vsim
+# Id = "2021.2_1"
+# Version = "2021.05"
+# Date = "May 15 2021"
+# Platform = "linux_x86_64"
+# Signature = dfcd0de65e8129bcb66fdbdef15ad702
+# 0    0x0000000000b9d418: '<unknown (@0xb9d418)>'
+# 1    0x0000000000b9d5c3: '<unknown (@0xb9d5c3)>'
+# 2    0x00000000006e2628: '<unknown (@0x6e2628)>'
+# 3    0x0000000000a5e48c: '<unknown (@0xa5e48c)>'
+# 4    0x0000000000a5e7a5: '<unknown (@0xa5e7a5)>'
+# 5    0x00007ffff7a69df1: '__run_exit_handlers + 0x00000000000001b1' in '/lib64/libc.so.6'
+# 6    0x00007ffff7a69eb0: '<unknown (@0x7ffff7a69eb0)>'
+# 7    0x0000000000a5b1a3: '<unknown (@0xa5b1a3)>'
+# 8    0x0000000003818aa4: '<unknown (@0x3818aa4)>'
+# 9    0x0000000000a62bef: '<unknown (@0xa62bef)>'
+# End of Stack Trace
+
+
+# Current time Mon Feb  3 19:23:28 2025
+# Program = vsim
+# Id = "2021.2_1"
+# Version = "2021.05"
+# Date = "May 15 2021"
+# Platform = "linux_x86_64"
+# Signature = dfcd0de65e8129bcb66fdbdef15ad702
+# 0    0x0000000000b9d418: '<unknown (@0xb9d418)>'
+# 1    0x0000000000b9d5c3: '<unknown (@0xb9d5c3)>'
+# 2    0x00000000006e2628: '<unknown (@0x6e2628)>'
+# 3    0x0000000000a5e48c: '<unknown (@0xa5e48c)>'
+# 4    0x0000000000a5e7a5: '<unknown (@0xa5e7a5)>'
+# 5    0x00007ffff7a69df1: '__run_exit_handlers + 0x00000000000001b1' in '/lib64/libc.so.6'
+# 6    0x00007ffff7a69eb0: '<unknown (@0x7ffff7a69eb0)>'
+# 7    0x0000000000a5b1a3: '<unknown (@0xa5b1a3)>'
+# 8    0x0000000003818aa4: '<unknown (@0x3818aa4)>'
+# 9    0x0000000000a62bef: '<unknown (@0xa62bef)>'
+# End of Stack Trace
+
+
+# Current time Mon Feb  3 19:23:28 2025
+# Program = vsim
+# Id = "2021.2_1"
+# Version = "2021.05"
+# Date = "May 15 2021"
+# Platform = "linux_x86_64"
+# Signature = dfcd0de65e8129bcb66fdbdef15ad702
+# 0    0x0000000000b9d418: '<unknown (@0xb9d418)>'
+# 1    0x0000000000b9d5c3: '<unknown (@0xb9d5c3)>'
+# 2    0x00000000006e2628: '<unknown (@0x6e2628)>'
+# 3    0x0000000000a5e48c: '<unknown (@0xa5e48c)>'
+# 4    0x0000000000a5e7a5: '<unknown (@0xa5e7a5)>'
+# 5    0x00007ffff7a69df1: '__run_exit_handlers + 0x00000000000001b1' in '/lib64/libc.so.6'
+# 6    0x00007ffff7a69eb0: '<unknown (@0x7ffff7a69eb0)>'
+# 7    0x0000000000a5b1a3: '<unknown (@0xa5b1a3)>'
+# 8    0x0000000003818aa4: '<unknown (@0x3818aa4)>'
+# 9    0x0000000000a62bef: '<unknown (@0xa62bef)>'
+# End of Stack Trace
+
+
+# Current time Mon Feb  3 19:23:28 2025
+# Program = vsim
+# Id = "2021.2_1"
+# Version = "2021.05"
+# Date = "May 15 2021"
+# Platform = "linux_x86_64"
+# Signature = dfcd0de65e8129bcb66fdbdef15ad702
+# 0    0x0000000000b9d418: '<unknown (@0xb9d418)>'
+# 1    0x0000000000b9d5c3: '<unknown (@0xb9d5c3)>'
+# 2    0x00000000006e2628: '<unknown (@0x6e2628)>'
+# 3    0x0000000000a5e48c: '<unknown (@0xa5e48c)>'
+# 4    0x0000000000a5e7a5: '<unknown (@0xa5e7a5)>'
+# 5    0x00007ffff7a69df1: '__run_exit_handlers + 0x00000000000001b1' in '/lib64/libc.so.6'
+# 6    0x00007ffff7a69eb0: '<unknown (@0x7ffff7a69eb0)>'
+# 7    0x0000000000a5b1a3: '<unknown (@0xa5b1a3)>'
+# 8    0x0000000003818aa4: '<unknown (@0x3818aa4)>'
+# 9    0x0000000000a62bef: '<unknown (@0xa62bef)>'
+# End of Stack Trace
+
+
+# Current time Fri Feb  7 20:22:03 2025
+# Program = vsim
+# Id = "2021.2_1# Current time "
+Fri Feb  7 20:22:03 2025
+# Version = "# Program = 2021.05"
+vsim# Date = "
+May 15 2021# Id = ""
+2021.2_1# Platform = ""
+linux_x86_64# Version = ""
+2021.05# Signature = "
+dfcd0de65e8129bcb66fdbdef15ad702# Date = "
+May 15 2021"
+# Platform = "linux_x86_64"
+# Signature = dfcd0de65e8129bcb66fdbdef15ad702
+# Current time # 0    Fri Feb  7 20:22:03 2025
+0x# Program = 0# 0    vsim00x
+00# Id = "002021.2_100"
+00# Version = "002021.0500"
+00# Date = "00May 15 2021b0"
+90# Platform = "dblinux_x86_6449"
+1d# Signature = 84dfcd0de65e8129bcb66fdbdef15ad702: '1
+<unknown (@0xb9d418)>8': '
+<unknown (@0xb9d418)>'# 1    
+0x# 0    0# 1    0x00x0000000000000000000000000b0090bdb95dc431: '8<unknown (@0xb9d5c3)>: ''9<unknown (@0xb9d418)>
+d'# 2    5
+0xc# 1    030x0: '00<unknown (@0xb9d5c3)>00'00
+00# 2    000x0000000000600e0b20960d20580c: '03<unknown (@0x6e2628)>6: ''e<unknown (@0xb9d5c3)>
+2'6# 3    
+20x80# 2    : '00x<unknown (@0x6e2628)>00'00
+000# 3    000x0000000000a00500e0640e802c06: '02<unknown (@0xa5e48c)>a8'5: '
+e# 4    <unknown (@0x6e2628)>40x'80
+c0: '0# 3    <unknown (@0xa5e48c)>00x'00
+00# 4    000x000000000a00500e00700aa0550: 'e0<unknown (@0xa5e7a5)>4a'85
+ce: '7<unknown (@0xa5e48c)>a# 5    '50x
+: '0<unknown (@0xa5e7a5)># 4    0'0x0
+00070# 5    f00xf00f00f00700a0760f9afd5ffef177: 'aa__run_exit_handlers56 + : '90x<unknown (@0xa5e7a5)>d0'f0
+10: '0# 5    __run_exit_handlers00x + 000x000000000700f00f00f00f107b0a106'09 in '0d/lib64/libc.so.60f'
+11b: '# 6    1__run_exit_handlers0x' + 0 in '0x0/lib64/libc.so.600'
+00# 6    070x0f00f00f00f00770af06f09f0ef0b710ab: '61<unknown (@0x7ffff7a69eb0)>9''e in '
+b/lib64/libc.so.6# 7    0'
+0x: '0# 6    <unknown (@0x7ffff7a69eb0)>00x'00
+00# 7    000x0000700f00f00f0af06702a0760c905ea: 'b6<unknown (@0xa627c5)>02': '7
+<unknown (@0x7ffff7a69eb0)>c# End of Stack Trace
+
+'5
+
+: '<unknown (@0xa627c5)># 7    '0x
+00# 8    00x00000000070f0faf6f277ac657: '8<unknown (@0xa627c5)>4'0
+: '<unknown (@0x7ffff7a67840)>'# 8    
+0x0# 9    00x000070f0f7ffff7faf677b82400b: '0<unknown (@0x7ffff7a67840)>f': '
+__GI___write + 0x0# 9    00x00000000070f0f0f0f070b0240fb'0 in 'f/lib64/libc.so.6: ''
+__GI___write# 10    + 0x0x0000000070f0f0f0f070a0b030e064df: ''_IO_file_write@@GLIBC_2.2.5 in ' + /lib64/libc.so.60x'
+000# 10   00x00000000070f0f0f0f072adb'3 in 'e/lib64/libc.so.66'
+d# 11   : '0x_IO_file_write@@GLIBC_2.2.50 + 00x000070f0f0f0f070a0b0200030d0: '2new_do_writed + '0x in '0/lib64/libc.so.600'
+000# 11   00x00000000070f0f5fdf'7 in 'a/lib64/libc.so.6b'
+2# 12   00x30d0: '0new_do_write0 + 70xf0f0f0f070a0b040007090: '0_IO_file_xsputn@@GLIBC_2.2.50 + 00x50d0'0 in '0/lib64/libc.so.60'
+00# 12   00x00000000071f9f9f'f in '7/lib64/libc.so.6a'
+b4# 13   00x7090: '0_IO_file_xsputn@@GLIBC_2.2.50 + 70xf0f0f0f070a0802050b020: '0__printf_buffer_flush_to_file + 00x109090'0 in '0/lib64/libc.so.60'
+000# 13   00x00000000c72f'f in 'f/lib64/libc.so.6f'
+7# 14   a0x802050b027: 'f__printf_buffer_flush_to_filef + f0xf070a08020607040: '0__printf_buffer_to_file_done0 + 00x000000c020'0 in '0/lib64/libc.so.60'
+000# 14   00x00001040'7 in 'f/lib64/libc.so.6f'
+ff# 15   70xa0802060774f: 'f__printf_buffer_to_file_donef + f0x70a080d0405010: '0__vfprintf_internal0 + 00x000000001040'0 in '0/lib64/libc.so.60'
+00# 15   00x0000a010'7 in 'f/lib64/libc.so.6f'
+f# 16   f0x70a080d0475f1f: 'f__vfprintf_internalf + 70xa08010105020: '0fprintf0 + 00x0000000000a010'0 in '0/lib64/libc.so.60'
+00# 16   00x00a020'0 in '7/lib64/libc.so.6f'
+ff# 17   f0x70a08010105020: '0fprintf0 + 00xa06020f0a080: '0<unknown (@0xa62fa8)>0'0
+0# End of Stack Trace
+
+0
+000a2' in '/lib64/libc.so.6'
+# 17   0x0000000000a62fa8: '<unknown (@0xa62fa8)>'
+# End of Stack Trace
+
+
+# Current time Fri Feb 14 12:09:19 2025
+# Program = vsim
+# Id = "2021.2_1"
+# Version = "2021.05"
+# Date = "May 15 2021"
+# Platform = "linux_x86_64"
+# Signature = dfcd0de65e8129bcb66fdbdef15ad702
+# 0    0x00007fefe4351697: 'dual_scoreboard.sv:41'
+# 1    0x00007fefe43514fa: 'dual_scoreboard.sv:41'
+# 2    0x00007fefe4363a9f: 'dual_scoreboard.sv:189'
+# 3    0x000000000345ecda: '<unknown (@0x345ecda)>'
+# 4    0x00000000006a863c: '<unknown (@0x6a863c)>'
+# 5    0x00000000004c6dfb: '<unknown (@0x4c6dfb)>'
+# 6    0x00000000006e8203: '<unknown (@0x6e8203)>'
+# 7    0x0000000000c03175: '<unknown (@0xc03175)>'
+# 8    0x0000000000c08033: '<unknown (@0xc08033)>'
+# 9    0x0000000000c09d8e: '<unknown (@0xc09d8e)>'
+# 10   0x0000000000ed3f8d: '<unknown (@0xed3f8d)>'
+# 11   0x00000000038ee98d: '<unknown (@0x38ee98d)>'
+# 12   0x00000000038f2de6: '<unknown (@0x38f2de6)>'
+# 13   0x00000000038f44d1: '<unknown (@0x38f44d1)>'
+# 14   0x00000000038f4836: '<unknown (@0x38f4836)>'
+# 15   0x0000000001145ab9: '<unknown (@0x1145ab9)>'
+# 16   0x000000000399473f: '<unknown (@0x399473f)>'
+# 17   0x00000000039e82b7: '<unknown (@0x39e82b7)>'
+# 18   0x00000000039ab1a7: '<unknown (@0x39ab1a7)>'
+# 19   0x00000000039ab489: '<unknown (@0x39ab489)>'
+# 20   0x0000000003790c2d: '<unknown (@0x3790c2d)>'
+# 21   0x0000000000bcf05c: '<unknown (@0xbcf05c)>'
+# End of Stack Trace
+
+
+# Current time Fri Feb 14 16:06:09 2025
+# Program = vsim
+# Id = "2021.2_1"
+# Version = "2021.05"
+# Date = "May 15 2021"
+# Platform = "linux_x86_64"
+# Signature = dfcd0de65e8129bcb66fdbdef15ad702
+# 0    0x00007fefe437f985: 'dual_generator.sv:25'
+# 1    0x00007fefe43835be: 'dual_driver_b.sv:27'
+# 2    0x000000000345ecda: '<unknown (@0x345ecda)>'
+# 3    0x00000000004c6e84: '<unknown (@0x4c6e84)>'
+# 4    0x00000000006e8203: '<unknown (@0x6e8203)>'
+# 5    0x0000000000c03175: '<unknown (@0xc03175)>'
+# 6    0x0000000000c08033: '<unknown (@0xc08033)>'
+# 7    0x0000000000c09d8e: '<unknown (@0xc09d8e)>'
+# 8    0x0000000000ed3f8d: '<unknown (@0xed3f8d)>'
+# 9    0x00000000038ee98d: '<unknown (@0x38ee98d)>'
+# 10   0x00000000038f2de6: '<unknown (@0x38f2de6)>'
+# 11   0x00000000038f44d1: '<unknown (@0x38f44d1)>'
+# 12   0x00000000038f4836: '<unknown (@0x38f4836)>'
+# 13   0x0000000001145ab9: '<unknown (@0x1145ab9)>'
+# 14   0x000000000399473f: '<unknown (@0x399473f)>'
+# 15   0x00000000039e82b7: '<unknown (@0x39e82b7)>'
+# 16   0x00000000039ab1a7: '<unknown (@0x39ab1a7)>'
+# 17   0x00000000039ab489: '<unknown (@0x39ab489)>'
+# 18   0x0000000003790c2d: '<unknown (@0x3790c2d)>'
+# 19   0x0000000000bcf05c: '<unknown (@0xbcf05c)>'
+# End of Stack Trace
+
+
+# Current time Sun Feb 16 17:47:49 2025
+# Program = vsim
+# Id = "2021.2_1"
+# Version = "2021.05"
+# Date = "May 15 2021"
+# Platform = "linux_x86_64"
+# Signature = dfcd0de65e8129bcb66fdbdef15ad702
+# 0    0x000000000110aaf8: '<unknown (@0x110aaf8)>'
+# 1    0x00000000010ed8b5: '<unknown (@0x10ed8b5)>'
+# 2    0x00000000007ae388: '<unknown (@0x7ae388)>'
+# 3    0x00007fefe4360c7c: 'dual_scoreboard.sv:141'
+# 4    0x000000000345ecda: '<unknown (@0x345ecda)>'
+# 5    0x00000000004c6e84: '<unknown (@0x4c6e84)>'
+# 6    0x00000000006e8203: '<unknown (@0x6e8203)>'
+# 7    0x0000000000c03175: '<unknown (@0xc03175)>'
+# 8    0x0000000000c08033: '<unknown (@0xc08033)>'
+# 9    0x0000000000c09d8e: '<unknown (@0xc09d8e)>'
+# 10   0x0000000000ed3f8d: '<unknown (@0xed3f8d)>'
+# 11   0x00000000038ee98d: '<unknown (@0x38ee98d)>'
+# 12   0x00000000038f2de6: '<unknown (@0x38f2de6)>'
+# 13   0x00000000038f44d1: '<unknown (@0x38f44d1)>'
+# 14   0x00000000038f4836: '<unknown (@0x38f4836)>'
+# 15   0x0000000001145ab9: '<unknown (@0x1145ab9)>'
+# 16   0x000000000399473f: '<unknown (@0x399473f)>'
+# 17   0x00000000039e82b7: '<unknown (@0x39e82b7)>'
+# 18   0x00000000039ab1a7: '<unknown (@0x39ab1a7)>'
+# 19   0x00000000039ab489: '<unknown (@0x39ab489)>'
+# 20   0x0000000003790c2d: '<unknown (@0x3790c2d)>'
+# 21   0x0000000000bcf05c: '<unknown (@0xbcf05c)>'
+# End of Stack Trace
+
+
+# Current time Sun Feb 16 17:53:36 2025
+# Program = vsim
+# Id = "2021.2_1"
+# Version = "2021.05"
+# Date = "May 15 2021"
+# Platform = "linux_x86_64"
+# Signature = dfcd0de65e8129bcb66fdbdef15ad702
+# 0    0x000000000110aaf8: '<unknown (@0x110aaf8)>'
+# 1    0x00000000010ed8b5: '<unknown (@0x10ed8b5)>'
+# 2    0x00000000007ae388: '<unknown (@0x7ae388)>'
+# 3    0x00007fefe4360c7c: 'dual_scoreboard.sv:141'
+# 4    0x000000000345ecda: '<unknown (@0x345ecda)>'
+# 5    0x00000000004c6e84: '<unknown (@0x4c6e84)>'
+# 6    0x00000000006e8203: '<unknown (@0x6e8203)>'
+# 7    0x0000000000c03175: '<unknown (@0xc03175)>'
+# 8    0x0000000000c08033: '<unknown (@0xc08033)>'
+# 9    0x0000000000c09d8e: '<unknown (@0xc09d8e)>'
+# 10   0x0000000000ed3f8d: '<unknown (@0xed3f8d)>'
+# 11   0x00000000038ee98d: '<unknown (@0x38ee98d)>'
+# 12   0x00000000038f2de6: '<unknown (@0x38f2de6)>'
+# 13   0x00000000038f44d1: '<unknown (@0x38f44d1)>'
+# 14   0x00000000038f4836: '<unknown (@0x38f4836)>'
+# 15   0x0000000001145ab9: '<unknown (@0x1145ab9)>'
+# 16   0x000000000399473f: '<unknown (@0x399473f)>'
+# 17   0x00000000039e82b7: '<unknown (@0x39e82b7)>'
+# 18   0x00000000039ab1a7: '<unknown (@0x39ab1a7)>'
+# 19   0x00000000039ab489: '<unknown (@0x39ab489)>'
+# 20   0x0000000003790c2d: '<unknown (@0x3790c2d)>'
+# 21   0x0000000000bcf05c: '<unknown (@0xbcf05c)>'
+# End of Stack Trace
+
+
+# Current time Mon Feb 17 19:52:07 2025
+# Program = vsim
+# Id = "2021.2_1"
+# Version = "2021.05"
+# Date = "May 15 2021"
+# Platform = "linux_x86_64"
+# Signature = dfcd0de65e8129bcb66fdbdef15ad702
+# 0    0x00000000036f8940: '<unknown (@0x36f8940)>'
+# 1    0x00000000036f9f93: '<unknown (@0x36f9f93)>'
+# 2    0x00000000036fa1c8: '<unknown (@0x36fa1c8)>'
+# 3    0x00000000036fa46f: '<unknown (@0x36fa46f)>'
+# 4    0x00000000036fa629: '<unknown (@0x36fa629)>'
+# 5    0x00000000036d8096: '<unknown (@0x36d8096)>'
+# 6    0x00000000036f61e3: '<unknown (@0x36f61e3)>'
+# 7    0x00000000036f66b6: '<unknown (@0x36f66b6)>'
+# 8    0x00000000006e2c9c: '<unknown (@0x6e2c9c)>'
+# 9    0x0000000000a5e48c: '<unknown (@0xa5e48c)>'
+# 10   0x0000000000a5e7a5: '<unknown (@0xa5e7a5)>'
+# 11   0x00007ffff7a69df1: '__run_exit_handlers + 0x00000000000001b1' in '/lib64/libc.so.6'
+# 12   0x00007ffff7a69eb0: '<unknown (@0x7ffff7a69eb0)>'
+# 13   0x0000000000a5b1a3: '<unknown (@0xa5b1a3)>'
+# 14   0x0000000003818aa4: '<unknown (@0x3818aa4)>'
+# 15   0x0000000000a62bef: '<unknown (@0xa62bef)>'
+# End of Stack Trace
+
+
+# Current time Wed Feb 19 10:51:40 2025
+# Program = vsim
+# Id = "2021.2_1"
+# Version = "2021.05"
+# Date = "May 15 2021"
+# Platform = "linux_x86_64"
+# Signature = dfcd0de65e8129bcb66fdbdef15ad702
+# 0    0x00007fefe433dcd5: 'dual_xtn.sv:51'
+# 1    0x00007fefe43605e3: 'dual_scoreboard.sv:152'
+# 2    0x000000000345ecda: '<unknown (@0x345ecda)>'
+# 3    0x00000000004c6e84: '<unknown (@0x4c6e84)>'
+# 4    0x00000000006e8203: '<unknown (@0x6e8203)>'
+# 5    0x0000000000c03175: '<unknown (@0xc03175)>'
+# 6    0x0000000000c08033: '<unknown (@0xc08033)>'
+# 7    0x0000000000c09d8e: '<unknown (@0xc09d8e)>'
+# 8    0x0000000000ed3f8d: '<unknown (@0xed3f8d)>'
+# 9    0x00000000038ee98d: '<unknown (@0x38ee98d)>'
+# 10   0x00000000038f2de6: '<unknown (@0x38f2de6)>'
+# 11   0x00000000038f44d1: '<unknown (@0x38f44d1)>'
+# 12   0x00000000038f4836: '<unknown (@0x38f4836)>'
+# 13   0x0000000001145ab9: '<unknown (@0x1145ab9)>'
+# 14   0x000000000399473f: '<unknown (@0x399473f)>'
+# 15   0x00000000039e82b7: '<unknown (@0x39e82b7)>'
+# 16   0x00000000039ab1a7: '<unknown (@0x39ab1a7)>'
+# 17   0x00000000039ab489: '<unknown (@0x39ab489)>'
+# 18   0x0000000003790c2d: '<unknown (@0x3790c2d)>'
+# 19   0x0000000000bcf05c: '<unknown (@0xbcf05c)>'
+# End of Stack Trace
+
+

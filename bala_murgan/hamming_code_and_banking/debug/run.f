@@ -1,0 +1,9 @@
+./rtl/decoder.sv
+./rtl/demux.sv
+./rtl/dual_ram.sv
+./rtl/hamming.sv
+./rtl/hamming_decoding.sv
+./rtl/hamming_en_decode.sv
+./rtl/multi_bank.sv
+./rtl/mux_out.sv
+./rtl/top_.sv

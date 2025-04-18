@@ -1,0 +1,1304 @@
+# do run.tcl
+# QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+# Start time: 10:54:34 on Mar 21,2025
+# vlog -sv -cover bcst -f run.f packages.sv interface.sv assertions.sv top_modules.sv 
+# -- Compiling module latency
+# -- Compiling module modified_dual_mem
+# -- Compiling module latency_top
+# -- Compiling package dual_package
+# ** Warning: generator.sv(19): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: score_board.sv(21): (vlog-2240) Treating stand-alone use of function 'compare' as an implicit VOID cast.
+# ** Warning: environment.sv(104): (vlog-2240) Treating stand-alone use of function 'report' as an implicit VOID cast.
+# -- Compiling package interface_sv_unit
+# -- Importing package dual_package
+# -- Compiling interface inf
+# -- Compiling module assertions
+# -- Compiling interface inf
+# ** Warning: ** while parsing file included at top_modules.sv(6)
+# ** at interface.sv(5): (vlog-2275) Existing interface 'inf' at line 5 will be overwritten.
+# -- Compiling package top_modules_sv_unit
+# -- Compiling interface inf
+# -- Compiling module dual_tbb
+# 
+# Top level modules:
+# 	assertions
+# 	dual_tbb
+# End time: 10:54:34 on Mar 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+# vsim -gui -coverage -assertdebug -voptargs="+acc" -onfinish stop work.dual_tbb 
+# Start time: 10:54:34 on Mar 21,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 2021.2_1 linux_x86_64 May 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.inf(fast)
+# Loading work.dual_package(fast)
+# Loading work.top_modules_sv_unit(fast)
+# Loading work.dual_tbb(fast)
+# Loading work.inf(fast__2)
+# Loading work.latency_top(fast)
+# Loading work.latency(fast)
+# Loading work.modified_dual_mem(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (13) does not match connection size (8) for port 'i_dina'. The port definition is at: ./rtl/latency_ram_top.sv(29).
+#    Time: 0 ns  Iteration: 0  Instance: /dual_tbb/DUT File: top_modules.sv Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (13) does not match connection size (8) for port 'i_dinb'. The port definition is at: ./rtl/latency_ram_top.sv(29).
+#    Time: 0 ns  Iteration: 0  Instance: /dual_tbb/DUT File: top_modules.sv Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (13) does not match connection size (8) for port 'o_douta'. The port definition is at: ./rtl/latency_ram_top.sv(31).
+#    Time: 0 ns  Iteration: 0  Instance: /dual_tbb/DUT File: top_modules.sv Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (13) does not match connection size (8) for port 'o_doutb'. The port definition is at: ./rtl/latency_ram_top.sv(31).
+#    Time: 0 ns  Iteration: 0  Instance: /dual_tbb/DUT File: top_modules.sv Line: 36
+# captured  0
+# captured  0
+# captured 40
+# test passed port->          0.....  0...  0                 135
+# captured  0
+# captured189
+# captured  0
+# test passed port->          1.....  0...  0                 155
+# test passed port->          1..... 40... 40                 165
+# captured  0
+# test passed port->          0.....  0...  0                 175
+# captured 40
+# test passed port->          0.....  0...  0                 185
+# captured  0
+# captured  0
+# test passed port->          1.....189...189                 195
+# captured  0
+# test passed port->          0.....  0...  0                 205
+# captured 47
+# test passed port->          1..... 40... 40                 225
+# test passed port->          0.....  0...  0                 225
+# test passed port->          1.....  0...  0                 235
+# test passed port->          1.....  0...  0                 245
+# test passed port->          0..... 47... 47                 255
+# captured  0
+# captured  0
+# captured  0
+# test passed port->          0.....  0...  0                 295
+# test passed port->          1.....  0...  0                 305
+# captured  0
+# captured  0
+# captured  0
+# test passed port->          1.....  0...  0                 335
+# captured  0
+# test passed port->          1.....  0...  0                 355
+# test passed port->          1.....  0...  0                 365
+# test passed port->          0.....  0...  0                 365
+# captured 54
+# captured  0
+# captured129
+# test passed port->          1.....  0...  0                 385
+# captured158
+# test passed port->          0.....  0...  0                 405
+# test passed port->          1..... 54... 54                 415
+# test passed port->          1.....129...129                 425
+# captured 71
+# test passed port->          1.....158...158                 435
+# captured  0
+# captured  0
+# captured 85
+# captured 16
+# captured159
+# test passed port->          1..... 71... 71                 475
+# captured  0
+# test passed port->          1.....  0...  0                 485
+# test passed port->          0.....  0...  0                 485
+# captured143
+# test passed port->          1..... 85... 85                 505
+# test passed port->          0.....159...159                 505
+# captured  0
+# test passed port->          1..... 16... 16                 515
+# test passed port->          0.....  0...  0                 515
+# test passed port->          0.....143...143                 525
+# captured182
+# captured189
+# captured141
+# test passed port->          1.....  0...  0                 555
+# test passed port->          0.....182...182                 565
+# captured 43
+# captured 16
+# test passed port->          1.....189...189                 585
+# test passed port->          0.....141...141                 585
+# captured189
+# test passed port->          0..... 43... 43                 605
+# captured202
+# test passed port->          1..... 16... 16                 625
+# captured129
+# captured202
+# test passed port->          1.....189...189                 645
+# test passed port->          1.....202...202                 665
+# test passed port->          1.....129...129                 675
+# captured 71
+# captured  0
+# test passed port->          1.....202...202                 685
+# captured143
+# test passed port->          0.....  0...  0                 715
+# test passed port->          1..... 71... 71                 725
+# captured 43
+# test passed port->          0.....143...143                 745
+# test passed port->          0..... 43... 43                 765
+# captured  0
+# captured248
+# test passed port->          0.....  0...  0                 805
+# captured  6
+# captured  0
+# captured  0
+# test passed port->          0.....248...248                 835
+# captured202
+# captured126
+# test passed port->          0.....  0...  0                 855
+# captured  0
+# test passed port->          1.....  6...  6                 865
+# test passed port->          0.....  0...  0                 865
+# captured  0
+# test passed port->          0.....126...126                 875
+# test passed port->          1.....202...202                 885
+# test passed port->          0.....  0...  0                 895
+# test passed port->          0.....  0...  0                 905
+# captured126
+# captured 50
+# captured  0
+# captured  0
+# test passed port->          0.....126...126                 975
+# captured  0
+# captured248
+# test passed port->          0.....  0...  0                 995
+# captured126
+# test passed port->          1..... 50... 50                1005
+# test passed port->          0.....  0...  0                1005
+# captured216
+# captured  0
+# test passed port->          0.....  0...  0                1015
+# captured244
+# test passed port->          0.....248...248                1025
+# captured 39
+# test passed port->          0.....126...126                1035
+# test passed port->          0.....  0...  0                1045
+# captured190
+# test passed port->          1.....216...216                1055
+# test passed port->          0.....244...244                1055
+# captured 65
+# captured228
+# test passed port->          1..... 39... 39                1075
+# captured 81
+# test passed port->          0.....228...228                1095
+# test passed port->          1.....190...190                1095
+# test passed port->          1..... 65... 65                1105
+# captured243
+# captured126
+# test passed port->          0..... 81... 81                1125
+# captured190
+# test passed port->          0.....126...126                1145
+# captured 39
+# test passed port->          1.....243...243                1155
+# captured152
+# test passed port->          1.....190...190                1175
+# captured 92
+# test passed port->          1..... 39... 39                1195
+# captured 65
+# test passed port->          0.....152...152                1205
+# test passed port->          0..... 92... 92                1225
+# captured233
+# test passed port->          1..... 65... 65                1245
+# captured207
+# captured233
+# captured246
+# test passed port->          1.....233...233                1275
+# captured218
+# captured244
+# test passed port->          1.....207...207                1295
+# test passed port->          0.....246...246                1295
+# test passed port->          1.....233...233                1305
+# captured 22
+# captured  0
+# test passed port->          0.....244...244                1325
+# test passed port->          1.....218...218                1335
+# captured202
+# captured233
+# test passed port->          0.....  0...  0                1355
+# test passed port->          1..... 22... 22                1355
+# captured 50
+# captured244
+# test passed port->          1.....202...202                1385
+# test passed port->          1.....233...233                1395
+# captured 22
+# test passed port->          0.....244...244                1405
+# test passed port->          1..... 50... 50                1415
+# captured 50
+# captured115
+# captured 50
+# test passed port->          1..... 22... 22                1445
+# captured  0
+# test passed port->          0.....115...115                1465
+# captured162
+# test passed port->          1..... 50... 50                1475
+# test passed port->          1..... 50... 50                1485
+# captured207
+# captured230
+# test passed port->          0.....  0...  0                1495
+# test passed port->          0.....162...162                1505
+# captured132
+# captured 29
+# captured 36
+# test passed port->          0.....230...230                1525
+# test passed port->          1.....207...207                1535
+# captured113
+# captured134
+# test passed port->          0..... 29... 29                1545
+# test passed port->          1.....132...132                1555
+# test passed port->          0..... 36... 36                1555
+# captured 36
+# test passed port->          0.....134...134                1575
+# captured 29
+# test passed port->          1.....113...113                1585
+# test passed port->          0..... 36... 36                1595
+# test passed port->          1..... 29... 29                1625
+# captured143
+# captured113
+# captured132
+# captured153
+# captured142
+# test passed port->          0.....143...143                1665
+# test passed port->          1.....113...113                1685
+# captured244
+# test passed port->          0.....142...142                1695
+# test passed port->          1.....132...132                1695
+# test passed port->          1.....153...153                1705
+# captured 91
+# test passed port->          0.....244...244                1725
+# captured 39
+# captured229
+# captured  0
+# test passed port->          0..... 91... 91                1755
+# test passed port->          0.....229...229                1775
+# captured207
+# captured128
+# test passed port->          0.....  0...  0                1785
+# test passed port->          1..... 39... 39                1785
+# captured 59
+# test passed port->          0.....128...128                1815
+# captured 29
+# test passed port->          1.....207...207                1825
+# captured 59
+# test passed port->          1..... 59... 59                1835
+# captured 22
+# test passed port->          0..... 29... 29                1855
+# captured 77
+# test passed port->          1..... 59... 59                1875
+# captured207
+# test passed port->          1..... 22... 22                1895
+# test passed port->          0..... 77... 77                1905
+# test passed port->          1.....207...207                1925
+# captured113
+# captured245
+# captured 27
+# captured 77
+# captured245
+# test passed port->          1.....113...113                1985
+# captured195
+# test passed port->          0.....245...245                1995
+# captured 27
+# captured128
+# test passed port->          0..... 77... 77                2005
+# test passed port->          1..... 27... 27                2015
+# test passed port->          0.....245...245                2015
+# captured195
+# test passed port->          1.....195...195                2035
+# test passed port->          0.....128...128                2035
+# test passed port->          1..... 27... 27                2045
+# captured225
+# test passed port->          1.....195...195                2075
+# captured143
+# captured 79
+# captured232
+# test passed port->          0.....225...225                2105
+# test passed port->          0.....143...143                2115
+# test passed port->          0..... 79... 79                2125
+# captured 79
+# test passed port->          1.....232...232                2145
+# test passed port->          0..... 79... 79                2165
+# captured195
+# captured  0
+# captured159
+# test passed port->          0.....  0...  0                2215
+# test passed port->          1.....195...195                2215
+# test passed port->          1.....159...159                2235
+# captured231
+# captured183
+# test passed port->          0.....183...183                2275
+# test passed port->          1.....231...231                2285
+# captured225
+# captured183
+# test passed port->          0.....225...225                2335
+# captured183
+# captured207
+# captured198
+# test passed port->          0.....183...183                2365
+# captured105
+# test passed port->          0.....183...183                2375
+# test passed port->          1.....207...207                2395
+# test passed port->          0.....198...198                2395
+# captured231
+# test passed port->          1.....105...105                2415
+# captured207
+# captured237
+# captured 33
+# captured 68
+# captured225
+# test passed port->          1.....231...231                2445
+# captured183
+# test passed port->          0.....237...237                2455
+# test passed port->          1.....207...207                2465
+# test passed port->          0..... 33... 33                2465
+# captured207
+# captured198
+# test passed port->          0.....225...225                2475
+# test passed port->          1..... 68... 68                2485
+# test passed port->          0.....183...183                2485
+# captured 12
+# test passed port->          0.....198...198                2505
+# captured183
+# test passed port->          1.....207...207                2515
+# captured105
+# captured183
+# captured237
+# test passed port->          0..... 12... 12                2535
+# captured 53
+# test passed port->          0.....183...183                2545
+# captured 12
+# test passed port->          0.....183...183                2555
+# test passed port->          1.....105...105                2565
+# test passed port->          0.....237...237                2565
+# captured 29
+# test passed port->          1..... 53... 53                2585
+# test passed port->          0..... 12... 12                2585
+# captured183
+# test passed port->          0..... 29... 29                2615
+# test passed port->          0.....183...183                2645
+# captured105
+# captured 53
+# captured183
+# captured237
+# captured183
+# test passed port->          1.....105...105                2695
+# test passed port->          0.....183...183                2705
+# test passed port->          0.....183...183                2715
+# test passed port->          1..... 53... 53                2715
+# captured238
+# test passed port->          1.....237...237                2725
+# captured238
+# captured207
+# test passed port->          1.....238...238                2765
+# captured 89
+# captured207
+# test passed port->          1.....238...238                2785
+# test passed port->          1.....207...207                2795
+# captured237
+# test passed port->          1..... 89... 89                2815
+# captured105
+# captured230
+# test passed port->          1.....207...207                2825
+# captured 29
+# captured237
+# captured214
+# test passed port->          1.....237...237                2845
+# test passed port->          0.....230...230                2855
+# test passed port->          1.....105...105                2865
+# test passed port->          0..... 29... 29                2865
+# test passed port->          0.....214...214                2875
+# captured 29
+# test passed port->          1.....237...237                2885
+# captured225
+# test passed port->          0..... 29... 29                2915
+# test passed port->          0.....225...225                2925
+# captured239
+# captured105
+# test passed port->          1.....239...239                2975
+# captured182
+# captured202
+# test passed port->          1.....105...105                3005
+# captured202
+# captured229
+# test passed port->          0.....182...182                3015
+# test passed port->          0.....229...229                3045
+# test passed port->          1.....202...202                3045
+# test passed port->          1.....202...202                3055
+# captured120
+# captured 41
+# captured 68
+# captured 86
+# captured237
+# test passed port->          0..... 41... 41                3095
+# test passed port->          1.....120...120                3105
+# test passed port->          0..... 86... 86                3105
+# test passed port->          1..... 68... 68                3115
+# captured 78
+# test passed port->          1.....237...237                3125
+# captured 21
+# captured136
+# test passed port->          0..... 78... 78                3155
+# captured 68
+# test passed port->          0..... 21... 21                3165
+# captured 48
+# captured 86
+# test passed port->          0.....136...136                3185
+# captured200
+# test passed port->          0..... 68... 68                3195
+# captured251
+# test passed port->          0..... 86... 86                3215
+# test passed port->          1..... 48... 48                3225
+# test passed port->          1.....200...200                3235
+# captured109
+# test passed port->          1.....251...251                3245
+# captured237
+# test passed port->          1.....109...109                3285
+# captured237
+# test passed port->          1.....237...237                3305
+# captured 41
+# captured117
+# test passed port->          1.....237...237                3335
+# test passed port->          0..... 41... 41                3355
+# captured230
+# test passed port->          1.....117...117                3375
+# captured 78
+# captured 21
+# captured250
+# captured 41
+# test passed port->          0.....230...230                3405
+# test passed port->          0..... 78... 78                3415
+# captured239
+# captured227
+# test passed port->          0..... 21... 21                3425
+# test passed port->          0..... 41... 41                3435
+# test passed port->          1.....250...250                3445
+# captured214
+# test passed port->          0.....227...227                3455
+# test passed port->          1.....239...239                3465
+# captured 24
+# captured169
+# test passed port->          0.....214...214                3485
+# captured230
+# captured 12
+# test passed port->          0.....169...169                3515
+# captured117
+# test passed port->          1..... 24... 24                3525
+# test passed port->          0.....230...230                3525
+# captured 78
+# captured219
+# test passed port->          1..... 12... 12                3555
+# captured184
+# test passed port->          1.....117...117                3565
+# test passed port->          0..... 78... 78                3575
+# captured239
+# test passed port->          1.....219...219                3595
+# test passed port->          1.....184...184                3605
+# captured167
+# captured 99
+# captured227
+# test passed port->          1.....239...239                3635
+# test passed port->          0.....167...167                3645
+# test passed port->          0..... 99... 99                3655
+# captured219
+# captured142
+# test passed port->          0.....227...227                3665
+# test passed port->          0.....142...142                3695
+# captured219
+# test passed port->          1.....219...219                3705
+# captured230
+# captured116
+# captured 76
+# test passed port->          1.....219...219                3745
+# test passed port->          0.....230...230                3745
+# captured250
+# test passed port->          1.....116...116                3765
+# test passed port->          0..... 76... 76                3775
+# test passed port->          1.....250...250                3795
+# captured 13
+# captured 41
+# captured126
+# captured191
+# test passed port->          1..... 13... 13                3845
+# test passed port->          0..... 41... 41                3845
+# captured 18
+# test passed port->          1.....126...126                3865
+# captured122
+# test passed port->          1.....191...191                3885
+# test passed port->          0..... 18... 18                3885
+# captured132
+# test passed port->          0.....122...122                3905
+# captured157
+# captured 48
+# captured  0
+# test passed port->          0.....132...132                3935
+# captured159
+# test passed port->          1.....157...157                3955
+# captured159
+# test passed port->          1..... 48... 48                3965
+# test passed port->          0.....  0...  0                3965
+# captured184
+# captured173
+# test passed port->          1.....159...159                3995
+# captured 41
+# test passed port->          0.....184...184                4005
+# test passed port->          1.....159...159                4005
+# test passed port->          0.....173...173                4025
+# captured 35
+# test passed port->          0..... 41... 41                4035
+# captured 18
+# captured 87
+# captured157
+# test passed port->          0..... 35... 35                4065
+# test passed port->          0..... 18... 18                4075
+# captured251
+# test passed port->          1..... 87... 87                4095
+# captured 64
+# test passed port->          1.....157...157                4105
+# test passed port->          1.....251...251                4125
+# captured221
+# captured114
+# test passed port->          0..... 64... 64                4135
+# captured 70
+# captured132
+# captured172
+# captured  0
+# test passed port->          0.....114...114                4165
+# captured 78
+# test passed port->          1.....221...221                4175
+# test passed port->          0.....132...132                4175
+# test passed port->          1..... 70... 70                4185
+# test passed port->          0.....172...172                4185
+# test passed port->          0.....  0...  0                4195
+# captured251
+# test passed port->          0..... 78... 78                4205
+# captured173
+# captured 35
+# test passed port->          0.....251...251                4235
+# captured251
+# test passed port->          0.....173...173                4245
+# captured 41
+# test passed port->          0..... 35... 35                4265
+# captured129
+# test passed port->          0.....251...251                4275
+# captured165
+# captured 77
+# test passed port->          0..... 41... 41                4295
+# captured173
+# test passed port->          1.....129...129                4315
+# captured118
+# test passed port->          1.....165...165                4325
+# captured226
+# captured238
+# test passed port->          1..... 77... 77                4335
+# test passed port->          0.....173...173                4345
+# captured191
+# captured172
+# test passed port->          0.....238...238                4365
+# test passed port->          1.....118...118                4365
+# captured129
+# test passed port->          1.....226...226                4375
+# captured 93
+# captured 93
+# test passed port->          0.....172...172                4395
+# captured191
+# captured173
+# test passed port->          1.....191...191                4405
+# test passed port->          1.....129...129                4415
+# captured219
+# test passed port->          1..... 93... 93                4425
+# test passed port->          0.....173...173                4435
+# test passed port->          1..... 93... 93                4435
+# test passed port->          1.....191...191                4445
+# captured 35
+# captured124
+# test passed port->          1.....219...219                4465
+# captured124
+# captured219
+# test passed port->          0..... 35... 35                4485
+# captured  9
+# test passed port->          0.....124...124                4495
+# test passed port->          0.....124...124                4505
+# captured201
+# captured 77
+# test passed port->          1.....219...219                4525
+# test passed port->          0.....  9...  9                4525
+# test passed port->          0..... 77... 77                4545
+# test passed port->          1.....201...201                4555
+# captured 77
+# captured  9
+# captured173
+# captured 82
+# test passed port->          1..... 77... 77                4605
+# captured221
+# captured 68
+# test passed port->          0.....  9...  9                4615
+# captured124
+# captured215
+# test passed port->          1.....173...173                4635
+# captured 18
+# test passed port->          0..... 68... 68                4645
+# test passed port->          1..... 82... 82                4645
+# test passed port->          1.....221...221                4655
+# test passed port->          0.....215...215                4665
+# captured226
+# test passed port->          1.....124...124                4675
+# test passed port->          0..... 18... 18                4675
+# captured105
+# captured 83
+# captured199
+# captured167
+# test passed port->          1.....226...226                4715
+# test passed port->          0.....105...105                4715
+# captured 12
+# test passed port->          0.....199...199                4735
+# captured175
+# test passed port->          1..... 83... 83                4745
+# captured203
+# test passed port->          1.....167...167                4755
+# test passed port->          0..... 12... 12                4755
+# captured 12
+# captured219
+# test passed port->          1.....175...175                4785
+# test passed port->          0.....203...203                4785
+# captured  9
+# test passed port->          0..... 12... 12                4795
+# captured124
+# test passed port->          1.....219...219                4815
+# test passed port->          0.....  9...  9                4825
+# captured223
+# test passed port->          1.....124...124                4845
+# captured124
+# test passed port->          1.....223...223                4875
+# captured201
+# captured 82
+# captured231
+# test passed port->          1.....124...124                4895
+# captured 83
+# captured150
+# captured167
+# test passed port->          0.....201...201                4915
+# test passed port->          0.....231...231                4925
+# captured215
+# test passed port->          1..... 82... 82                4935
+# test passed port->          0.....150...150                4935
+# captured100
+# test passed port->          1..... 83... 83                4945
+# test passed port->          1.....167...167                4955
+# captured175
+# captured150
+# test passed port->          1.....215...215                4975
+# captured100
+# test passed port->          1.....100...100                4985
+# captured 87
+# captured199
+# test passed port->          1.....175...175                5005
+# test passed port->          0.....150...150                5005
+# captured 37
+# test passed port->          0.....100...100                5015
+# captured199
+# test passed port->          0.....199...199                5025
+# test passed port->          1..... 87... 87                5035
+# captured 83
+# test passed port->          1..... 37... 37                5055
+# test passed port->          0.....199...199                5055
+# captured175
+# captured 94
+# test passed port->          1..... 83... 83                5095
+# captured226
+# captured 57
+# captured 66
+# test passed port->          0..... 94... 94                5115
+# test passed port->          1.....175...175                5125
+# captured231
+# test passed port->          0.....226...226                5135
+# captured234
+# captured172
+# test passed port->          0..... 66... 66                5145
+# captured 65
+# test passed port->          1..... 57... 57                5155
+# test passed port->          0.....231...231                5165
+# captured167
+# captured100
+# test passed port->          0.....172...172                5175
+# captured124
+# test passed port->          1.....234...234                5185
+# test passed port->          0..... 65... 65                5185
+# captured 66
+# test passed port->          0.....100...100                5205
+# test passed port->          1.....167...167                5215
+# test passed port->          0.....124...124                5215
+# test passed port->          0..... 66... 66                5225
+# captured  0
+# captured160
+# test passed port->          0.....  0...  0                5295
+# captured199
+# test passed port->          0.....160...160                5325
+# captured172
+# captured 42
+# test passed port->          1.....199...199                5355
+# test passed port->          0.....172...172                5375
+# test passed port->          0..... 42... 42                5385
+# captured 36
+# captured110
+# test passed port->          1..... 36... 36                5465
+# captured216
+# test passed port->          1.....110...110                5475
+# captured110
+# test passed port->          1.....216...216                5515
+# captured 51
+# test passed port->          1.....110...110                5535
+# captured 18
+# test passed port->          1..... 51... 51                5565
+# captured216
+# test passed port->          0..... 18... 18                5595
+# captured200
+# captured  1
+# test passed port->          1.....216...216                5625
+# captured216
+# test passed port->          0.....  1...  1                5645
+# test passed port->          1.....200...200                5655
+# captured201
+# captured  4
+# test passed port->          1.....216...216                5685
+# captured108
+# test passed port->          0.....201...201                5705
+# captured 22
+# test passed port->          1.....  4...  4                5725
+# test passed port->          0.....108...108                5735
+# captured 37
+# test passed port->          0..... 22... 22                5745
+# captured219
+# captured128
+# test passed port->          1..... 37... 37                5785
+# test passed port->          0.....219...219                5785
+# captured 77
+# captured240
+# captured200
+# captured116
+# test passed port->          1.....128...128                5825
+# test passed port->          0.....240...240                5825
+# test passed port->          1..... 77... 77                5835
+# test passed port->          1.....200...200                5845
+# test passed port->          0.....116...116                5855
+# captured 83
+# captured222
+# captured 23
+# captured 24
+# captured105
+# captured 24
+# test passed port->          1..... 83... 83                5935
+# test passed port->          0..... 23... 23                5935
+# test passed port->          1.....222...222                5945
+# test passed port->          0..... 24... 24                5945
+# captured130
+# test passed port->          0.....105...105                5955
+# captured251
+# test passed port->          0..... 24... 24                5965
+# captured 35
+# captured 37
+# captured230
+# test passed port->          0.....130...130                5985
+# test passed port->          1.....251...251                6005
+# captured 26
+# test passed port->          1..... 35... 35                6015
+# test passed port->          0.....230...230                6015
+# captured116
+# test passed port->          1..... 37... 37                6025
+# captured249
+# captured 90
+# captured 77
+# captured172
+# test passed port->          1..... 26... 26                6055
+# test passed port->          0.....116...116                6055
+# captured219
+# test passed port->          0.....249...249                6065
+# captured105
+# test passed port->          1..... 90... 90                6085
+# test passed port->          0.....172...172                6085
+# captured151
+# captured230
+# test passed port->          0.....219...219                6095
+# test passed port->          1..... 77... 77                6095
+# captured 35
+# test passed port->          0.....105...105                6115
+# captured 28
+# test passed port->          0.....230...230                6125
+# test passed port->          1.....151...151                6135
+# captured178
+# test passed port->          1..... 35... 35                6145
+# captured 48
+# test passed port->          1..... 28... 28                6165
+# test passed port->          1.....178...178                6185
+# test passed port->          1..... 48... 48                6195
+# captured217
+# captured 28
+# test passed port->          1.....217...217                6255
+# test passed port->          1..... 28... 28                6265
+# captured249
+# captured149
+# test passed port->          0.....249...249                6325
+# captured 26
+# test passed port->          1.....149...149                6345
+# captured 73
+# captured 90
+# test passed port->          1..... 26... 26                6385
+# captured 48
+# captured230
+# captured102
+# test passed port->          1..... 73... 73                6415
+# captured 28
+# test passed port->          1..... 90... 90                6425
+# captured121
+# test passed port->          0.....230...230                6435
+# test passed port->          1..... 48... 48                6445
+# test passed port->          0.....102...102                6445
+# captured140
+# captured 35
+# test passed port->          1..... 28... 28                6465
+# test passed port->          0.....121...121                6465
+# captured 26
+# captured 48
+# captured105
+# test passed port->          1.....140...140                6495
+# test passed port->          0..... 35... 35                6495
+# test passed port->          1..... 26... 26                6515
+# test passed port->          0.....105...105                6525
+# test passed port->          1..... 48... 48                6525
+# captured  7
+# captured 83
+# captured 38
+# test passed port->          0.....  7...  7                6585
+# test passed port->          0..... 83... 83                6595
+# captured206
+# captured 28
+# captured 83
+# test passed port->          1..... 38... 38                6625
+# captured 28
+# captured105
+# test passed port->          1.....206...206                6645
+# captured193
+# test passed port->          0..... 83... 83                6655
+# captured230
+# test passed port->          1..... 28... 28                6665
+# test passed port->          0.....105...105                6665
+# captured  7
+# test passed port->          1..... 28... 28                6675
+# captured131
+# test passed port->          0.....193...193                6685
+# test passed port->          0.....230...230                6695
+# test passed port->          0.....  7...  7                6705
+# captured148
+# test passed port->          0.....131...131                6715
+# captured217
+# captured242
+# captured 72
+# captured233
+# test passed port->          0.....148...148                6745
+# captured 73
+# test passed port->          0.....242...242                6755
+# captured233
+# test passed port->          1.....217...217                6765
+# test passed port->          0..... 72... 72                6765
+# captured124
+# test passed port->          0.....233...233                6775
+# captured 73
+# test passed port->          1..... 73... 73                6795
+# test passed port->          0.....233...233                6795
+# captured121
+# test passed port->          1.....124...124                6815
+# captured230
+# captured 13
+# test passed port->          1..... 73... 73                6835
+# test passed port->          0.....121...121                6835
+# captured124
+# captured242
+# captured176
+# test passed port->          0.....230...230                6855
+# captured149
+# test passed port->          1..... 13... 13                6875
+# test passed port->          0.....242...242                6875
+# captured191
+# test passed port->          1.....124...124                6885
+# test passed port->          0.....176...176                6885
+# captured219
+# test passed port->          1.....149...149                6905
+# captured 48
+# captured 72
+# test passed port->          1.....191...191                6925
+# test passed port->          1.....219...219                6945
+# test passed port->          0..... 48... 48                6945
+# test passed port->          0..... 72... 72                6955
+# captured191
+# captured118
+# captured 28
+# captured 72
+# captured 35
+# test passed port->          1.....191...191                7015
+# test passed port->          0.....118...118                7015
+# captured 28
+# captured131
+# captured106
+# test passed port->          0..... 72... 72                7035
+# test passed port->          1..... 28... 28                7045
+# test passed port->          1..... 35... 35                7055
+# test passed port->          0.....131...131                7055
+# captured191
+# captured105
+# test passed port->          1..... 28... 28                7065
+# test passed port->          0.....106...106                7065
+# captured 97
+# captured233
+# test passed port->          0.....105...105                7095
+# captured 73
+# test passed port->          1.....191...191                7105
+# captured106
+# test passed port->          1..... 97... 97                7125
+# test passed port->          0.....233...233                7125
+# captured 26
+# test passed port->          1..... 73... 73                7145
+# captured 31
+# test passed port->          1.....106...106                7165
+# captured 55
+# test passed port->          1..... 26... 26                7175
+# captured 34
+# test passed port->          1..... 31... 31                7195
+# captured106
+# test passed port->          1..... 55... 55                7215
+# captured 97
+# captured225
+# captured 48
+# test passed port->          1..... 34... 34                7235
+# test passed port->          1.....106...106                7245
+# test passed port->          0.....225...225                7255
+# captured115
+# test passed port->          1..... 97... 97                7265
+# test passed port->          0..... 48... 48                7265
+# captured121
+# captured 35
+# captured 26
+# test passed port->          1.....115...115                7305
+# test passed port->          0.....121...121                7305
+# captured217
+# captured 26
+# test passed port->          1..... 35... 35                7325
+# captured249
+# test passed port->          1..... 26... 26                7335
+# captured118
+# test passed port->          0..... 26... 26                7345
+# test passed port->          1.....217...217                7355
+# test passed port->          0.....249...249                7365
+# captured108
+# test passed port->          0.....118...118                7375
+# test passed port->          0.....108...108                7405
+# captured140
+# captured249
+# captured 10
+# captured107
+# test passed port->          0.....249...249                7455
+# captured214
+# test passed port->          1.....140...140                7465
+# test passed port->          0..... 10... 10                7465
+# captured161
+# test passed port->          0.....107...107                7485
+# captured 28
+# captured124
+# captured107
+# test passed port->          1.....214...214                7505
+# test passed port->          1.....161...161                7515
+# captured214
+# captured121
+# test passed port->          0.....107...107                7535
+# test passed port->          1..... 28... 28                7535
+# test passed port->          1.....124...124                7545
+# captured124
+# test passed port->          1.....214...214                7565
+# test passed port->          0.....121...121                7565
+# captured161
+# captured124
+# test passed port->          1.....124...124                7605
+# captured154
+# test passed port->          1.....161...161                7635
+# captured 10
+# test passed port->          1.....124...124                7645
+# test passed port->          1.....154...154                7655
+# captured131
+# test passed port->          0..... 10... 10                7675
+# captured129
+# test passed port->          0.....131...131                7705
+# captured207
+# captured 10
+# captured 63
+# captured129
+# test passed port->          0..... 10... 10                7745
+# test passed port->          1.....129...129                7745
+# captured 17
+# test passed port->          1.....207...207                7755
+# captured161
+# test passed port->          1..... 63... 63                7775
+# test passed port->          0.....129...129                7775
+# captured 26
+# captured214
+# test passed port->          1..... 17... 17                7795
+# test passed port->          1.....161...161                7815
+# captured 17
+# test passed port->          1..... 26... 26                7825
+# captured225
+# test passed port->          1.....214...214                7835
+# captured 63
+# captured 72
+# test passed port->          1..... 17... 17                7865
+# test passed port->          0.....225...225                7865
+# captured161
+# captured161
+# captured161
+# test passed port->          0..... 72... 72                7895
+# test passed port->          1..... 63... 63                7905
+# test passed port->          0.....161...161                7915
+# captured129
+# test passed port->          0.....161...161                7925
+# captured170
+# test passed port->          1.....161...161                7935
+# captured 26
+# test passed port->          0.....129...129                7955
+# test passed port->          0.....170...170                7965
+# test passed port->          0..... 26... 26                7985
+# captured108
+# captured212
+# captured 26
+# test passed port->          0.....108...108                8025
+# captured161
+# test passed port->          0.....212...212                8035
+# captured 17
+# captured168
+# captured161
+# test passed port->          1..... 26... 26                8055
+# captured198
+# captured161
+# captured 94
+# test passed port->          1.....161...161                8075
+# test passed port->          0.....168...168                8075
+# test passed port->          1..... 17... 17                8085
+# captured162
+# test passed port->          1.....161...161                8095
+# test passed port->          0.....161...161                8095
+# captured243
+# test passed port->          1.....198...198                8105
+# test passed port->          1..... 94... 94                8115
+# captured 94
+# captured 34
+# test passed port->          1.....162...162                8135
+# test passed port->          0.....243...243                8135
+# captured161
+# captured220
+# captured 48
+# test passed port->          1..... 94... 94                8165
+# captured 94
+# test passed port->          0.....161...161                8175
+# test passed port->          1..... 34... 34                8175
+# captured  4
+# captured248
+# test passed port->          1.....220...220                8195
+# captured 17
+# captured143
+# test passed port->          1..... 48... 48                8205
+# test passed port->          0..... 94... 94                8205
+# test passed port->          1.....  4...  4                8225
+# test passed port->          0.....248...248                8225
+# captured 33
+# test passed port->          0.....143...143                8235
+# captured212
+# test passed port->          1..... 17... 17                8245
+# captured233
+# test passed port->          0..... 33... 33                8265
+# captured207
+# test passed port->          0.....212...212                8275
+# test passed port->          0.....233...233                8295
+# test passed port->          1.....207...207                8315
+# captured  4
+# captured248
+# captured 98
+# captured  3
+# test passed port->          1.....  4...  4                8365
+# test passed port->          0.....248...248                8365
+# test passed port->          0..... 98... 98                8375
+# captured 49
+# captured 17
+# test passed port->          1.....  3...  3                8405
+# captured224
+# captured161
+# test passed port->          1..... 49... 49                8435
+# test passed port->          0..... 17... 17                8435
+# captured198
+# test passed port->          0.....161...161                8465
+# test passed port->          1.....224...224                8475
+# test passed port->          1.....198...198                8495
+# captured215
+# captured 26
+# test passed port->          1.....215...215                8575
+# test passed port->          0..... 26... 26                8575
+# captured238
+# captured161
+# test passed port->          0.....161...161                8625
+# test passed port->          1.....238...238                8625
+# captured224
+# captured  3
+# captured224
+# captured198
+# captured225
+# test passed port->          1.....224...224                8675
+# captured198
+# captured225
+# test passed port->          1.....  3...  3                8695
+# captured  4
+# test passed port->          1.....224...224                8705
+# test passed port->          0.....225...225                8705
+# captured  3
+# test passed port->          1.....198...198                8715
+# test passed port->          0.....225...225                8715
+# test passed port->          1.....198...198                8725
+# captured238
+# test passed port->          1.....  4...  4                8745
+# captured148
+# test passed port->          1.....  3...  3                8755
+# captured 48
+# captured172
+# test passed port->          1.....238...238                8785
+# test passed port->          0.....148...148                8785
+# test passed port->          0..... 48... 48                8795
+# captured 85
+# test passed port->          1.....172...172                8825
+# captured 48
+# captured101
+# captured183
+# test passed port->          1..... 85... 85                8855
+# captured 49
+# captured133
+# captured214
+# test passed port->          0.....101...101                8875
+# test passed port->          1..... 48... 48                8885
+# test passed port->          1.....183...183                8895
+# test passed port->          0.....133...133                8895
+# test passed port->          1..... 49... 49                8905
+# test passed port->          1.....214...214                8915
+# captured 69
+# captured 23
+# captured214
+# test passed port->          0..... 69... 69                8955
+# test passed port->          0..... 23... 23                8965
+# captured  3
+# test passed port->          1.....214...214                8985
+# captured114
+# captured  3
+# captured  4
+# test passed port->          1.....  3...  3                9025
+# captured238
+# captured 58
+# test passed port->          1.....114...114                9045
+# test passed port->          1.....  3...  3                9055
+# test passed port->          1.....  4...  4                9065
+# captured183
+# test passed port->          0..... 58... 58                9075
+# test passed port->          1.....238...238                9075
+# captured 85
+# test passed port->          1.....183...183                9115
+# captured135
+# captured162
+# captured  4
+# captured 17
+# test passed port->          1..... 85... 85                9155
+# captured  1
+# test passed port->          1.....135...135                9165
+# test passed port->          0.....162...162                9165
+# captured  3
+# captured101
+# test passed port->          1.....  4...  4                9185
+# test passed port->          1..... 17... 17                9195
+# test passed port->          1.....  1...  1                9205
+# test passed port->          0.....101...101                9205
+# captured 23
+# test passed port->          1.....  3...  3                9215
+# captured 58
+# captured162
+# test passed port->          0..... 23... 23                9245
+# captured 86
+# test passed port->          0..... 58... 58                9255
+# captured  1
+# captured245
+# test passed port->          0.....162...162                9265
+# captured 85
+# captured 23
+# test passed port->          0..... 86... 86                9285
+# test passed port->          0.....245...245                9295
+# captured 17
+# captured245
+# test passed port->          1.....  1...  1                9305
+# test passed port->          0..... 23... 23                9315
+# captured183
+# test passed port->          1..... 85... 85                9325
+# captured177
+# test passed port->          0.....245...245                9335
+# captured  1
+# test passed port->          1..... 17... 17                9345
+# captured 86
+# test passed port->          1.....183...183                9365
+# captured 23
+# test passed port->          1.....177...177                9375
+# captured 69
+# test passed port->          1.....  1...  1                9385
+# captured 95
+# test passed port->          0..... 86... 86                9395
+# test passed port->          0..... 23... 23                9405
+# captured114
+# test passed port->          0..... 69... 69                9415
+# captured114
+# captured241
+# test passed port->          0..... 95... 95                9425
+# captured 42
+# captured183
+# captured 42
+# captured141
+# captured241
+# test passed port->          1.....114...114                9455
+# test passed port->          0.....241...241                9455
+# captured251
+# test passed port->          1.....114...114                9465
+# test passed port->          0.....183...183                9465
+# captured 85
+# test passed port->          1..... 42... 42                9475
+# test passed port->          0.....141...141                9475
+# captured109
+# captured191
+# test passed port->          1..... 42... 42                9485
+# test passed port->          0.....241...241                9485
+# captured 89
+# ------------------------------------R E P O R T-------------------------------------------
+# no_of_write_transaction==        651
+# no_of_read_transaction==        614
+# no_of_succeed_transaction==        609
+# no_of_failed_transaction==          0
+# no_of_total_transaction==        950
+# -----------------------------------------------------------------------------------------
+# ** Note: $finish    : top_modules.sv(41)
+#    Time: 9505 ns  Iteration: 4  Instance: /dual_tbb
+# Break in Module dual_tbb at top_modules.sv line 41
+# Stopped at top_modules.sv line 41
+# QuestaSim-64 vcover 2021.2_1 Coverage Utility 2021.05 May 15 2021
+# Start time: 10:54:37 on Mar 21,2025
+# vcover report -html -output covhtmlreport -details -assert -directive -cvg -code bcefst -threshL 50 -threshH 90 cov.ucdb 
+# 
+# End time: 10:54:40 on Mar 21,2025, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0
+# 4021
+# End time: 10:54:40 on Mar 21,2025, Elapsed time: 0:00:06
+# Errors: 0, Warnings: 4
